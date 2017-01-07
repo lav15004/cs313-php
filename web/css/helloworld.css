@@ -1,0 +1,33 @@
+  /* begin heading color animation cycle through colors */
+  div#title h1 {
+	  margin-top:0px;
+    font-size:50pt;
+	font-weight:bold;
+	font-style:italic;
+    color: blue;
+    -webkit-animation-name: cycleColors; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: cycleColors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  div#title p {
+    text-align:center; 
+    font-size:13pt; 
+    font-weight:bold;
+	margin-top:-20px;
+  }  
+
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes cycleColors {
+    from {color: blue;}
+    to {color: red;}
+  }
+
+  /* Standard syntax */
+  @keyframes cycleColors {
+    from {color: blue;}
+    to {color: red;}
+  }
+  /* end heading color animation cycle through colors */
