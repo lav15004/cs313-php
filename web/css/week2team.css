@@ -8,6 +8,6 @@
   background-color: blue;
 }
 
-#p1, #p2, #p3 :hover {
+#p1:hover, #p2:hover, #p3:hover {
   font-weight: bold;
 }
