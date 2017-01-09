@@ -34,14 +34,14 @@
 <body>
 <div class="container">
 <div class="row">
-  <div class="col-xs-4">
-    <p id="title"><span>First Div</span></p>
+  <div class="col-lg-4">
+    <p id="p1"><span>First Div</span></p>
   </div>
-  <div class="col-xs-4">
-    <p id="title"><span>Second Div</span></p>
+  <div class="col-lg-4">
+    <p id="p2"><span>Second Div</span></p>
   </div>
-  <div class="col-xs-4">
-    <p id="title"><span>Third Div</span></p>
+  <div class="col-lg-4">
+    <p id="p3"><span>Third Div</span></p>
   </div>
 </div>
 <div class="jumbotron">
