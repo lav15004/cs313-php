@@ -8,7 +8,7 @@
 
 
   <link rel="stylesheet" href="css/week2team.css">
-  <script type="text/javascript" src="js/week2team.js" />
+  <script type="text/javascript" src="js/week2team.js"></script>
 
   <meta name="description" content="">
   <meta name="author" content="">
