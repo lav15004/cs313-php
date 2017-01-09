@@ -4,11 +4,11 @@
 }
 #div2 {
   background-color: yellow;
-  font-size: 13pt;
+  font-size: 14pt;
 }
 #div3 {
   background-color: deepskyblue;
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
 #div1:hover, #div2:hover, #div3:hover {
