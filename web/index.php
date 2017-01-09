@@ -32,7 +32,14 @@
 </head>
 
 <body>
+<br />
 <div class="container">
+<div class="jumbotron">
+
+    <h1>02 Teach : Team Activity</h1>
+    <p>This is Aaron Lavold's Team Activity page for week 2.</p>
+
+</div>
 <div class="row">
   <div class="col-md-4">
     <p id="p1"><span>First Div</span></p>
@@ -44,14 +51,7 @@
     <p id="p3"><span>Third Div</span></p>
   </div>
 </div>
-<div class="jumbotron">
 
-    <h1>Hello, world!</h1>
-    <p>This is a template for a simple marketing or informational website.
-      It includes a large callout called a jumbotron and three supporting pieces of content.
-      Use it as a starting point to create something more unique.</p>
-
-</div>
 </div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
