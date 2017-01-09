@@ -37,7 +37,7 @@
 <div class="jumbotron">
 
     <h1>02 Teach : Team Activity</h1>
-    <p>This is Aaron Lavold's Team Activity page for week 2.</p>
+    <p>This is Aaron Lavold's Team Activity page for week 02.</p>
 
 </div>
 <div class="row">
