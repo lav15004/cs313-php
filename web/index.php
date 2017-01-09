@@ -51,6 +51,17 @@
     <p id="p3"><span>Third Div</span></p>
   </div>
 </div>
+<div class="row">
+  <div class="col-sm-4">
+    <button>Click Me</button>
+  </div>
+    <div class="col-sm-4">
+    <button>Change Color</button>
+  </div>
+    <div class="col-sm-4">
+    <button>Fade in/out</button>
+  </div>
+</div>
 
 </div>
 <!-- Bootstrap core JavaScript
