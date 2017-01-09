@@ -8,7 +8,7 @@
 
 
   <link rel="stylesheet" href="css/week2team.css">
-  <script type="text/javascript" src="js/week2team.js"></script>
+  <script src="js/week2team.js"></script>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -53,7 +53,7 @@
 </div>
 <div class="row">
   <div class="col-sm-4">
-    <button onclick="week2team();">Click Me</button>
+    <button onclick="week2teamalert()">Click Me</button>
   </div>
     <div class="col-sm-4">
     <button>Change Color</button>

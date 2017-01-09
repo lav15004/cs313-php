@@ -1,3 +1,3 @@
-function week2team (){
-    alert('Clicked!);
+function week2teamalert (){
+    alert('Clicked!');
 }
