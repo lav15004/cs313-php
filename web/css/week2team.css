@@ -1,13 +1,13 @@
-#p1 {
+#div1 {
   background-color: red;
 }
-#p2 {
+#div2 {
   background-color: yellow;
 }
-#p3 {
-  background-color: blue;
+#div3 {
+  background-color: royalblue;
 }
 
-#p1:hover, #p2:hover, #p3:hover {
+#div1:hover, #div2:hover, #div3:hover {
   font-weight: bold;
 }

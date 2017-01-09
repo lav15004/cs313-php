@@ -41,13 +41,13 @@
 
 </div>
 <div class="row">
-  <div class="col-sm-4">
+  <div id="div1" class="col-sm-4">
     <p id="p1"><span>First Div</span></p>
   </div>
-  <div class="col-sm-4">
+  <div id="div2" class="col-sm-4">
     <p id="p2"><span>Second Div</span></p>
   </div>
-  <div class="col-sm-4">
+  <div id="div3" class="col-sm-4">
     <p id="p3"><span>Third Div</span></p>
   </div>
 </div>
