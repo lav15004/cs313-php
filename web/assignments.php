@@ -40,7 +40,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li class="active"><a href="assignments.php">Assignments Page</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
