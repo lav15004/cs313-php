@@ -82,7 +82,7 @@
       work with a lot of different technologies, and it doesn't hurt that the job is fun as well. </p>
   </div>
   <div class="row">
-    <div class="col-md-7">
+    <div class="col-lg-6">
       <table style="float: left; padding: 0px; width:auto; border:1px solid #000000; border-spacing:0px; empty-cells:
        show; border-collapse: collapse; height:100px; text-align:center;" >
         <tr>
@@ -108,7 +108,7 @@
         </tr>
       </table>
     </div>
-    <div class="col-md-5">
+    <div class="col-lg-6">
       <table>
         <tr>
           <td>Favorite Quote:</td>
