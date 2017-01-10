@@ -4,5 +4,6 @@ function week2teamalert (){
 
 function changedivcolor(newcolor){
     var div1 = document.getElementById('div1');
-    div1.backgroundColor = newcolor;
+    div1.backgroundColor
+    div1.style.backgroundColor = newcolor;
 }
