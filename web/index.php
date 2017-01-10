@@ -71,7 +71,7 @@
       <br />
     </div>
   </div>
-  <div class="jumbotron">
+  <div id="jumbo" class="jumbotron">
     <h2>Hello, from Aaron Lavold!</h2>
     <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
       Pathway program. My major is Software Engineering. I have worked for AT&T for the past 23 years. Currently, I work in AT&T's Technology Development
