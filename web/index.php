@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-
+  <script src="js/jquery.min.js"></script>
+  <script src="js/week2team.js"></script>
   <link rel="stylesheet" href="css/week2team.css">
 
 
@@ -71,9 +71,9 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.min.js"></script>
+
 <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/week2team.js"></script>
+
 </body>
 </html>
