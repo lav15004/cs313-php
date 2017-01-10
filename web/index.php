@@ -5,23 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/week2team.js"></script>
-  <link rel="stylesheet" href="css/week2team.css">
 
+
+  <link rel="stylesheet" href="xboxoneforever.css">
+  <script type="text/javascript" src="formvalidation.js"></script>
 
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../favicon.ico">
 
-  <title>02 Teach : Team Activity</title>
+  <title>XBOX One Forever - Preowned Games</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Custom styles for this template -->
-  <!-- <link href="navbar-fixed-top.css" rel="stylesheet"> -->
+  <link href="navbar-fixed-top.css" rel="stylesheet">
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,53 +31,65 @@
   <![endif]-->
 </head>
 
-<body>
-<br />
+<body onload="prepcart();">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img id="logo" src="../images/XboxOne_trim.png" alt="XBOX ONE image"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
 <div class="container">
+<div class="row">
+  <div class="col-xs-12">
+    <p id="title"><span>Aaron Lavold's Info</span></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p id="slogan">Home of Pre-owned Awesomeness</p>
+  </div>
+</div>
 <div class="jumbotron">
 
-    <h1>02 Teach : Team Activity</h1>
-    <p>This is Aaron Lavold's Team Activity page for week 02. All core requirements and stretch challenges were
-    completed.  For jQuery changing div colors I added an additional button.  Stretch 2, I used the jQuery function
-    fadeToggle. For Bootstrap, I added this jumbotron, page responsively adjusts based on resize of browser, and I changed the
-    format of the buttons using bootstrap class references.</p>
+    <h1>Hello, world!</h1>
+    <p>This is a template for a simple marketing or informational website.
+      It includes a large callout called a jumbotron and three supporting pieces of content.
+      Use it as a starting point to create something more unique.</p>
 
 </div>
-<div class="row">
-  <div id="div1" class="col-sm-4">
-    <p id="p1"><span>First Div</span></p>
-  </div>
-  <div id="div2" class="col-sm-4">
-    <p id="p2"><span>Second Div</span></p>
-  </div>
-  <div id="div3" class="col-sm-4">
-    <p id="p3"><span>Third Div</span></p>
-  </div>
-</div>
-<br />
-<div class="row">
-  <div class="col-sm-4">
-    <button class="btn btn-primary" onclick="week2teamalert()">Click Me</button>
-  </div>
-    <div class="col-sm-4">
-    <a href="http://www.w3schools.com/colors/colors_names.asp"
-       target="_blank">Enter Color Name or Hex (follow link for a list)</a>
-    <input id="colorname" name="colorname" type="text">
-    <button class="btn btn-success" onclick="changedivcolor(document.getElementById('colorname').value)">Change Color (First Div</button>
-    <button class="btn btn-info" id="jquerybutton" name="jquerybutton">Change Color Second Div (jQuery)</button>
-  </div>
-    <div class="col-sm-4">
-    <button class="btn btn-warning" id="fadetoggle">Fade in/out</button>
-  </div>
-</div>
-
 </div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-
+<script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
-
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
