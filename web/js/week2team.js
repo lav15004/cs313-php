@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $("jquerybutton").click(function(){
+        $("p").css("background-color",document.getElementById('colorname'));
+    });
+});
+
 function week2teamalert (){
     alert('Clicked!');
 }
