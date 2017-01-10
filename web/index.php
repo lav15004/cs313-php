@@ -20,8 +20,8 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
-  <!-- Custom styles for this template -->
-  <link href="navbar-fixed-top.css" rel="stylesheet">
+  <!-- Custom styles for this template
+  <link href="navbar-fixed-top.css" rel="stylesheet"> -->
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,7 +31,7 @@
   <![endif]-->
 </head>
 
-<body onload="prepcart();">
+<body">
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -42,7 +42,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img id="logo" src="../images/XboxOne_trim.png" alt="XBOX ONE image"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
