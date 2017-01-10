@@ -68,7 +68,8 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <p id="title"><span>Aaron Lavold's Info</span></p>
+      <br />
+      <br />
     </div>
   </div>
   <div class="jumbotron">
