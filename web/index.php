@@ -85,10 +85,10 @@
           <th colspan="5">Winter 2017 - Class Schedule</th>
         </tr>
         <tr>
-          <th class="scheduletd">Course #</th>
-          <th class="scheduletd">Course Description</th>
-          <th class="scheduletd">Sec#</th>
-          <th class="scheduletd">Class Location</th>
+          <td class="scheduleth">Course #</td>
+          <td class="scheduleth">Course Description</td>
+          <td class="scheduleth">Sec#</td>
+          <td class="scheduleth">Class Location</td>
         </tr>
         <tr>
           <td class="scheduletd">CS 308</td>
