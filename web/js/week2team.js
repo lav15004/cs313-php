@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     $("#jquerybutton").click(function(){
-        $("#div1").css("background-color","blue"));
+        $("#div1").css("background-color","blue");
     });
 });
 
