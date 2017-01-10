@@ -65,7 +65,7 @@
   <div id="jumbo" class="jumbotron">
     <h2>Hello, from Aaron Lavold!</h2>
     <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
-      Pathway program. My major is Software Engineering. I have worked for AT&T for the past 23 years. Currently, I work in AT&T's Technology Development
+      Pathway program. My major is Software Engineering. I have worked for AT&T for the past 23 years. Currently, in AT&T's Technology Development
       organization, as a Senior - Systems Engineer.  I love the job because it allows me to
       work with a lot of different technologies, and it doesn't hurt that the job is fun as well. </p>
   </div>
