@@ -62,20 +62,20 @@
       <br />
     </div>
   </div>
-  <div class="alert alert-success alert-dismissable">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Attention:</strong> This page is for the "02 Prove : Assignment - Homepage" assignment.
-    all requirements have been met. Bootstrap is utilized so you will see the page change as you resize. The image a the
-    bottom will resize as well if you make the browsers width narrow enough.  For above and beyond I added this dismissable
-    alter, a jumbotron to both this page and the assignment page, a list of completed assignment on the assignment page,
-    and completed assignments in the menu/nav bar to name a few...
-  </div>
   <div id="jumbo" class="jumbotron">
     <h2>Hello, from Aaron Lavold!</h2>
     <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
       Pathway program. My major is Software Engineering. I have worked for AT&T for the past 23 years. Currently, I work in AT&T's Technology Development
       organization, as a Senior - Systems Engineer.  I love the job because it allows me to
       work with a lot of different technologies, and it doesn't hurt that the job is fun as well. </p>
+  </div>
+  <div class="alert alert-success alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Attention:</strong> This page is for the "02 Prove : Assignment - Homepage" assignment.
+    All requirements have been met. Bootstrap is utilized so you will see the page change as you resize. The image a the
+    bottom will resize as well if you make the browsers width narrow enough.  For above and beyond I added this dismissable
+    alter, a jumbotron to both this page and the assignment page, a list of completed assignment on the assignment page,
+    and completed assignments in the menu/nav bar to name a few...
   </div>
   <div class="row">
     <div class="col-sm-6">
