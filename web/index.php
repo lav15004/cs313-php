@@ -8,7 +8,7 @@
 
 
   <link rel="stylesheet" href="css/week2team.css">
-  <script src="js/week2team.js"></script>
+
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -74,5 +74,6 @@
 <script src="js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/week2team.js"></script>
 </body>
 </html>
