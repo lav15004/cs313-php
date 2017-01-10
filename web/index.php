@@ -55,16 +55,16 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-  <div class="alert alert-success alert-dismissable">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Success!</strong> Indicates a successful or positive action.
-  </div>
   <div class="row">
     <div class="col-lg-12">
       <br />
       <br />
       <br />
     </div>
+  </div>
+  <div class="alert alert-success alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Success!</strong> Indicates a successful or positive action.
   </div>
   <div id="jumbo" class="jumbotron">
     <h2>Hello, from Aaron Lavold!</h2>
