@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     $("#jquerybutton").click(function(){
-        $("#div1").css("background-color",document.getElementById("colorname").value);
+        $("#div2").css("background-color",document.getElementById("colorname").value);
     });
     $("#fadetoggle").click(function(){
         $("#div3").fadeToggle("slow", "linear");
