@@ -72,10 +72,10 @@
   <div class="alert alert-success alert-dismissable">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
     <strong>Attention:</strong> This page is for the "02 Prove : Assignment - Homepage" assignment.
-    All requirements have been met. Bootstrap is utilized so you will see the page change as you resize. The image a the
-    bottom will resize as well if you make the browsers width narrow enough.  For above and beyond I added this dismissable
-    alter, a jumbotron to both this page and the assignment page, a list of completed assignment on the assignment page,
-    and completed assignments in the menu/nav bar to name a few...
+    All requirements have been met. Bootstrap is utilized, so you will see the page change as you resize the browser. The image at the
+    bottom will also resize if you make the browsers width narrow enough.  A few of the many "above and beyond" item are: I added this dismissable
+    alert, a jumbotron to both this page and the assignment page, a list of links to completed assignment on the assignment page,
+    and add completed assignments to the menu/nav bar.
   </div>
   <div class="row">
     <div class="col-sm-6">
