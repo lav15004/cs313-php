@@ -64,16 +64,16 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-<br />
-<div class="jumbotron">
-  <h2>Hello, from Aaron Lavold!</h2>
-  <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
-    Pathway program. I have worked for AT&T for the past 23 years. Currently, I work in AT&T's Technology Development
-    organization, as a Senior - Systems Engineer.  I love the job because it allows me to
-    work with a lot of different technologies, and it doesn't hurt that the job is fun as well. </p>
-</div>
-<div class="container">
 
+<div class="container">
+  <br />
+  <div class="jumbotron">
+    <h2>Hello, from Aaron Lavold!</h2>
+    <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
+      Pathway program. I have worked for AT&T for the past 23 years. Currently, I work in AT&T's Technology Development
+      organization, as a Senior - Systems Engineer.  I love the job because it allows me to
+      work with a lot of different technologies, and it doesn't hurt that the job is fun as well. </p>
+  </div>
   <div class="row">
   <div class="col-xs-12">
     <p id="title"><span>Aaron Lavold's Info</span></p>
