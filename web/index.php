@@ -75,7 +75,7 @@
     All requirements have been met. Bootstrap is utilized, so you will see the page change as you resize the browser. The image at the
     bottom will also resize if you make the browsers width narrow enough.  A few of the many "above and beyond" item are: I added this dismissable
     alert, a jumbotron to both this page and the assignment page, a list of links to completed assignment on the assignment page,
-    and add completed assignments to the menu/nav bar.
+    and add completed assignments to the menu/nav bar.  You can dismiss this alert by clicking on the "x" in the upper right corner of the alert box.
   </div>
   <div class="row">
     <div class="col-sm-6">
