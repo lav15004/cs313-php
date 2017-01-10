@@ -1,8 +1,8 @@
-$(document).ready(function(){
-    $("jquerybutton").click(function(){
-        $("#div1").css("background-color",document.getElementById('colorname').innerHTML);
-    });
-});
+
+$("jquerybutton").click(function(){
+    $("#div1").css("background-color",document.getElementById('colorname').innerHTML);
+};
+
 
 function week2teamalert (){
     alert('Clicked!');
