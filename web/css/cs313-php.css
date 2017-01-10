@@ -7,3 +7,26 @@
 #myfamP {text-align:center;}
 
 #jumbo { padding: 10px;}
+
+#schedule {
+  float: left;
+  padding: 0px;
+  width:auto;
+  border:1px solid #000000;
+  border-spacing:0px;
+  empty-cells: show;
+  border-collapse: collapse;
+  height:100px;
+  text-align:center;
+}
+#schedule th {
+  padding: 0px;
+  border: 1px;
+  border-color: #000;
+  font-size:22px;
+}
+
+.scheduletd {
+  border: 1px solid #000000;
+  padding: 2px;
+}
