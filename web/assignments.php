@@ -68,13 +68,10 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="list-group">
-        <a href="#" class="list-group-item active">
-          Cras justo odio
-        </a>
-        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-        <a href="#" class="list-group-item">Morbi leo risus</a>
-        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-        <a href="#" class="list-group-item">Vestibulum at eros</a>
+        <li class="list-group-item active">Assignment Links</li>
+        <a href="hello.html">Hello World</a>
+        <a href="week2team.php" class="list-group-item">Week 02: Team</a>
+        <a href="index.php" class="list-group-item">Week 02: Personal Homepage</a>
       </div>
     </div>
   </div>
