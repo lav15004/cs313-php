@@ -56,7 +56,8 @@
     <button onclick="week2teamalert()">Click Me</button>
   </div>
     <div class="col-sm-4">
-    <a href="http://www.w3schools.com/colors/colors_names.asp" target="_blank">Enter Color Name or Hex (i.e. purple)</a>
+    <a href="http://www.w3schools.com/colors/colors_names.asp"
+       target="_blank">Enter Color Name or Hex (follow link for a list)</a>
     <input id="colorname" name="colorname" type="text">
     <button onclick="changedivcolor(document.getElementById('colorname').value)">Change Color</button>
   </div>
