@@ -60,7 +60,7 @@
        target="_blank">Enter Color Name or Hex (follow link for a list)</a>
     <input id="colorname" name="colorname" type="text">
     <button onclick="changedivcolor(document.getElementById('colorname').value)">Change Color</button>
-    <button  id="jquerybutton" name="jquerybutton">Change Color (jQuery)</button>
+    <button id="jquerybutton" name="jquerybutton">Change Color (jQuery)</button>
   </div>
     <div class="col-sm-4">
     <button>Fade in/out</button>
