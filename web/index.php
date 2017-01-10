@@ -51,6 +51,7 @@
     <p id="p3"><span>Third Div</span></p>
   </div>
 </div>
+<br />
 <div class="row">
   <div class="col-sm-4">
     <button class="btn btn-primary" onclick="week2teamalert()">Click Me</button>
