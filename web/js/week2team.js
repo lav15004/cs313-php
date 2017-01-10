@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("jquerybutton").click(function(){
-        $("p").css("background-color",document.getElementById('colorname'));
+        $("div1").css("background-color",document.getElementById('colorname'));
     });
 });
 
