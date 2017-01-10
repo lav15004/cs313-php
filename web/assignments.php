@@ -63,7 +63,7 @@
     </div>
   </div>
   <div class="jumbotron">
-    <h1>Coming Soon !</h1>
+    <h1>Completed Assignments</h1>
   </div>
   <div class="row">
     <div class="col-lg-12">
