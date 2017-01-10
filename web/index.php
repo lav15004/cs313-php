@@ -128,6 +128,11 @@
   </div>
   <div class="row">
     <div class="col-md-12">
+      <p style="text-align:center;">
+      <h2 style="text-align: center; color:#D16DF2; text-shadow: 0 1px 0 #B34DD6, 0 2px 0 #9D39BF, 0 3px 0 #781D96, 0 4px 0 #53036E,0 5px 0 #3E0352, 0 6px 0 #38034A,0 7px 0 #340245, 0 8px 7px rgba(0, 0, 0, 0.4),0 9px 10px rgba(0, 0, 0, 0.2);">
+        My beautiful family!!!
+      </h2>
+      </p>
       <img style="display:block; margin-right:auto; margin-left:auto;" src="../images/lavoldfamily500x316.jpg"
            width="500" height="316" alt="Picture of the Lavold Family">
     </div>
