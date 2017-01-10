@@ -109,7 +109,10 @@
       </table>
     </div>
     <div class="col-md-6">
-      <p id="slogan">Home of Pre-owned Awesomeness</p>
+      <blockquote cite="https://www.lds.org/general-conference/2003/04/in-search-of-treasure?lang=eng" style="display:inline-block; margin-top: 5px; margin-bottom: 1em;  margin-right: 40px; height: 53px; font-family: 'monotype Corsiva'; font-size: 22pt;">
+        “Don't save something for a special occasion. Every day in your life is a special occasion.”
+        <span style ="font-weight:bold; font-style:italic;">-Thomas S. Monson</span>
+      </blockquote>
     </div>
   </div>
 
@@ -117,8 +120,6 @@
 
 </div>
 
-
-</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
