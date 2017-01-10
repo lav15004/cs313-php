@@ -85,7 +85,7 @@
           <th colspan="5">Winter 2017 - Class Schedule</th>
         </tr>
         <tr>
-          <th style="">Course #</th>
+          <th class="scheduletd">Course #</th>
           <th class="scheduletd">Course Description</th>
           <th class="scheduletd">Sec#</th>
           <th class="scheduletd">Class Location</th>
@@ -111,8 +111,8 @@
         <tr>
           <td>
             <blockquote cite="https://www.lds.org/general-conference/2003/04/in-search-of-treasure?lang=eng">
-              <span>Favorite Quote:<br /></span>“Don't save something for a special occasion. Every day in your life is a special occasion.”
-              <span style ="font-weight:bold; font-style:italic;">-Thomas S. Monson</span>
+              <span id="favquote">Favorite Quote:<br /></span>“Don't save something for a special occasion. Every day in your life is a special occasion.”
+              <span id="favquotesig">-Thomas S. Monson</span>
             </blockquote>
           </td>
         </tr>
@@ -126,7 +126,7 @@
         My beautiful family!!!
       </h2>
       </p>
-      <img id="famimage" class="img-responsive img-rounded" style="" src="../images/lavoldfamily500x316.jpg"
+      <img id="famimage" class="img-responsive img-rounded" src="../images/lavoldfamily500x316.jpg"
            alt="Picture of the Lavold Family">
     </div>
   </div>

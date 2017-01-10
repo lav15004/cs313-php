@@ -32,6 +32,15 @@
   margin-left:auto;
 }
 
+#favquote {
+  font-weight: bold;
+}
+
+#favquotesig {
+  font-weight:bold;
+  font-style:italic;
+}
+
 .scheduletd {
   border: 1px solid #000000;
   padding: 2px;
