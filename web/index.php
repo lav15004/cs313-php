@@ -130,7 +130,7 @@
         My beautiful family!!!
       </h2>
       </p>
-      <img style="display:block; margin-right:auto; margin-left:auto;" src="../images/lavoldfamily500x316.jpg"
+      <img class="img-responsive img-rounded" style="display:block; margin-right:auto; margin-left:auto;" src="../images/lavoldfamily500x316.jpg"
            alt="Picture of the Lavold Family">
     </div>
   </div>
