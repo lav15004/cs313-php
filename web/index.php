@@ -83,29 +83,27 @@
   </div>
   <div class="row">
     <div class="col-md-6">
-      <table style="float: left; padding: 0px; width:auto; border:1px solid #000000; border-spacing:0px; empty-cells: show; border-collapse: collapse; height:100px; text-align:center;background-color:#FBEDFF" >
+      <table style="float: left; padding: 0px; width:auto; border:1px solid #000000; border-spacing:0px; empty-cells:
+       show; border-collapse: collapse; height:100px; text-align:center;" >
         <tr>
-          <th colspan="5" style="padding: 0px; border: 1px; border-color: #000; font-size:22px">Fall 2016 - Class Schedule</th>
+          <th colspan="5" style="padding: 0px; border: 1px; border-color: #000; font-size:22px">Winter 2017 - Class Schedule</th>
         </tr>
         <tr>
           <th style="border: 1px solid #000000; padding: 2px;">Course #</th>
           <th style="border: 1px solid #000000; padding: 2px;">Course Description</th>
           <th style="border: 1px solid #000000; padding: 2px;">Sec#</th>
-          <th style="border: 1px solid #000000; padding: 2px;">Class Time</th>
           <th style="border: 1px solid #000000; padding: 2px;">Class Location</th>
         </tr>
         <tr>
           <td style="border: 1px solid #000000; padding: 2px;">CS 308</td>
           <td style="border: 1px solid #000000; padding: 2px;">Technical Communication</td>
           <td style="border: 1px solid #000000; padding: 2px;"">03 (Online)</td>
-          <td style="border: 1px solid #000000; padding: 2px;">n/a</td>
           <td style="border: 1px solid #000000; padding: 2px;">Online <a href="https://byui.brightspace.com/d2l/home/195575">I-Learn 3</a></td>
         </tr>
         <tr>
           <td style="border: 1px solid #000000; padding: 2px;">CS 313</td>
           <td style="border: 1px solid #000000; padding: 2px;">Web Engineering II</td>
           <td style="border: 1px solid #000000; padding: 2px;">02 (Online)</td>
-          <td style="border: 1px solid #000000; padding: 2px;">n/a</td>
           <td style="border: 1px solid #000000; padding: 2px;">Online <a href="https://byui.brightspace.com/d2l/home/205275">I-Learn 3</a></td>
         </tr>
       </table>
