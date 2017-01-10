@@ -59,11 +59,11 @@
     <a href="http://www.w3schools.com/colors/colors_names.asp"
        target="_blank">Enter Color Name or Hex (follow link for a list)</a>
     <input id="colorname" name="colorname" type="text">
-    <button onclick="changedivcolor(document.getElementById('colorname').value)">Change Color</button>
-    <button id="jquerybutton" name="jquerybutton">Change Color (jQuery)</button>
+    <button onclick="changedivcolor(document.getElementById('colorname').value)">Change Color (First Div</button>
+    <button id="jquerybutton" name="jquerybutton">Change Color Second Div (jQuery)</button>
   </div>
     <div class="col-sm-4">
-    <button>Fade in/out</button>
+    <button id="fadetoggle">Fade in/out</button>
   </div>
 </div>
 
