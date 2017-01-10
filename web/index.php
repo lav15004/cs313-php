@@ -7,13 +7,12 @@
 
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <link rel="stylesheet" href="css/cs313-php.css">
-  <script type="text/javascript" src="js/formvalidation.js"></script>
 
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../favicon.ico">
 
-  <title>XBOX One Forever - Preowned Games</title>
+  <title>Aaron Lavold - CS 313: 02 (Online)</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
