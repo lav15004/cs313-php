@@ -108,16 +108,16 @@
         </tr>
       </table>
     </div>
+    <div class="col-md-6">
+      <p id="slogan">Home of Pre-owned Awesomeness</p>
+    </div>
   </div>
-  <div class="row">
-  <div class="col-md-6">
-    <p id="slogan">Home of Pre-owned Awesomeness</p>
-  </div>
-</div>
 
-<div class="row">
+
 
 </div>
+
+
 </div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
