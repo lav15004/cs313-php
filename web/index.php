@@ -77,10 +77,11 @@
 </div>
 <div class="jumbotron">
 
-    <h1>Hello, world!</h1>
-    <p>This is a template for a simple marketing or informational website.
-      It includes a large callout called a jumbotron and three supporting pieces of content.
-      Use it as a starting point to create something more unique.</p>
+    <h1>Hello, from Aaron Lavold!</h1>
+    <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
+      Pathway program. I have worked for AT&T for the past 23 years. Currently, I work in AT&T's Technology Development
+      organization, as a Senior - Systems Engineer.  I love the job because it allows me to
+      work with a lot of different technologies, and it doesn't hurt that the job is fun as well. </p>
 
 </div>
 </div>
