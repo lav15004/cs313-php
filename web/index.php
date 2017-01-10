@@ -53,17 +53,17 @@
 </div>
 <div class="row">
   <div class="col-sm-4">
-    <button onclick="week2teamalert()">Click Me</button>
+    <button class="btn btn-primary" onclick="week2teamalert()">Click Me</button>
   </div>
     <div class="col-sm-4">
     <a href="http://www.w3schools.com/colors/colors_names.asp"
        target="_blank">Enter Color Name or Hex (follow link for a list)</a>
     <input id="colorname" name="colorname" type="text">
-    <button onclick="changedivcolor(document.getElementById('colorname').value)">Change Color (First Div</button>
-    <button id="jquerybutton" name="jquerybutton">Change Color Second Div (jQuery)</button>
+    <button class="btn btn-success" onclick="changedivcolor(document.getElementById('colorname').value)">Change Color (First Div</button>
+    <button class="btn btn-info" id="jquerybutton" name="jquerybutton">Change Color Second Div (jQuery)</button>
   </div>
     <div class="col-sm-4">
-    <button id="fadetoggle">Fade in/out</button>
+    <button class="btn btn-warning" id="fadetoggle">Fade in/out</button>
   </div>
 </div>
 
