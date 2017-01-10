@@ -26,6 +26,12 @@
   font-size:22px;
 }
 
+#famimage {
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+
 .scheduletd {
   border: 1px solid #000000;
   padding: 2px;
