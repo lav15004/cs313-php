@@ -128,12 +128,10 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-
+      <img style="display:block; margin-right:auto; margin-left:auto;" src="../images/lavoldfamily500x316.jpg"
+           width="500" height="316" alt="Picture of the Lavold Family">
     </div>
   </div>
-
-
-
 </div>
 
 <!-- Bootstrap core JavaScript
