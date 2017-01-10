@@ -69,7 +69,7 @@
     <div class="col-lg-12">
       <div class="list-group">
         <li class="list-group-item active">Assignment Links</li>
-        <a href="hello.html">Hello World</a>
+        <a href="hello.html class="list-group-item"">Hello World</a>
         <a href="week2team.php" class="list-group-item">Week 02: Team</a>
         <a href="index.php" class="list-group-item">Week 02: Personal Homepage</a>
       </div>
