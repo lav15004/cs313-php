@@ -66,8 +66,11 @@
 </nav>
 
 <div class="container">
-  <br />
-  <br />
+  <div class="row">
+    <div class="col-xs-12">
+      <p id="title"><span>Aaron Lavold's Info</span></p>
+    </div>
+  </div>
   <div class="jumbotron">
     <h2>Hello, from Aaron Lavold!</h2>
     <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
