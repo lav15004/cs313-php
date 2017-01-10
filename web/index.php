@@ -56,7 +56,8 @@
     <button onclick="week2teamalert()">Click Me</button>
   </div>
     <div class="col-sm-4">
-    <button>Change Color</button>
+    <span>Enter Color Name (i.e. purple)</span><input id="colorname" name="colorname" type="text">
+    <button onclick="changedivcolor(document.getElementById('colorname').value)">Change Color</button>
   </div>
     <div class="col-sm-4">
     <button>Fade in/out</button>
