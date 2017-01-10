@@ -85,15 +85,15 @@
           <th colspan="5">Winter 2017 - Class Schedule</th>
         </tr>
         <tr>
-          <tdclass="scheduletd">Course #</th>
-          <td class="scheduletd">Course Description</td>
-          <td class="scheduletd">Sec#</td>
-          <td class="scheduletd">Class Location</td>
+          <th class="scheduletd">Course #</th>
+          <th class="scheduletd">Course Description</th>
+          <th class="scheduletd">Sec#</th>
+          <th class="scheduletd">Class Location</th>
         </tr>
         <tr>
           <td class="scheduletd">CS 308</td>
           <td class="scheduletd">Technical Communication</td>
-          <td class="scheduletd"">03 (Online)</td>
+          <td class="scheduletd">03 (Online)</td>
           <td class="scheduletd">Online <a href="https://byui.brightspace.com/d2l/home/195575">I-Learn 3</a></td>
         </tr>
         <tr>
