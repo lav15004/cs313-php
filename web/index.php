@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-
   <link rel="stylesheet" href="xboxoneforever.css">
   <script type="text/javascript" src="js/formvalidation.js"></script>
 
@@ -31,7 +30,7 @@
   <![endif]-->
 </head>
 
-<body">
+<body>
 <div class="container">
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -65,8 +64,6 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-
-
   <div class="row">
     <div class="col-lg-12">
       <br />
@@ -134,7 +131,7 @@
       </h2>
       </p>
       <img style="display:block; margin-right:auto; margin-left:auto;" src="../images/lavoldfamily500x316.jpg"
-           width="500" height="316" alt="Picture of the Lavold Family">
+           alt="Picture of the Lavold Family">
     </div>
   </div>
 </div>
