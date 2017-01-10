@@ -8,7 +8,7 @@
 
 
   <link rel="stylesheet" href="xboxoneforever.css">
-  <script type="text/javascript" src="formvalidation.js"></script>
+  <script type="text/javascript" src="js/formvalidation.js"></script>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -17,7 +17,7 @@
   <title>XBOX One Forever - Preowned Games</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Custom styles for this template -->
@@ -88,8 +88,8 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="../js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
