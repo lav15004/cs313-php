@@ -63,6 +63,7 @@
     <a href="http://www.w3schools.com/colors/colors_names.asp"
        target="_blank">Enter Color Name or Hex (follow link for a list)</a>
     <input id="colorname" name="colorname" type="text">
+    <br />
     <button class="btn btn-success" onclick="changedivcolor(document.getElementById('colorname').value)">Change Color (First Div</button>
     <button class="btn btn-info" id="jquerybutton" name="jquerybutton">Change Color Second Div (jQuery)</button>
   </div>
