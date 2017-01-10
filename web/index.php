@@ -32,6 +32,7 @@
 </head>
 
 <body">
+<div class="container">
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -65,7 +66,7 @@
   </div>
 </nav>
 
-<div class="container">
+
   <div class="row">
     <div class="col-xs-12">
       <br />
