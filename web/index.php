@@ -69,7 +69,9 @@
 
   <div class="row">
     <div class="col-lg-12">
-      <p/>
+      <br />
+      <br />
+      <br />
     </div>
   </div>
   <div class="jumbotron">
