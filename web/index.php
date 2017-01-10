@@ -67,6 +67,7 @@
 
 <div class="container">
   <br />
+  <br />
   <div class="jumbotron">
     <h2>Hello, from Aaron Lavold!</h2>
     <p>My family and I currently live in Mesa, Arizona. I am a full-time online student that matriculated to BYU-I through the
@@ -75,11 +76,11 @@
       work with a lot of different technologies, and it doesn't hurt that the job is fun as well. </p>
   </div>
   <div class="row">
-  <div class="col-xs-12">
-    <p id="title"><span>Aaron Lavold's Info</span></p>
+    <div class="col-xs-12">
+      <p id="title"><span>Aaron Lavold's Info</span></p>
+    </div>
   </div>
-</div>
-<div class="row">
+  <div class="row">
   <div class="col-xs-12">
     <p id="slogan">Home of Pre-owned Awesomeness</p>
   </div>
