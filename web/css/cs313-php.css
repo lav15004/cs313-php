@@ -18,6 +18,7 @@
   border-collapse: collapse;
   height:100px;
   text-align:center;
+  background-color: lightskyblue;
 }
 #schedule th {
   padding: 2px;
