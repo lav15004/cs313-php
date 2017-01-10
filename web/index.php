@@ -64,6 +64,7 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+<br />
 <div class="container">
   <div class="jumbotron">
     <h2>Hello, from Aaron Lavold!</h2>
