@@ -110,12 +110,9 @@
     <div class="col-sm-6">
       <table>
         <tr>
-          <td>Favorite Quote:</td>
-        </tr>
-        <tr>
           <td>
             <blockquote cite="https://www.lds.org/general-conference/2003/04/in-search-of-treasure?lang=eng">
-              “Don't save something for a special occasion. Every day in your life is a special occasion.”
+              <span>Favorite Quote:<br /></span>“Don't save something for a special occasion. Every day in your life is a special occasion.”
               <span style ="font-weight:bold; font-style:italic;">-Thomas S. Monson</span>
             </blockquote>
           </td>
