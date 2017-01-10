@@ -37,7 +37,10 @@
 <div class="jumbotron">
 
     <h1>02 Teach : Team Activity</h1>
-    <p>This is Aaron Lavold's Team Activity page for week 02.</p>
+    <p>This is Aaron Lavold's Team Activity page for week 02. All core requirements and stretch challenges were
+    completed.  For jQuery changing div colors I added an additional button.  Stretch 2, I used the jQuery function
+    fadeToggle. For Bootstrap, I added this jumbotron, page responsively adjusts based on resize of browser, and I changed the
+    format of the buttons using bootstrap class references.</p>
 
 </div>
 <div class="row">
