@@ -13,14 +13,16 @@
   <label for="email">Email: </label>
   <input type="text" name="email" id="email"><br /><br />
   <label>Major:</label><br />
-  <input type="radio" name="major" id="cs" value="Computer Science">
-  <label for="cs">Computer Science</label><br />
-  <input type="radio" name="major" id="wd" value="Web Design and Development">
-  <label for="wd">Web Design and Development</label><br />
-  <input type="radio" name="major" id="cit" value="Computer information Technology">
-  <label for="cit">Computer information Technology</label><br />
-  <input type="radio" name="major" id="ce" value="Computer Engineering">
-  <label for="ce">Computer Engineering</label><br /><br />
+  <?php
+    $majors = array("cs"=>"Computer Science", "wd"=>"Web Design and Development",
+        "cit"=>"Computer information Technology","ce"=>"Computer Engineering");
+    foreach($majors as $major_key => $major_value){
+      echo "<input type=\"radio\" name=\"major\" id=\"" .$major_key."\" value=\"" . $major_value . "\">";
+      echo "<label for=\"" .$major_key. "\">" .$major_value. "</label><br />";
+    }
+    ?>
+  <br />
+  <label>Check Continents you have visited: </label><br />
   <label for="na">North America</label>
   <input type="checkbox" name="cont[]" id="na" value="North America"><br />
   <label for="sa">South America</label>
