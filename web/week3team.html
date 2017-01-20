@@ -9,9 +9,9 @@
 <br />
 <form method="post" action="week3formhandler.php">
   <label for="name">Name: </label>
-  <input type="text" id="name"><br /><br />
+  <input type="text" name="name" id="name"><br /><br />
   <label for="email">Email: </label>
-  <input type="text" id="email"><br /><br />
+  <input type="text" name="email" id="email"><br /><br />
   <label>Major:</label><br />
   <input type="radio" name="major" id="cs" value="Computer Science">
   <label for="cs">Computer Science</label><br />
@@ -22,7 +22,7 @@
   <input type="radio" name="major" id="ce" value="Computer Engineering">
   <label for="ce">Computer Engineering</label><br /><br />
   <label style="display:inline-block; vertical-align: top" for="comments">Comments: </label>
-  <textarea rows="4" cols="50" id="comments"></textarea><br /><br />
+  <textarea rows="4" cols="50" name="comments" id="comments"></textarea><br /><br />
   <button type="submit">Submit</button>
 </form>
 </body>
