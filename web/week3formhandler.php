@@ -22,7 +22,7 @@
     else
     {
         $N = count($aDoor);
-
+        echo("Continents you have visited are:<br />");
         for($i=0; $i < $N; $i++)
         {
             echo($aDoor[$i] . " <br />"  );
