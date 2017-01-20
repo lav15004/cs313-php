@@ -17,16 +17,15 @@
     $aDoor = $_POST['cont'];
     if(empty($aDoor))
     {
-        echo("You didn't select any buildings.");
+        echo("You didn't select any Continents.");
     }
     else
     {
         $N = count($aDoor);
 
-        echo("You selected $N door(s): ");
         for($i=0; $i < $N; $i++)
         {
-            echo($aDoor[$i] . " ");
+            echo($aDoor[$i] . " <br />"  );
         }
     }
     ?>
