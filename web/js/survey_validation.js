@@ -1,6 +1,6 @@
 function isValid() {
     alert('it ran');
-    if (document.forms['bed'].value == ""
+    if (document.forms[]['bed'].value == ""
         || document.forms['clown'].value == ""
         || document.forms['catdog'].value == ""
         || document.forms['sing'].value == ""
