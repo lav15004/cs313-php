@@ -86,11 +86,6 @@
           echo "<span>$nightlight</span><br /><br />";;
         }
         // stuff to read file and display results
-        $bed_array=array();
-        $clown_array=array();
-        $catdog_array=array();
-        $sing_array=array();
-        $nightlight_array=array();
 
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
