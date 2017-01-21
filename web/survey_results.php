@@ -101,7 +101,8 @@
             }
         }
         fclose($myfiler);
-        foreach(array_count_values($bed_array) as $ans => $freq) {
+        $occurances = array_count_values($bed_array);
+        foreach($occurances as $ans => $freq) {
           echo $ans."<br>";
           echo $freq."<br>";
           echo (($freq/count($bed_array))*100)."%<br>";
