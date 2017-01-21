@@ -99,7 +99,7 @@ fclose($myfiler);
       </div>
     </div>
     <div class="jumbotron">
-      Survey Results / Assignment 3
+      <h1>Survey Results / Assignment 3 </h1>
     </div>
     <div class="row">
       <div class="col-md-12">
