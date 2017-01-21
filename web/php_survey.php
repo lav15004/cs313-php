@@ -58,7 +58,7 @@
       </div>
     </nav>
     <div class="jumbotron">
-      <h1>03 Prove : Assignment - PHP Survey</h1><br /><br />
+      <h2>03 Prove : Assignment - PHP Survey</h2>
     </div>
     <h2>Aaron's dumb survey questions</h2><br /><br />
     <div class="row">
