@@ -105,18 +105,6 @@ fclose($myfiler);
       <div class="col-md-12">
         <div class="row">
           <div class="col-sm-5">
-              <?php
-
-              ?>
-          </div>
-          <div class="col-sm-7">
-              <?php
-
-              ?>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-5">
             <?php
             echo "<label>How big is your bed?</label><br>";
             if (!empty($bed)) {
@@ -133,86 +121,91 @@ fclose($myfiler);
                 echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
             }
             ?>
+            <br><br>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-5">
-              <?php
-                echo "<label>Are you scared of clowns?</label><br>";
-                if (!empty($clown)) {
-                    echo "Your answer was \"$clown\"<br>";
-                }
-              ?>
+            <?php
+              echo "<label>Are you scared of clowns?</label><br>";
+              if (!empty($clown)) {
+                  echo "Your answer was \"$clown\"<br>";
+              }
+            ?>
           </div>
           <div class="col-sm-7">
-              <?php
-                echo "<label>Current Survey Results are:</label><br>";
-                $occurances = array_count_values($clown_array);
-                foreach($occurances as $ans => $freq) {
-                    $freq_percent = round((($freq/count($clown_array))*100),2,PHP_ROUND_HALF_UP);
-                    echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
-                }
-              ?>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-5">
-              <?php
-                echo "<label>Are you cat or dog person?</label><br>";
-                if (!empty($catdog)) {
-                    echo "Your answer was \"$catdog\"<br>";
-                }
-              ?>
-          </div>
-          <div class="col-sm-7">
-              <?php
-                echo "<label>Current Survey Results are:</label><br>";
-                $occurances = array_count_values($catdog_array);
-                foreach($occurances as $ans => $freq) {
-                    $freq_percent = round((($freq/count($catdog_array))*100),2,PHP_ROUND_HALF_UP);
-                    echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
-                }
-              ?>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-5">
-              <?php
-                echo "<label>Do you sing in the shower?</label><br>";
-                if (!empty($sing)) {
-                    echo "Your answer was \"$sing\"<br>";
-                }
-              ?>
-          </div>
-          <div class="col-sm-7">
-              <?php
-                echo "<label>Current Survey Results are:</label><br>";
-                $occurances = array_count_values($sing_array);
-                foreach($occurances as $ans => $freq) {
-                    $freq_percent = round((($freq/count($sing_array))*100),2,PHP_ROUND_HALF_UP);
-                    echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
-                }
-              ?>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-5">
-              <?php
-                echo "<label>Do you sleep with a night light on?</label><br>";
-                if (!empty($nightlight)) {
-                    echo "Your answer was \"$nightlight\"<br>";
-                }
-              ?>
-          </div>
-          <div class="col-sm-7">
-              <?php
+            <?php
               echo "<label>Current Survey Results are:</label><br>";
-              $occurances = array_count_values($nightlight_array);
+              $occurances = array_count_values($clown_array);
               foreach($occurances as $ans => $freq) {
-                  $freq_percent = round((($freq/count($nightlight_array))*100),2,PHP_ROUND_HALF_UP);
+                  $freq_percent = round((($freq/count($clown_array))*100),2,PHP_ROUND_HALF_UP);
                   echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
               }
-              ?>
+            ?>
+            <br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <?php
+              echo "<label>Are you cat or dog person?</label><br>";
+              if (!empty($catdog)) {
+                  echo "Your answer was \"$catdog\"<br>";
+              }
+            ?>
+          </div>
+          <div class="col-sm-7">
+            <?php
+              echo "<label>Current Survey Results are:</label><br>";
+              $occurances = array_count_values($catdog_array);
+              foreach($occurances as $ans => $freq) {
+                  $freq_percent = round((($freq/count($catdog_array))*100),2,PHP_ROUND_HALF_UP);
+                  echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
+              }
+            ?>
+            <br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <?php
+              echo "<label>Do you sing in the shower?</label><br>";
+              if (!empty($sing)) {
+                  echo "Your answer was \"$sing\"<br>";
+              }
+            ?>
+          </div>
+          <div class="col-sm-7">
+            <?php
+              echo "<label>Current Survey Results are:</label><br>";
+              $occurances = array_count_values($sing_array);
+              foreach($occurances as $ans => $freq) {
+                  $freq_percent = round((($freq/count($sing_array))*100),2,PHP_ROUND_HALF_UP);
+                  echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
+              }
+            ?>
+            <br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <?php
+              echo "<label>Do you sleep with a night light on?</label><br>";
+              if (!empty($nightlight)) {
+                  echo "Your answer was \"$nightlight\"<br>";
+              }
+            ?>
+          </div>
+          <div class="col-sm-7">
+            <?php
+            echo "<label>Current Survey Results are:</label><br>";
+            $occurances = array_count_values($nightlight_array);
+            foreach($occurances as $ans => $freq) {
+                $freq_percent = round((($freq/count($nightlight_array))*100),2,PHP_ROUND_HALF_UP);
+                echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
+            }
+            ?>
+            <br><br>
           </div>
         </div>
       </div>
