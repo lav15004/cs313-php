@@ -105,7 +105,7 @@
         foreach($bed_array as $ans => $freq) {
           echo $ans."<br>";
           echo $freq."<br>";
-          echo (($freq/$ans)*100)."%<br>";
+          echo (($freq/count($bed_array))*100)."%<br>";
       }
       ?>
       </div>
