@@ -11,7 +11,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../favicon.ico">
-
+  <script type="text/javascript" src="js/survey_validation.js"></script>
   <title>Aaron Lavold - CS 313: 02 (Online)</title>
 
   <!-- Bootstrap core CSS -->
@@ -66,7 +66,7 @@
     </div>
     <h1>03 Prove : Assignment - PHP Survey</h1><br /><br />
     <h2>Aaron's dumb survey questions</h2><br /><br />
-    <form method="post" action="survey_results.php">
+    <form method="post" action="survey_results.php" onsubmit="return isValid();">
       <div class="row">
         <div class="col-md-12">
           <label for="bed">How big is your bed?</label>
