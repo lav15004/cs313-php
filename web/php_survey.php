@@ -85,8 +85,8 @@
         <label for="catdog">Are you cat or dog person?</label>
         <select id="catdog" name="catdog">
           <option value=""></option>
-          <option value="">Ruff</option>
-          <option value="">Meow</option>
+          <option value="Woof">Woof</option>
+          <option value="Meow">Meow</option>
         </select><br /><br />
         <label for="sing">Do you sing in the shower?</label>
         <select id="sing" name="sing">
@@ -99,7 +99,6 @@
           <option value=""></option>
           <option value="No">No</option>
           <option value="Yes">Yes</option>
-          <option value=""></option>
         </select><br /><br />
       </div>
     </div>
