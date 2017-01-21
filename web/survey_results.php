@@ -1,3 +1,37 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $bed = htmlspecialchars($_POST["bed"]);
+    $clown = htmlspecialchars($_POST["clown"]);
+    $catdog = htmlspecialchars($_POST["catdog"]);
+    $sing = htmlspecialchars($_POST["sing"]);
+    $nightlight = htmlspecialchars($_POST["nightlight"]);
+    $inputrow = "$bed|$clown|$catdog|$sing|$nightlight\n";
+    $myfilea = fopen("newfile.txt", "a") or die("Unable to open file!");
+    fwrite($myfilea,$inputrow);
+    fclose($myfilea);
+}
+// stuff to read file and display results
+$bed_array = array();
+$clown_array = array();
+$catdog_array = array();
+$sing_array = array();
+$nightlight_array = array();
+
+$myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
+while(!feof($myfiler)) {
+    $rowarray=array();
+    $rowarray = explode("|",fgets($myfiler));
+    if ($rowarray[0] != ""){
+        array_push($bed_array,$rowarray[0]);
+        array_push($clown_array,$rowarray[1]);
+        array_push($catdog_array,$rowarray[2]);
+        array_push($sing_array,$rowarray[3]);
+        array_push($nightlight_array,$rowarray[4]);
+    }
+}
+fclose($myfiler);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,44 +101,6 @@
     <div class="row">
       <div class="col-md-12">
       <?php
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-          $bed = htmlspecialchars($_POST["bed"]);
-          $clown = htmlspecialchars($_POST["clown"]);
-          $catdog = htmlspecialchars($_POST["catdog"]);
-          $sing = htmlspecialchars($_POST["sing"]);
-          $nightlight = htmlspecialchars($_POST["nightlight"]);
-          $inputrow = "$bed|$clown|$catdog|$sing|$nightlight\n";
-          $myfilea = fopen("newfile.txt", "a") or die("Unable to open file!");
-          fwrite($myfilea,$inputrow);
-          fclose($myfilea);
-
-          echo "<span>$bed</span><br /><br />";
-          echo "<span>$clown</span><br /><br />";
-          echo "<span>$catdog</span><br /><br />";
-          echo "<span>$sing</span><br /><br />";
-          echo "<span>$nightlight</span><br /><br />";;
-        }
-        // stuff to read file and display results
-        $bed_array = array();
-        $clown_array = array();
-        $catdog_array = array();
-        $sing_array = array();
-        $nightlight_array = array();
-
-        $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
-        while(!feof($myfiler)) {
-            $rowarray=array();
-            $rowarray = explode("|",fgets($myfiler));
-            if ($rowarray[0] != ""){
-                array_push($bed_array,$rowarray[0]);
-                array_push($clown_array,$rowarray[1]);
-                array_push($catdog_array,$rowarray[2]);
-                array_push($sing_array,$rowarray[3]);
-                array_push($nightlight_array,$rowarray[4]);
-            }
-        }
-        fclose($myfiler);
         echo "<label>How big is your bed?</label><br>";
         if (!empty($bed)) {
           echo "Your answer was \"$bed\".<br>";
@@ -117,7 +113,7 @@
         }
         echo "<hr>";
         echo "<label>Are you scared of clowns?</label><br>";
-        if (!empty($bed)) {
+        if (!empty($clown)) {
             echo "Your answer was \"$clown\"<br>";
         }
         echo "<br><label>Current Survey Results are:</label><br>";
