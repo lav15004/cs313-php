@@ -8,10 +8,10 @@
 </head>
 <body>
 <p>
-  Your name is: <?php echo $_POST["name"]; ?><br>
-  Your email is: <a href="mailto:<?php echo $_POST["email"]; ?>?Subject=Hello%20again" target="_top">
-    <?php echo $_POST["email"]; ?></a><br>
-  Your select Major is: <?php echo $_POST["major"]; ?><br>
+  Your name is: <?php echo htmlspecialchars($_POST["name"]); ?><br>
+  Your email is: <a href="mailto:<?php echo htmlspecialchars($_POST["email"]); ?>?Subject=Hello%20again" target="_top">
+    <?php echo htmlspecialchars($_POST["email"]); ?></a><br>
+  Your select Major is: <?php echo htmlspecialchars($_POST["major"]); ?><br>
 
     <?php
     $cont = $_POST['cont'];
@@ -28,12 +28,12 @@
         for($i=0; $i < $N; $i++)
         {
 
-            echo(array_search($cont[$i],$cont_array) . " <br />"  );
+            echo(htmlspecialchars(array_search($cont[$i],$cont_array)) . " <br />"  );
         }
     }
     ?>
 
-  Your comments are: <?php echo $_POST["comments"]; ?><br>
+  Your comments are: <?php echo htmlspecialchars($_POST["comments"]); ?><br>
 
 </p>
 </body>
