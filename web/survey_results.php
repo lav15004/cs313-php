@@ -99,7 +99,22 @@ fclose($myfiler);
       </div>
     </div>
     <div class="jumbotron">
-      <h2>Survey Results / Assignment 3 </h2>
+      <?php
+      $myfiler = fopen("newfile.txt", "r") or die("<h2>No Survey Result Recorded</h2>");
+      while(!feof($myfiler)) {
+          $rowarray=array();
+          $rowarray = explode("|",fgets($myfiler));
+          if ($rowarray[0] != ""){
+              array_push($bed_array,$rowarray[0]);
+              array_push($clown_array,$rowarray[1]);
+              array_push($catdog_array,$rowarray[2]);
+              array_push($sing_array,$rowarray[3]);
+              array_push($nightlight_array,$rowarray[4]);
+          }
+      }
+      fclose($myfiler);
+      echo "<h2>Survey Results / Assignment 3 </h2>"
+      ?>
     </div>
     <div class="row">
       <div class="col-md-12">
