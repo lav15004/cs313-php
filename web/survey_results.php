@@ -91,7 +91,7 @@
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
             $rowarray = explode(",",fgets($myfiler));
-            echo $rowarray[0];
+            echo $rowarray[0]."<br><br>";
             //array_push(array_count_values(explode(',', $array));)
             //array_push($arrayofrows,fgets($myfiler));
         }
