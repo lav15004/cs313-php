@@ -74,7 +74,7 @@
           $catdog = htmlspecialchars($_POST["catdog"]);
           $sing = htmlspecialchars($_POST["sing"]);
           $nightlight = htmlspecialchars($_POST["nightlight"]);
-          $inputrow = "$bed,$clown,$catdog,$sing,$nightlight\n";
+          $inputrow = "$bed|$clown|$catdog|$sing|$nightlight\n";
           $myfilea = fopen("newfile.txt", "a") or die("Unable to open file!");
           fwrite($myfilea,$inputrow);
           fclose($myfilea);
@@ -94,7 +94,7 @@
 
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
-            $rowarray = explode(",",fgets($myfiler));
+            $rowarray = explode("|",fgets($myfiler));
             array_push($bed_array,$rowarray[0]);
             array_push($clown_array,$rowarray[1]);
             array_push($catdog_array,$rowarray[2]);
