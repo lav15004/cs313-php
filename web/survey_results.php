@@ -86,7 +86,7 @@
           echo "<span>$nightlight</span><br /><br />";;
         }
         // stuff to read file and display results
-        $bed_array[] = "";
+        $bed_array[] = null;
 
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
