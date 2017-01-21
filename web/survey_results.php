@@ -92,6 +92,7 @@
         while(!feof($myfiler)) {
             $rowarray=array();
             $rowarray = explode("|",fgets($myfiler));
+            print_r($rowarray)."<br>";
             if ($rowarray[0] != ""){
                 $bed_array = $rowarray[0];
                 array_push($clown_array,$rowarray[1]);
