@@ -107,8 +107,9 @@
         fclose($myfiler);
         echo "<label>How big is your bed?</label><br>";
         if (!empty($bed)) {
-          echo "Your answer was $bed";
+          echo "Your answer was $bed.";
         }
+        echo "<br><label>Current Survey Results are:</label><br>";
         $occurances = array_count_values($bed_array);
         $bed_stats = array();
         foreach($occurances as $ans => $freq) {
