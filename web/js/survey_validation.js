@@ -1,4 +1,5 @@
 function isValid() {
+    alert('it ran');
     if (document.forms['bed'].value == ""
         || document.forms['clown'].value == ""
         || document.forms['catdog'].value == ""
