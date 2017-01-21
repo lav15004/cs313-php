@@ -86,7 +86,7 @@
           echo "<span>$nightlight</span><br /><br />";;
         }
         // stuff to read file and display results
-
+        $bed_array[] = "";
 
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
@@ -101,8 +101,7 @@
             }
         }
         fclose($myfiler);
-        print_r($bed_array)."<br><br><br>";
-        foreach($bed_array as $freq => $ans) {
+        foreach(array_count_values($bed_array) as $freq => $ans) {
           echo $ans."<br>";
           echo $freq."<br>";
           echo (($freq/count($bed_array))*100)."%<br>";
