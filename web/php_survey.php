@@ -102,6 +102,8 @@
             <option value="Yes">Yes</option>
           </select><br /><br />
           <button type="submit">Submit</button>
+          <br><br>
+          <a href="survey_results.php">Click here for current survey results.</a>
         </div>
       </div>
     </form>

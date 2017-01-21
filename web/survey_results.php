@@ -121,7 +121,7 @@ fclose($myfiler);
                 echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
             }
             ?>
-            <br><br>
+            <br>
           </div>
         </div>
         <div class="row">
@@ -142,7 +142,7 @@ fclose($myfiler);
                   echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
               }
             ?>
-            <br><br>
+            <br>
           </div>
         </div>
         <div class="row">
@@ -163,7 +163,7 @@ fclose($myfiler);
                   echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
               }
             ?>
-            <br><br>
+            <br>
           </div>
         </div>
         <div class="row">
@@ -184,7 +184,7 @@ fclose($myfiler);
                   echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
               }
             ?>
-            <br><br>
+            <br>
           </div>
         </div>
         <div class="row">
