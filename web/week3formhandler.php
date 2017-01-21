@@ -14,18 +14,20 @@
   Your select Major is: <?php echo $_POST["major"]; ?><br>
 
     <?php
-    $aDoor = $_POST['cont'];
+    $cont = $_POST['cont'];
+    $cont_array = array("na"=>"North America","sa"=>"South America","eu"=>"Europe","as"=>"Asia","au"=>"Australia","af"=>"Africa","an"=>"Antarctica");
     if(empty($aDoor))
     {
         echo("You didn't select any Continents.");
     }
     else
     {
-        $N = count($aDoor);
+        $N = count($cont);
         echo("Continents you have visited are:<br />");
         for($i=0; $i < $N; $i++)
         {
-            echo($aDoor[$i] . " <br />"  );
+
+            echo(array_search($cont[$i],$cont_array) . " <br />"  );
         }
     }
     ?>
