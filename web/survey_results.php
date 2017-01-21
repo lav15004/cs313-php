@@ -83,19 +83,30 @@
           echo "<span>$clown</span><br /><br />";
           echo "<span>$catdog</span><br /><br />";
           echo "<span>$sing</span><br /><br />";
-          echo "<span>$nightlight</span><br /><br />";
-          $bedanswers = array();
+          echo "<span>$nightlight</span><br /><br />";;
         }
         // stuff to read file and display results
-        $arrayofrows = array();
+        $bed_array=array();
+        $clown_array=array();
+        $catdog_array=array();
+        $sing_array=array();
+        $nightlight_array=array();
+
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
             $rowarray = explode(",",fgets($myfiler));
-            echo $rowarray[0]."<br><br>";
-            //array_push(array_count_values(explode(',', $array));)
-            //array_push($arrayofrows,fgets($myfiler));
+            array_push($bed_array,$rowarray[0]);
+            array_push($clown_array,$rowarray[1]);
+            array_push($catdog_array,$rowarray[2]);
+            array_push($sing_array,$rowarray[3]);
+            array_push($nightlight_array,$rowarray[4]);
         }
         fclose($myfiler);
+        foreach($bed_array as $ans => $freq) {
+          echo $ans."<br>";
+          echo $freq."<br>";
+          echo (($freq/$ans)*100)."%<br>";
+      }
       ?>
       </div>
     </div>
