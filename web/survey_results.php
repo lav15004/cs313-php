@@ -92,7 +92,7 @@
         while(!feof($myfiler)) {
             $rowarray=null;
             $rowarray = explode("|",fgets($myfiler));
-            if (count($rowarray)){
+            if ($rowarray[0] != ""){
                 $bed_array[] = $rowarray[0];
                 array_push($clown_array,$rowarray[1]);
                 array_push($catdog_array,$rowarray[2]);
