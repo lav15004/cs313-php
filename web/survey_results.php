@@ -84,12 +84,15 @@
           echo "<span>$catdog</span><br /><br />";
           echo "<span>$sing</span><br /><br />";
           echo "<span>$nightlight</span><br /><br />";
+          $bedanswers = array();
         }
         // stuff to read file and display results
         $arrayofrows = array();
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
-            echo fgets($myfiler) . "<br><br>";
+            $rowarray = array(explode(",",fgets($myfiler)));
+            echo $rowarray[0];
+            //array_push(array_count_values(explode(',', $array));)
             //array_push($arrayofrows,fgets($myfiler));
         }
         fclose($myfiler);
