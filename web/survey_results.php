@@ -111,11 +111,21 @@
         }
         echo "<br><label>Current Survey Results are:</label><br>";
         $occurances = array_count_values($bed_array);
-        $bed_stats = array();
         foreach($occurances as $ans => $freq) {
           $freq_percent = round((($freq/count($bed_array))*100),2,PHP_ROUND_HALF_UP);
-          echo "$ans was selected $freq time(s) which is $freq_percent%<br>";
-      }
+          echo "$ans was selected $freq time(s) which is a frequency of $freq_percent%<br>";
+        }
+        echo "<hr>";
+        echo "<label>Are you scared of clowns?</label><br>";
+        if (!empty($bed)) {
+            echo "Your answer was $clown.<br>";
+        }
+        echo "<br><label>Current Survey Results are:</label><br>";
+        $occurances = array_count_values($clown_array);
+        foreach($occurances as $ans => $freq) {
+            $freq_percent = round((($freq/count($clown_array))*100),2,PHP_ROUND_HALF_UP);
+            echo "$ans was selected $freq time(s) which is a frequency of $freq_percent%<br>";
+        }
       ?>
       </div>
     </div>
