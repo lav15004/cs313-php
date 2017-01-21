@@ -78,6 +78,7 @@
           $myfilea = fopen("newfile.txt", "a") or die("Unable to open file!");
           fwrite($myfilea,$inputrow);
           fclose($myfilea);
+
           echo "<span>$bed</span><br /><br />";
           echo "<span>$clown</span><br /><br />";
           echo "<span>$catdog</span><br /><br />";
@@ -87,12 +88,12 @@
         // stuff to read file and display results
         $arrayofrows = array();
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
-      while(!feof($myfiler)) {
-          echo fgets($myfiler) . "<br>";
-          array_push($arrayofrows,fgets($myfiler));
-      }
-      fclose($myfiler);
-      print_r($arrayofrows);
+        while(!feof($myfiler)) {
+            echo fgets($myfiler) . "<br><br>";
+            array_push($arrayofrows,fgets($myfiler));
+        }
+        fclose($myfiler);
+        print_r($arrayofrows);
       ?>
       </div>
     </div>
