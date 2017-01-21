@@ -72,6 +72,7 @@
         <a href="hello.html" class="list-group-item">Hello World</a>
         <a href="week2team.php" class="list-group-item">Week 02: Team</a>
         <a href="index.php" class="list-group-item">Week 02: Personal Homepage</a>
+        <a href="week3team.php" class="list-group-item">Week 03: Team</a>
       </div>
     </div>
   </div>
