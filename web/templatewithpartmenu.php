@@ -64,43 +64,8 @@
         <br />
       </div>
     </div>
-    <h1>03 Prove : Assignment - PHP Survey</h1><br /><br />
-    <h2>Aaron's bizarre survey questions</h2><br /><br />
     <div class="row">
       <div class="col-md-12">
-        <label for="bed">How big is our bed?</label>
-        <select id="bed" name="bed">
-          <option value=""></option>
-          <option value="Single">Single</option>
-          <option value="Double">Double</option>
-          <option value="Queen">Queen</option>
-          <option value="King">King</option>
-        </select><br /><br />
-        <label for="clown">Are you scared of clowns?</label>
-        <select id="clown" name="clown">
-          <option value=""></option>
-          <option value="Nope, not me!">Nope, not me!</option>
-          <option value="Yes! They are creepy!">Yes! They are creepy!</option>
-        </select><br /><br />
-        <label for="catdog">Are you cat or dog person?</label>
-        <select id="catdog" name="catdog">
-          <option value=""></option>
-          <option value="">Ruff</option>
-          <option value="">Meow</option>
-        </select><br /><br />
-        <label for="sing">Do you sing in the shower?</label>
-        <select id="sing" name="sing">
-          <option value=""></option>
-          <option value="Yes">Yes</option>
-          <option value="No">No</option>
-        </select><br /><br />
-        <label for="nightlight">Do you sleep with a night light on?</label>
-        <select id="nightlight" name="nightlight">
-          <option value=""></option>
-          <option value="No">No</option>
-          <option value="Yes">Yes</option>
-          <option value=""></option>
-        </select><br /><br />
       </div>
     </div>
   </div>
