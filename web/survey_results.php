@@ -64,47 +64,27 @@
         <br />
       </div>
     </div>
-    <h1>03 Prove : Assignment - PHP Survey</h1><br /><br />
-    <h2>Aaron's dumb survey questions</h2><br /><br />
-    <form method="post" action="survey_results.php">
-      <div class="row">
-        <div class="col-md-12">
-          <label for="bed">How big is your bed?</label>
-          <select id="bed" name="bed">
-            <option value=""></option>
-            <option value="Single">Single</option>
-            <option value="Double">Double</option>
-            <option value="Queen">Queen</option>
-            <option value="King">King</option>
-          </select><br /><br />
-          <label for="clown">Are you scared of clowns?</label>
-          <select id="clown" name="clown">
-            <option value=""></option>
-            <option value="Nope, not me!">Nope, not me!</option>
-            <option value="Yes! They are creepy!">Yes! They are creepy!</option>
-          </select><br /><br />
-          <label for="catdog">Are you cat or dog person?</label>
-          <select id="catdog" name="catdog">
-            <option value=""></option>
-            <option value="Woof">Woof</option>
-            <option value="Meow">Meow</option>
-          </select><br /><br />
-          <label for="sing">Do you sing in the shower?</label>
-          <select id="sing" name="sing">
-            <option value=""></option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-          </select><br /><br />
-          <label for="nightlight">Do you sleep with a night light on?</label>
-          <select id="nightlight" name="nightlight">
-            <option value=""></option>
-            <option value="No">No</option>
-            <option value="Yes">Yes</option>
-          </select><br /><br />
-          <button type="submit">Submit</button>
-        </div>
+    <div class="row">
+      <div class="col-md-12">
+      <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+          $bed = htmlspecialchars($_POST["bed"]);
+          $clown = htmlspecialchars($_POST["clown"]);
+          $catdog = htmlspecialchars($_POST["catdog"]);
+          $sing = htmlspecialchars($_POST["sig"]);
+          $nightlight = htmlspecialchars($_POST["nightlight"]);
+
+          echo "<span>$bed</span><br /><br />";
+          echo "<span>$clown</span><br /><br />";
+          echo "<span>$catdog</span><br /><br />";
+          echo "<span>$sing</span><br /><br />";
+          echo "<span>$nighlight</span><br /><br />";
+        }
+        // stuff to read file and display results
+      ?>
       </div>
-    </form>
+    </div>
   </div>
   <!-- Bootstrap core JavaScript
   ================================================== -->
