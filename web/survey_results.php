@@ -92,11 +92,13 @@
         while(!feof($myfiler)) {
             $rowarray=null;
             $rowarray = explode("|",fgets($myfiler));
-            $bed_array[] = $rowarray[0];
-            array_push($clown_array,$rowarray[1]);
-            array_push($catdog_array,$rowarray[2]);
-            array_push($sing_array,$rowarray[3]);
-            array_push($nightlight_array,$rowarray[4]);
+            if (count($rowarray)){
+                $bed_array[] = $rowarray[0];
+                array_push($clown_array,$rowarray[1]);
+                array_push($catdog_array,$rowarray[2]);
+                array_push($sing_array,$rowarray[3]);
+                array_push($nightlight_array,$rowarray[4]);
+            }
         }
         fclose($myfiler);
         print_r($bed_array)."<br><br><br>";
