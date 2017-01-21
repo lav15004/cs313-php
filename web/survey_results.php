@@ -89,7 +89,7 @@
         $arrayofrows = array();
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
-            echo fgets($myfiler) . "\n";
+            echo fgets($myfiler) . "<br><br>";
             //array_push($arrayofrows,fgets($myfiler));
         }
         fclose($myfiler);
