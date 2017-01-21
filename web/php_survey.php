@@ -65,10 +65,10 @@
       </div>
     </div>
     <h1>03 Prove : Assignment - PHP Survey</h1><br /><br />
-    <h2>Aaron's bizarre survey questions</h2><br /><br />
+    <h2>Aaron's dumb survey questions</h2><br /><br />
     <div class="row">
       <div class="col-md-12">
-        <label for="bed">How big is our bed?</label>
+        <label for="bed">How big is your bed?</label>
         <select id="bed" name="bed">
           <option value=""></option>
           <option value="Single">Single</option>
@@ -100,6 +100,7 @@
           <option value="No">No</option>
           <option value="Yes">Yes</option>
         </select><br /><br />
+        <button type="submit">Submit</button>
       </div>
     </div>
   </div>
