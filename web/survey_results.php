@@ -96,7 +96,6 @@
         while(!feof($myfiler)) {
             $rowarray=array();
             $rowarray = explode("|",fgets($myfiler));
-            print_r($rowarray)."<br>";
             if ($rowarray[0] != ""){
                 array_push($bed_array,$rowarray[0]);
                 array_push($clown_array,$rowarray[1]);
@@ -110,7 +109,7 @@
         $bed_stats = array();
         foreach($occurances as $ans => $freq) {
           $freq_percent = round((($freq/count($bed_array))*100),2,PHP_ROUND_HALF_UP);
-          echo "$ans was selected $freq time which is $freq_percent%";
+          echo "$ans was selected $freq time(s) which is $freq_percent%<br>";
       }
       ?>
       </div>
