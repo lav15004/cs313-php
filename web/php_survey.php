@@ -57,6 +57,10 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+    <div class="jumbotron">
+      <h1>03 Prove : Assignment - PHP Survey</h1><br /><br />
+    </div>
+    <h2>Aaron's dumb survey questions</h2><br /><br />
     <div class="row">
       <div class="col-lg-12">
         <br />
@@ -64,8 +68,6 @@
         <br />
       </div>
     </div>
-    <h1>03 Prove : Assignment - PHP Survey</h1><br /><br />
-    <h2>Aaron's dumb survey questions</h2><br /><br />
     <form method="post" action="survey_results.php" onsubmit="return isValid();">
       <div class="row">
         <div class="col-md-12">

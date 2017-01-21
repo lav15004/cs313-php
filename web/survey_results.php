@@ -86,7 +86,7 @@ $nightlight_array = array();
     </div>
     <div class="jumbotron">
       <?php
-      $myfiler = fopen("newfile.txt", "r") or die("<h2>No Survey Result Recorded</h2>");
+      $myfiler = fopen("newfile.txt", "r") or die("<h2>No Survey Results Recorded</h2>");
       while(!feof($myfiler)) {
           $rowarray=array();
           $rowarray = explode("|",fgets($myfiler));
