@@ -15,7 +15,8 @@
 
     <?php
     $cont = $_POST['cont'];
-    $cont_array = array("na"=>"North America","sa"=>"South America","eu"=>"Europe","as"=>"Asia","au"=>"Australia","af"=>"Africa","an"=>"Antarctica");
+    $cont_array = array("North America"=>"na","South America"=>"sa","Europe"=>"eu","Asia"=>"as","Australia"=>"au",
+        "Africa"=>"af","Antarctica"=>"an");
     if(empty($cont))
     {
         echo("You didn't select any Continents.");
