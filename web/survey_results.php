@@ -102,7 +102,7 @@
             array_push($nightlight_array,$rowarray[4]);
         }
         fclose($myfiler);
-        foreach($bed_array as $ans => $freq) {
+        foreach($bed_array as $freq => $ans) {
           echo $ans."<br>";
           echo $freq."<br>";
           echo (($freq/count($bed_array))*100)."%<br>";
