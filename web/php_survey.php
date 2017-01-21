@@ -65,8 +65,6 @@
     <div class="row">
       <div class="col-lg-12">
         <br />
-        <br />
-        <br />
       </div>
     </div>
     <form method="post" action="survey_results.php" onsubmit="return isValid();">
