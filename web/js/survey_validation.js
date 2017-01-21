@@ -4,10 +4,10 @@ function isValid() {
         || document.forms['catdog'].value == ""
         || document.forms['sing'].value == ""
         || document.forms['nightlight'].value == ""
-
     ) {
         alert('Error: All survey questions must be answered.');
         return false;
     }
+    alert('it ran');
     return true;
 }
