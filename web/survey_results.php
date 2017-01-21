@@ -126,13 +126,12 @@ fclose($myfiler);
           </div>
           <div class="col-sm-7">
             <?php
-            echo "<br><label>Current Survey Results are:</label><br>";
+            echo "<label>Current Survey Results are:</label><br>";
             $occurances = array_count_values($bed_array);
             foreach($occurances as $ans => $freq) {
                 $freq_percent = round((($freq/count($bed_array))*100),2,PHP_ROUND_HALF_UP);
                 echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
             }
-            echo "<hr>";
             ?>
           </div>
         </div>
@@ -147,13 +146,12 @@ fclose($myfiler);
           </div>
           <div class="col-sm-7">
               <?php
-                echo "<br><label>Current Survey Results are:</label><br>";
+                echo "<label>Current Survey Results are:</label><br>";
                 $occurances = array_count_values($clown_array);
                 foreach($occurances as $ans => $freq) {
                     $freq_percent = round((($freq/count($clown_array))*100),2,PHP_ROUND_HALF_UP);
                     echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
                 }
-                echo "<hr>";
               ?>
           </div>
         </div>
@@ -168,13 +166,12 @@ fclose($myfiler);
           </div>
           <div class="col-sm-7">
               <?php
-                echo "<br><label>Current Survey Results are:</label><br>";
+                echo "<label>Current Survey Results are:</label><br>";
                 $occurances = array_count_values($catdog_array);
                 foreach($occurances as $ans => $freq) {
                     $freq_percent = round((($freq/count($catdog_array))*100),2,PHP_ROUND_HALF_UP);
                     echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
                 }
-                echo "<hr>";
               ?>
           </div>
         </div>
@@ -189,13 +186,12 @@ fclose($myfiler);
           </div>
           <div class="col-sm-7">
               <?php
-                echo "<br><label>Current Survey Results are:</label><br>";
+                echo "<label>Current Survey Results are:</label><br>";
                 $occurances = array_count_values($sing_array);
                 foreach($occurances as $ans => $freq) {
                     $freq_percent = round((($freq/count($sing_array))*100),2,PHP_ROUND_HALF_UP);
                     echo "\"$ans\" was selected $freq time(s) which is a frequency of $freq_percent%<br>";
                 }
-                echo "<hr>";
               ?>
           </div>
         </div>
@@ -210,7 +206,7 @@ fclose($myfiler);
           </div>
           <div class="col-sm-7">
               <?php
-              echo "<br><label>Current Survey Results are:</label><br>";
+              echo "<label>Current Survey Results are:</label><br>";
               $occurances = array_count_values($nightlight_array);
               foreach($occurances as $ans => $freq) {
                   $freq_percent = round((($freq/count($nightlight_array))*100),2,PHP_ROUND_HALF_UP);
