@@ -75,7 +75,7 @@
         <a href="week2team.php" class="list-group-item">Week 02: Team</a>
         <a href="index.php" class="list-group-item">Week 02: Personal Homepage</a>
         <a href="week3team.php" class="list-group-item">Week 03: Team</a>
-        <a href="php_survey.php">03 Prove : Assignment - PHP Survey</a>
+        <a href="php_survey.php" class="list-group-item">03 Prove : Assignment - PHP Survey</a>
       </div>
     </div>
   </div>
