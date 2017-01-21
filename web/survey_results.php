@@ -100,7 +100,6 @@
                 array_push($nightlight_array,$rowarray[4]);
             }
         }
-        print_r($bed_array);
         fclose($myfiler);
         foreach(array_count_values($bed_array) as $ans => $freq) {
           echo $ans."<br>";
