@@ -102,6 +102,7 @@
             array_push($nightlight_array,$rowarray[4]);
         }
         fclose($myfiler);
+        print_r($bed_array."<br><br><br>");
         foreach($bed_array as $freq => $ans) {
           echo $ans."<br>";
           echo $freq."<br>";
