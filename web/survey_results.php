@@ -92,6 +92,7 @@
         while(!feof($myfiler)) {
             $rowarray=null;
             $rowarray = explode("|",fgets($myfiler));
+            print_r($rowarray);
             if ($rowarray[0] != ""){
                 $bed_array = $rowarray[0];
                 array_push($clown_array,$rowarray[1]);
@@ -101,6 +102,7 @@
             }
         }
         fclose($myfiler);
+        print_r(array_count_values($bed_array));
         foreach(array_count_values($bed_array) as $ans => $freq) {
           echo $ans."<br>";
           echo $freq."<br>";
