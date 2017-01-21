@@ -49,6 +49,7 @@
             <li><a href="hello.html">Hello World</a></li>
             <li><a href="week2team.php">Week 02: Team</a></li>
             <li><a href="index.php">Week 02: Personal Homepage</a></li>
+            <li><a href="week3team.php">Week 03: Team</a></li>
           </ul>
         </li>
       </ul>
