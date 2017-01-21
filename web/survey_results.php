@@ -87,6 +87,10 @@
         }
         // stuff to read file and display results
         $bed_array = array();
+        $clown_array = array();
+        $catdog_array = array();
+        $sing_array = array();
+        $nightlight_array = array();
 
         $myfiler = fopen("newfile.txt", "r") or die("Unable to open file!");
         while(!feof($myfiler)) {
@@ -103,10 +107,10 @@
         }
         fclose($myfiler);
         $occurances = array_count_values($bed_array);
+        $bed_stats = array();
         foreach($occurances as $ans => $freq) {
-          echo $ans."<br>";
-          echo $freq."<br>";
-          echo (($freq/count($bed_array))*100)."%<br>";
+          $freq_percent = round((($freq/count($bed_array))*100),2,PHP_ROUND_HALF_UP);
+          echo "$ans was selected $freq time which is $freq_percent%";
       }
       ?>
       </div>
