@@ -72,14 +72,14 @@
           $bed = htmlspecialchars($_POST["bed"]);
           $clown = htmlspecialchars($_POST["clown"]);
           $catdog = htmlspecialchars($_POST["catdog"]);
-          $sing = htmlspecialchars($_POST["sig"]);
+          $sing = htmlspecialchars($_POST["sing"]);
           $nightlight = htmlspecialchars($_POST["nightlight"]);
 
           echo "<span>$bed</span><br /><br />";
           echo "<span>$clown</span><br /><br />";
           echo "<span>$catdog</span><br /><br />";
           echo "<span>$sing</span><br /><br />";
-          echo "<span>$nighlight</span><br /><br />";
+          echo "<span>$nightlight</span><br /><br />";
         }
         // stuff to read file and display results
       ?>
