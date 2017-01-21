@@ -74,7 +74,7 @@
           $catdog = htmlspecialchars($_POST["catdog"]);
           $sing = htmlspecialchars($_POST["sing"]);
           $nightlight = htmlspecialchars($_POST["nightlight"]);
-          $inputrow = "$bed,$clown,$catdog,$sing,$nightlight";
+          $inputrow = "$bed,$clown,$catdog,$sing,$nightlight\n";
           $myfilea = fopen("newfile.txt", "a") or die("Unable to open file!");
           fwrite($myfilea,$inputrow);
           fclose($myfilea);
