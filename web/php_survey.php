@@ -45,7 +45,7 @@
             <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li class="active"><a href="assignments.php">Assignments Page</a></li>
+                <li><a href="assignments.php">Assignments Page</a></li>
                 <li><a href="hello.html">Hello World</a></li>
                 <li><a href="week2team.php">Week 02: Team</a></li>
                 <li><a href="index.php">Week 02: Personal Homepage</a></li>
