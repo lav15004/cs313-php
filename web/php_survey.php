@@ -1,3 +1,10 @@
+<?php
+session_start();
+if ($_SESSION["completed"]=="true") {
+  header("location: https://blooming-badlands-28848.herokuapp.com/survey_results.php");
+  exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

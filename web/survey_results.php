@@ -1,6 +1,7 @@
 <?php
+session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+    $_SESSION["completed"]="true";
     $bed = htmlspecialchars($_POST["bed"]);
     $clown = htmlspecialchars($_POST["clown"]);
     $catdog = htmlspecialchars($_POST["catdog"]);
