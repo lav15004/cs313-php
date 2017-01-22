@@ -51,6 +51,7 @@
             <li><a href="index.php">Week 02: Personal Homepage</a></li>
             <li><a href="week3team.php">Week 03: Team</a></li>
             <li><a href="php_survey.php">03 Prove : Assignment - PHP Survey</a></li>
+            <li><a href="survey_results.php">03 Prove : PHP Survey Results</a></li>
           </ul>
         </li>
       </ul>
