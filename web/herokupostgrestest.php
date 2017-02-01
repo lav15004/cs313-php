@@ -16,15 +16,15 @@ $dbopts = parse_url($dbUrl);
 print "<p>$dbUrl</p>\n\n";
 
 $dbHost = $dbopts["host"];
-echo "<br />";
+echo "$dbHost<br />";
 $dbPort = $dbopts["port"];
-echo "<br />";
+echo "$dbPort<br />";
 $dbUser = $dbopts["user"];
-echo "<br />";
+echo "$dbUser<br />";
 $dbPassword = $dbopts["pass"];
-echo "<br />";
+echo "$dbPassword<br />";
 $dbName = ltrim($dbopts["path"],'/');
-echo "<br />";
+echo "$dbname<br />";
 
 print "<p>pgsql:host=$dbHost;port=$dbPort;dbname=$dbName</p>\n\n";
 
