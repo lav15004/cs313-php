@@ -16,10 +16,15 @@ $dbopts = parse_url($dbUrl);
 print "<p>$dbUrl</p>\n\n";
 
 $dbHost = $dbopts["host"];
+echo "<br />";
 $dbPort = $dbopts["port"];
+echo "<br />";
 $dbUser = $dbopts["user"];
+echo "<br />";
 $dbPassword = $dbopts["pass"];
+echo "<br />";
 $dbName = ltrim($dbopts["path"],'/');
+echo "<br />";
 
 print "<p>pgsql:host=$dbHost;port=$dbPort;dbname=$dbName</p>\n\n";
 
@@ -36,6 +41,10 @@ foreach ($db->query('SELECT now()') as $row)
  print "<p>$row[0]</p>\n\n";
 }
 
+foreach ($db->query('SELECT * from scriptures') as $row)
+{
+ print "<p>$row[4]</p>\n\n";
+}
 ?>
 
 </body>
