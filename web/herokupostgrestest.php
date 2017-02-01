@@ -24,7 +24,7 @@ echo "$dbUser<br />";
 $dbPassword = $dbopts["pass"];
 echo "$dbPassword<br />";
 $dbName = ltrim($dbopts["path"],'/');
-echo "$dbname<br />";
+echo "$dbName<br />";
 
 print "<p>pgsql:host=$dbHost;port=$dbPort;dbname=$dbName</p>\n\n";
 
