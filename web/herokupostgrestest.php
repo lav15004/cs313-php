@@ -43,7 +43,7 @@ foreach ($db->query('SELECT now()') as $row)
 
 foreach ($db->query('SELECT * from scriptures') as $row)
 {
- print "<p>$row[1] $row[2]:$row[4] - "$row[4]"</p>\n\n";
+ print "<p>$row[1] $row[2]:$row[3] - \"$row[4]\"</p>\n\n";
 }
 ?>
 
