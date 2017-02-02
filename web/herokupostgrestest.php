@@ -1,4 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/cs313-php.css">
+</head>
 <body>
 
 <?php
@@ -34,7 +39,7 @@ foreach ($db->query('SELECT now()') as $row)
 
 foreach ($db->query('SELECT * from scriptures') as $row)
 {
- print "<p>$row[1] $row[2]:$row[3] - \"$row[4]\"</p>\n\n";
+ print "<p><span id='scriptref'>$row[1]</span> $row[2]:$row[3] - \"$row[4]\"</p>\n\n";
 }
 ?>
 
