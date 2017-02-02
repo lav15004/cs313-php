@@ -20,12 +20,13 @@ session_start();
 include 'dbstuff.inc';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $searchval = htmlspecialchars($_POST["searchval"]);
+    echo $searchval;
     include 'dbstuff.inc';
 
 
 
     foreach ($db->query('SELECT book, chapter, verse from scriptures WHERE 
-        book = $searchval') as $row)
+        book = "'. $searchval .'"' ) as $row)
     {
         print "<p><span id='scriptref'>$row[0] $row[1]:$row[2]</span></p>\n\n";
     }
