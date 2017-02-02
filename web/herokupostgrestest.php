@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Scripture Resources</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/cs313-php.css">
 </head>
 <body>
-
+<h1>Scripture Resources</h1>
+<br />
 <?php
 include 'dbstuff.inc';
 
 
-foreach ($db->query('SELECT now()') as $row)
-{
- print "<p>$row[0]</p>\n\n";
-}
 
 foreach ($db->query('SELECT * from scriptures') as $row)
 {
