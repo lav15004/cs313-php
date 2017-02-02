@@ -16,6 +16,7 @@ foreach ($db->query('SELECT * from scriptures where id='.$_GET["id"]) as $row)
     print "<p><span id='scriptref'>$row[1] $row[2]:$row[3]</span> - \"$row[4]\"</p>\n\n";
 }
 ?>
-
+<br />
+<a href="scripture_search.php">Back to Scripture Resources - Search Page</a>
 </body>
 </html>
