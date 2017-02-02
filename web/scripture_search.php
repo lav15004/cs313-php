@@ -21,12 +21,11 @@ include 'dbstuff.inc';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $searchval = htmlspecialchars($_POST["searchval"]);
     echo $searchval;
+    echo "<br />";
     include 'dbstuff.inc';
-
-
-
-    foreach ($db->query('SELECT book, chapter, verse from scriptures WHERE 
-        book = "'. $searchval .'"' ) as $row)
+    $sqlstring = 'SELECT book, chapter, verse from scriptures WHERE book = "'. $searchval .'"';
+    echo $sqlstring;
+    foreach ($db->query($sqlstring) as $row)
     {
         print "<p><span id='scriptref'>$row[0] $row[1]:$row[2]</span></p>\n\n";
     }
