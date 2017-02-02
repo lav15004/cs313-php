@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Scripture Resources</title>
+    <title>Scripture Resources - Search Page</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/cs313-php.css">
 </head>
@@ -28,5 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+<hr>
+<a href="week5group1.php">Initial Core Requirements Page</a>
 </body>
 </html>
