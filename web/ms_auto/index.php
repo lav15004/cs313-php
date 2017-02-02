@@ -6,16 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <link rel="stylesheet" href="css/cs313-php.css">
+  <link rel="stylesheet" href="../css/cs313-php.css">
 
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="../favicon.ico">
+  <link rel="icon" href=".././favicon.ico">
 
   <title>Aaron Lavold - CS 313: 02 (Online)</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -138,8 +138,8 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
