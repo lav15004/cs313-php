@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo $searchval;
     echo "<br />";
     include 'dbstuff.inc';
-    $sqlstring = 'SELECT book, chapter, verse from scriptures WHERE book = "'. $searchval .'"';
+    $sqlstring = 'SELECT book, chapter, verse from scriptures WHERE book = \''. $searchval .'\'';
     echo $sqlstring;
     foreach ($db->query($sqlstring) as $row)
     {
