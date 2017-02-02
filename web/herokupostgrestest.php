@@ -9,7 +9,7 @@
 <?php
 include 'dbstuff.inc';
 
-print "<p>$dbUrl</p>\n\n";
+/*print "<p>$dbUrl</p>\n\n";
 
 $dbHost = $dbopts["host"];
 echo "$dbHost<br />";
@@ -22,7 +22,7 @@ echo "$dbPassword<br />";
 $dbName = ltrim($dbopts["path"],'/');
 echo "$dbName<br />";
 
-print "<p>pgsql:host=$dbHost;port=$dbPort;dbname=$dbName</p>\n\n";
+print "<p>pgsql:host=$dbHost;port=$dbPort;dbname=$dbName</p>\n\n";*/
 
 try {
  $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
