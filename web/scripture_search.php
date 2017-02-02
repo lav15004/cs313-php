@@ -11,7 +11,7 @@
 <form method="post" action="">
     <label for="searchval">Enter search term:</label>
     <input type="text" name="searchval" id="searchval">
-    <button name="submit" type="submit">Submit</button>
+    <button name="submit" type="submit">Go!</button>
 </form>
 <?php
 include 'dbstuff.inc';
