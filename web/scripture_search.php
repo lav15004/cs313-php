@@ -11,7 +11,7 @@ session_start();
 <body>
 <h1>Scripture Resources</h1>
 <br />
-<form method="post" action="#">
+<form method="post" action="?">
     <label for="searchval">Enter search term:</label>
     <input type="text" name="searchval" id="searchval">
     <button type="submit">Submit</button>
