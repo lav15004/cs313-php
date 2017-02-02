@@ -14,6 +14,7 @@ session_start();
 <form method="post" action="#">
     <label for="searchval">Enter search term:</label>
     <input type="text" name="searchval" id="searchval">
+    <button type="submit">Submit</button>
 </form>
 <?php
 include 'dbstuff.inc';
