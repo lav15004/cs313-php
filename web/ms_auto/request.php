@@ -43,10 +43,11 @@ include '../dbstuff.inc';
       $sql_string = "select ms_server_list_id as server_id, (environment_name ||
         ' (' || environment_version ||')' ) as env from ms_environments e join ms_server_list s on
         e.ms_environment_id = s.ms_environment_id";
+
       echo $sql_string;
-      $statement = $db->prepare($sql_string);
+      $statement = $db->prepare(html_entity_decode($sql_string));
       $statement->execute();
-      
+
       // Go through each result
       while ($row = $statement->fetch(PDO::FETCH_ASSOC))
       {
