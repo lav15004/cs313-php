@@ -44,12 +44,17 @@ include 'inc/dbstuff.inc';
   <input type="text" name="project_name" id="project_name">
   <br /><br />
   <button style="submit" name="submit">Search</button>
+  <div class="row hidden">
+    <div class="col-lg-12">
+      <span>test</span>
+    </div>
+  </div>
   <br /><br />
-  <?php
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-  }
-  ?>
+    }
+    ?>
 </div>
 </form>
 <!-- Bootstrap core JavaScript
