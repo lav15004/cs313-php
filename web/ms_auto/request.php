@@ -40,8 +40,7 @@ include '../dbstuff.inc';
 
 
       <?php
-      $sql_string = "select s.ms_server_list_id as server_id, e.environment_name as env from ms_environments e join ms_server_list s on
-        e.ms_environment_id = s.ms_environment_id";
+      $sql_string = "select s.ms_server_list_id as server_id, e.environment_name as env from ms_environments e join ms_server_list s on e.ms_environment_id = s.ms_environment_id";
 
       echo $sql_string;
       $statement = $db->prepare(html_entity_decode($sql_string));
@@ -54,7 +53,7 @@ include '../dbstuff.inc';
           // row, and we can access the different values based on their
           // name
           echo '<p>';
-          echo '<strong>' . $row[0] . ' ' . $row[1] . ':';
+          echo '<strong>' . $row['server_id'] . ' ' . $row['env'] . ':';
           echo '</p>';
       }
       ?>
