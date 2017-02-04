@@ -42,8 +42,14 @@ include 'inc/dbstuff.inc';
   <br /><br />
   <div class="row">
     <div class="col-sm-12">
-      <label for="userid">User ID: </label>
-      <input type="text" name="userid" id="userid">
+      <table>
+        <tr>
+          <td><label for="userid">User ID: </label></td>
+          <td><input type="text" name="userid" id="userid"></td>
+        </tr>
+      </table>
+
+      
     </div>
   </div>
   <br />
