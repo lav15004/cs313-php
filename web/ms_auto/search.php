@@ -52,6 +52,7 @@ include 'inc/dbstuff.inc';
   <input type="text" name="project_name" id="project_name">
   <br /><br />
   <button style="submit" name="submit">Search</button>
+  <br /><br />
   <div id="sr_table" class="row">
     <div class="col-lg-12">
       <table class="table table-striped">
