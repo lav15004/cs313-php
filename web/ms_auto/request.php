@@ -41,21 +41,21 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
   <div class="row">
-    <div class="col-sm-offset-1 col-sm-11">
+    <div class="col-md-offset-1 col-md-11">
       <label class="requestFormlbl" for="userid">User ID: </label>
       <input type="text" name="userid" id="userid">
     </div>
   </div>
   <br />
   <div class="row">
-    <div class="col-sm-offset-1 col-sm-11">
+    <div class="col-md-offset-1 col-md-11">
       <label class="requestFormlbl"  for="last_first">Name (Last, First): </label>
       <input type="text" name="last_first" id="last_first">
     </div>
   </div>
   <br />
   <div class="row">
-    <div class="col-sm-offset-1 col-sm-11">
+    <div class="col-md-offset-1 col-md-11">
       <label class="requestFormlbl"  for="ddl_env">Environment: </label>
       <select name="ddl_env">
         <option value="">Select Environment...</option>
@@ -74,7 +74,7 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <div class="row">
-    <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">
+    <div class="col-md-offset-1 col-md-11">
       <label class="requestFormlbl"  for="ddl_env">Project: </label>
       <select name="ddl_env">
         <option value="">Select Project...</option>
@@ -93,7 +93,7 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <div class="row">
-    <div class="col-sm-offset-1 col-sm-11">
+    <div class="col-md-offset-1 col-md-11">
       <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
       <select name="ddl_env">
         <option value="">Select Access Type...</option>
@@ -112,7 +112,7 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <div class="row">
-    <div class="col-sm-offset-1 col-sm-11">
+    <div class="col-md-offset-1 col-md-11">
       <button type="submit" name="submit" id="submit">Submit</button>
     </div>
   </div>
