@@ -28,6 +28,7 @@ include 'inc/dbstuff.inc';
 </head>
 
 <body>
+<form method="post" action="">
 <div class="container">
   <?php include 'navbar.inc' ?>
   <div class="row">
@@ -37,15 +38,20 @@ include 'inc/dbstuff.inc';
       <br />
     </div>
   </div>
+  <br />
+  <br />
   <label for="project_name">Project Name: </label>
   <input type="text" name="project_name" id="project_name">
   <br /><br />
   <button style="submit" name="submit">Search</button>
   <br /><br />
+  <?php
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-
+  }
+  ?>
 </div>
-
+</form>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
