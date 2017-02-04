@@ -37,7 +37,7 @@ include 'inc/dbstuff.inc';
       <br />
     </div>
   </div>
-  <label for="ddl_env">MicroStrategy Environment: </label>
+  <label for="ddl_env">Environment: </label>
   <select name="ddl_env">
     <option value="">Select Environment...</option>
       <?php
@@ -54,9 +54,9 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
 
-  <label for="ddl_env">MicroStrategy Environment: </label>
+  <label for="ddl_env">Project: </label>
   <select name="ddl_env">
-    <option value="">Select Environment...</option>
+    <option value="">Select Project...</option>
       <?php
       $sql_string = "select ms_project_id, project_name from ms_projects";
       echo $sql_string;
