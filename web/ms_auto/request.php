@@ -74,7 +74,7 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <div class="row">
-    <div class="col-lg-offset-1 col-lg-11">
+    <div class="col-xs-offset-1 col-xs-11">
       <label class="requestFormlbl"  for="ddl_env">Project: </label>
       <select name="ddl_env">
         <option value="">Select Project...</option>
