@@ -53,7 +53,7 @@ include 'inc/dbstuff.inc';
       <input type="text" name="last_first" id="last_first">
     </div>
   </div>
-  <br /><br />
+  <br />
   <div class="row">
     <div class="col-sm-offset-1 col-sm-11">
       <label class="requestFormlbl"  for="ddl_env">Environment: </label>
@@ -72,6 +72,7 @@ include 'inc/dbstuff.inc';
       </select>
     </div>
   </div>
+  <br />
   <div class="row">
     <div class="col-sm-offset-1 col-sm-11">
       <label class="requestFormlbl"  for="ddl_env">Project: </label>
@@ -90,6 +91,7 @@ include 'inc/dbstuff.inc';
       </select>
     </div>
   </div>
+  <br />
   <div class="row">
     <div class="col-sm-offset-1 col-sm-11">
       <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
@@ -108,13 +110,13 @@ include 'inc/dbstuff.inc';
       </select>
     </div>
   </div>
-  <br /><br />
+  <br />
   <div class="row">
     <div class="col-sm-offset-1 col-sm-11">
       <button type="submit" name="submit" id="submit">Submit</button>
     </div>
   </div>
-  <br /><br />
+  <br />
 </div>
 <br />
 <!-- Bootstrap core JavaScript
