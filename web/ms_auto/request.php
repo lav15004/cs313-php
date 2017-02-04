@@ -40,9 +40,18 @@ include 'inc/dbstuff.inc';
   </div>
 
   <br /><br />
-
-  <label for="userid">User ID: </label>
-  <input type="text" name="userid" id="userid">
+  <div class="row">
+    <div class="col-lg-12">
+      <label for="userid">User ID: </label>
+      <input type="text" name="userid" id="userid">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <label for="userid">User ID: </label>
+      <input type="text" name="userid" id="userid">
+    </div>
+  </div>
   <br /><br />
   <label for="last_first">Name (Last, First): </label>
   <input type="text" name="last_first" id="last_first">
