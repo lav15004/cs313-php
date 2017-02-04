@@ -49,8 +49,7 @@ include 'inc/dbstuff.inc';
     <div class="col-lg-1">
       <input type="text" name="userid" id="userid">
     </div>
-    <div class="col-lg-9">
-    </div>
+
   </div>
   <br />
   <div class="row">
