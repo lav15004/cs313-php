@@ -18,13 +18,13 @@ include 'inc/dbstuff.inc';
   <title>Aaron Lavold - CS 313: 02 (Online)</title>
 
     <?php
-    echo '<script type="text/css">';
+    echo '<style type="text/css">';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "#sr_table { visibility: hidden;}";
     }else{
         echo "#sr_table { visibility: visible;}";
     }
-    echo "</script>";
+    echo "</<style>";
     ?>
 
   <!-- Bootstrap core CSS -->
