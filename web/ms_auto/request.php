@@ -38,25 +38,17 @@ include 'inc/dbstuff.inc';
     </div>
   </div>
 
-
+  <select name="ddl_env">
       <?php
       $sql_string = "select server_id, env from env_for_ddl";
       echo $sql_string;
       $statement = $db->prepare(html_entity_decode($sql_string));
       $statement->execute();
-
-      // Go through each result
       while ($row = $statement->fetch(PDO::FETCH_ASSOC))
       {
-          // The variable "row" now holds the complete record for that
-          // row, and we can access the different values based on their
-          // name
-          echo '<p>';
-          echo '<strong>' . $row['server_id'] . ' ' . $row['env'] . ':';
-          echo '</p>';
+        echo "<option value='".$row['server_id']."'>".$row['env']."</option>";
       }
       ?>
-  <select name="ddl_env">
   </select>
 
 
