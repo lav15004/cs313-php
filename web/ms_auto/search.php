@@ -24,6 +24,12 @@ include 'inc/dbstuff.inc';
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script type="javascript">
+    function showOrHide(id) {
+      var elem = document.getElementById(id);
+      elem.style.visibility = (elem.style.visibility === 'hidden')? 'visible' : 'hidden';
+    }
+  </script>
   <![endif]-->
 </head>
 
@@ -44,7 +50,7 @@ include 'inc/dbstuff.inc';
   <input type="text" name="project_name" id="project_name">
   <br /><br />
   <button style="submit" name="submit">Search</button>
-  <div class="row hidden">
+  <div id="sr_table" class="row hidden">
     <div class="col-lg-12">
       <span>test</span>
     </div>
@@ -52,7 +58,7 @@ include 'inc/dbstuff.inc';
   <br /><br />
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+        echo '<script type="text/javascript">'.'jsfunction();'.'</script>';
     }
     ?>
 </div>
