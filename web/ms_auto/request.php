@@ -48,63 +48,73 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-offset-1 col-sm-11">
       <label class="requestFormlbl"  for="last_first">Name (Last, First): </label>
       <input type="text" name="last_first" id="last_first">
     </div>
   </div>
   <br /><br />
-  <br />
-  <label class="requestFormlbl"  for="ddl_env">Environment: </label>
-  <select name="ddl_env">
-    <option value="">Select Environment...</option>
-      <?php
-      $sql_string = "select server_id, env from env_for_ddl";
-      echo $sql_string;
-      $statement = $db->prepare(html_entity_decode($sql_string));
-      $statement->execute();
-      while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-      {
-        echo "<option value='".$row['server_id']."'>".$row['env']."</option>";
-      }
-      ?>
-  </select>
-
+  <div class="row">
+    <div class="col-sm-offset-1 col-sm-11">
+      <label class="requestFormlbl"  for="ddl_env">Environment: </label>
+      <select name="ddl_env">
+        <option value="">Select Environment...</option>
+          <?php
+          $sql_string = "select server_id, env from env_for_ddl";
+          echo $sql_string;
+          $statement = $db->prepare(html_entity_decode($sql_string));
+          $statement->execute();
+          while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+          {
+              echo "<option value='".$row['server_id']."'>".$row['env']."</option>";
+          }
+          ?>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-offset-1 col-sm-11">
+      <label class="requestFormlbl"  for="ddl_env">Project: </label>
+      <select name="ddl_env">
+        <option value="">Select Project...</option>
+          <?php
+          $sql_string = "select ms_project_id, project_name from ms_projects";
+          echo $sql_string;
+          $statement = $db->prepare(html_entity_decode($sql_string));
+          $statement->execute();
+          while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+          {
+              echo "<option value='".$row['ms_project_id']."'>".$row['project_name']."</option>";
+          }
+          ?>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-offset-1 col-sm-11">
+      <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
+      <select name="ddl_env">
+        <option value="">Select Access Type...</option>
+          <?php
+          $sql_string = "select ms_request_type_id, request_type from ms_request_types";
+          echo $sql_string;
+          $statement = $db->prepare(html_entity_decode($sql_string));
+          $statement->execute();
+          while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+          {
+              echo "<option value='".$row['ms_request_type_id']."'>".$row['request_type']."</option>";
+          }
+          ?>
+      </select>
+    </div>
+  </div>
   <br /><br />
-
-  <label class="requestFormlbl"  for="ddl_env">Project: </label>
-  <select name="ddl_env">
-    <option value="">Select Project...</option>
-      <?php
-      $sql_string = "select ms_project_id, project_name from ms_projects";
-      echo $sql_string;
-      $statement = $db->prepare(html_entity_decode($sql_string));
-      $statement->execute();
-      while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-      {
-          echo "<option value='".$row['ms_project_id']."'>".$row['project_name']."</option>";
-      }
-      ?>
-  </select>
-
+  <div class="row">
+    <div class="col-sm-offset-1 col-sm-11">
+      <button type="submit" name="submit" id="submit">Submit</button>
+    </div>
+  </div>
   <br /><br />
-
-  <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
-  <select name="ddl_env">
-    <option value="">Select Access Type...</option>
-      <?php
-      $sql_string = "select ms_request_type_id, request_type from ms_request_types";
-      echo $sql_string;
-      $statement = $db->prepare(html_entity_decode($sql_string));
-      $statement->execute();
-      while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-      {
-          echo "<option value='".$row['ms_request_type_id']."'>".$row['request_type']."</option>";
-      }
-      ?>
-  </select>
-  <br /><br />
-  <button type="submit" name="submit" id="submit">Submit</button>
 </div>
 <br />
 <!-- Bootstrap core JavaScript
