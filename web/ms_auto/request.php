@@ -44,6 +44,7 @@ include '../dbstuff.inc';
         ' (' || environment_version ||')' ) as env from ms_environments e join ms_server_list s on
         e.ms_environment_id = s.ms_environment_id");
       $statement->execute();
+      echo $statement;
       // Go through each result
       while ($row = $statement->fetch(PDO::FETCH_ASSOC))
       {
