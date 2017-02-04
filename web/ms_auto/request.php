@@ -39,6 +39,7 @@ include 'inc/dbstuff.inc';
   </div>
 
   <select name="ddl_env">
+    <option value="">Select Environment...</option>
       <?php
       $sql_string = "select server_id, env from env_for_ddl";
       echo $sql_string;
