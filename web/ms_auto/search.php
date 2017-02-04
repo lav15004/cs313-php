@@ -37,7 +37,11 @@ include 'inc/dbstuff.inc';
       <br />
     </div>
   </div>
-
+  <label for="project_name">Project Name: </label>
+  <input type="text" name="project_name" id="project_name">
+  <br /><br />
+  <button style="submit" name="submit">Search</button>
+  <br /><br />
 
 
 </div>
