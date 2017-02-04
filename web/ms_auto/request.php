@@ -44,7 +44,7 @@ include 'inc/dbstuff.inc';
     <div class="col-lg-1">
     </div>
     <div class="col-lg-1">
-      <label for="userid">User ID: </label>
+      <label style="width: 80px" for="userid">User ID: </label>
     </div>
     <div class="col-lg-1">
       <input type="text" name="userid" id="userid">
