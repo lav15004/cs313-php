@@ -95,7 +95,7 @@ include 'inc/dbstuff.inc';
       }
       ?>
   </select>
-  <br />
+  <br /><br />
   <button type="submit" name="submit" id="submit">Submit</button>
 </div>
 <br />
