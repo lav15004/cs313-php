@@ -38,7 +38,7 @@ include '../dbstuff.inc';
     </div>
   </div>
 
-  <select name="ddl_env">
+
       <?php
       $statement = $db->prepare("select ms_server_list_id as server_id, (environment_name ||
         ' (' || environment_version ||')' ) as env from ms_environments e join ms_server_list s on
@@ -55,6 +55,7 @@ include '../dbstuff.inc';
           echo '</p>';
       }
       ?>
+  <select name="ddl_env">
   </select>
 
 
