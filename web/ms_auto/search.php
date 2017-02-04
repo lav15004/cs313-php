@@ -21,9 +21,9 @@ include 'inc/dbstuff.inc';
     <?php
     echo "<script type='text/css'>";
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        echo "#sr_table { visibility:true };";
+        echo "#sr_table { visibility:visible };";
     }else{
-        echo "#sr_table { visibility:false };";
+        echo "#sr_table { visibility:hidden};";
     }
     echo "</script>";
     ?>
