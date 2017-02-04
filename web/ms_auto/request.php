@@ -52,6 +52,22 @@ include 'inc/dbstuff.inc';
       ?>
   </select>
 
+  <br /><br />
+
+  <label for="ddl_env">MicroStrategy Environment: </label>
+  <select name="ddl_env">
+    <option value="">Select Environment...</option>
+      <?php
+      $sql_string = "select ms_project_id, project_name from ms_projects";
+      echo $sql_string;
+      $statement = $db->prepare(html_entity_decode($sql_string));
+      $statement->execute();
+      while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+      {
+          echo "<option value='".$row['ms_project_id']."'>".$row['project_name']."</option>";
+      }
+      ?>
+  </select>
 
 </div>
 
