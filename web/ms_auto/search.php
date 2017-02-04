@@ -64,7 +64,7 @@ include 'inc/dbstuff.inc';
         </tr>
           <?php
           if ($_SERVER["REQUEST_METHOD"] == "POST") {
-              $sql_string = "select * from vw_queue";
+              $sql_string = "select * from vw_queue where name = '".$_POST["project_name"]."';";
               $statement = $db->prepare(html_entity_decode($sql_string));
               $statement->execute();
               while ($row = $statement->fetch(PDO::FETCH_ASSOC))
