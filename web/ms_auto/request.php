@@ -43,13 +43,12 @@ include 'inc/dbstuff.inc';
   <div class="row">
     <div class="col-lg-2">
       <label for="userid">User ID: </label>
-
     </div>
     <div class="col-lg-10">
-
       <input type="text" name="userid" id="userid">
     </div>
   </div>
+  <br />
   <div class="row">
     <div class="col-lg-12">
       <label for="last_first">Name (Last, First): </label>
@@ -57,7 +56,7 @@ include 'inc/dbstuff.inc';
     </div>
   </div>
   <br /><br />
-  <br /><br />
+  <br />
   <label for="ddl_env">Environment: </label>
   <select name="ddl_env">
     <option value="">Select Environment...</option>
