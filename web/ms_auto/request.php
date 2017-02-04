@@ -38,6 +38,8 @@ include 'inc/dbstuff.inc';
     </div>
   </div>
 
+  <br /><br />
+
   <label for="userid">User ID: </label>
   <input type="text" name="userid" id="userid">
   <br /><br />
