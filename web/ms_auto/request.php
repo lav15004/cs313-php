@@ -1,5 +1,5 @@
 <?php
-include '../dbstuff.inc';
+include 'inc/dbstuff.inc';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,8 +40,7 @@ include '../dbstuff.inc';
 
 
       <?php
-      $sql_string = "select s.ms_server_list_id as server_id, e.environment_name as env from ms_environments e join ms_server_list s on e.ms_environment_id = s.ms_environment_id";
-
+      $sql_string = "select server_id, env from env_for_ddl";
       echo $sql_string;
       $statement = $db->prepare(html_entity_decode($sql_string));
       $statement->execute();
