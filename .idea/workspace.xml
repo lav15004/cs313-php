@@ -37,11 +37,11 @@
       <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+            <state relative-caret-position="374">
+              <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding>
-                <marker date="1486179856596" expanded="true" signature="1324:1354" ph="select * fro... ms_request_queue" />
-                <marker date="1486179856596" expanded="true" signature="1839:1917" ph="..." />
+                <marker date="1486180013313" expanded="true" signature="1338:1368" ph="select * fro... ms_request_queue" />
+                <marker date="1486180013313" expanded="true" signature="1853:1931" ph="..." />
               </folding>
             </state>
           </provider>
@@ -151,6 +151,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs313-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs313-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -236,12 +254,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486171329025</updated>
       <workItem from="1486171330318" duration="4132000" />
-      <workItem from="1486177574444" duration="2281000" />
+      <workItem from="1486177574444" duration="2444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6413000" />
+    <option name="totallyTimeSpent" value="6576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="446" y="36" width="1380" height="1040" extended-state="0" />
@@ -294,8 +312,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding>
-            <marker date="1486179856596" expanded="true" signature="1324:1354" ph="select * fro... ms_request_queue" />
-            <marker date="1486179856596" expanded="true" signature="1839:1917" ph="..." />
+            <marker date="1486180013313" expanded="true" signature="1338:1368" ph="select * fro... ms_request_queue" />
+            <marker date="1486180013313" expanded="true" signature="1853:1931" ph="..." />
           </folding>
         </state>
       </provider>
@@ -364,6 +382,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/cs313-php.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -374,11 +400,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
-            <marker date="1486179856596" expanded="true" signature="1324:1354" ph="select * fro... ms_request_queue" />
-            <marker date="1486179856596" expanded="true" signature="1839:1917" ph="..." />
+            <marker date="1486180013313" expanded="true" signature="1338:1368" ph="select * fro... ms_request_queue" />
+            <marker date="1486180013313" expanded="true" signature="1853:1931" ph="..." />
           </folding>
         </state>
       </provider>
