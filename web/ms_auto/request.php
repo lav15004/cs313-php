@@ -37,7 +37,7 @@ include 'inc/dbstuff.inc';
       <br />
     </div>
   </div>
-
+  <label for="ddl_env">MicroStrategy Environment</label>
   <select name="ddl_env">
     <option value="">Select Environment...</option>
       <?php
