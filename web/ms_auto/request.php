@@ -28,6 +28,7 @@ include 'inc/dbstuff.inc';
 </head>
 
 <body>
+<form method="post" action="">
 <div class="container">
   <?php include 'navbar.inc' ?>
   <div class="row">
@@ -95,6 +96,7 @@ include 'inc/dbstuff.inc';
       ?>
   </select>
   <br />
+  <button type="submit" name="submit" id="submit">Submit</button>
 </div>
 <br />
 <!-- Bootstrap core JavaScript
@@ -103,5 +105,6 @@ include 'inc/dbstuff.inc';
 <script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../js/jquery.min.js"><\/script>')</script>
 <script src="../js/bootstrap.min.js"></script>
+</form>
 </body>
 </html>
