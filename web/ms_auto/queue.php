@@ -48,17 +48,16 @@ include 'inc/dbstuff.inc';
     </tr>
     <?php
     $sql_string = "select * from ms_request_queue";
-    echo $sql_string;
     $statement = $db->prepare(html_entity_decode($sql_string));
     $statement->execute();
     while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
       echo "<tr>";
-      echo "<td>".$row[0]."</td>";
-      echo "<td>".$row[1]."</td>";
-      echo "<td>".$row[2]."</td>";
-      echo "<td>".$row[3]."</td>";
-      echo "<td>".$row[4]."</td>";
+      echo "<td>".$row['ms_request_queue_id']."</td>";
+      echo "<td>".$row['ms_project_id']."</td>";
+      echo "<td>".$row['ms_request_type_id']."</td>";
+      echo "<td>".$row['userid']."</td>";
+      echo "<td>".$row['lastname_firstname']."</td>";
       echo "</tr>";
     }
     ?>
