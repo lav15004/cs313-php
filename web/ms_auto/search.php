@@ -16,14 +16,13 @@ include 'inc/dbstuff.inc';
   <link rel="icon" href="../../favicon.ico">
 
   <title>Aaron Lavold - CS 313: 02 (Online)</title>
-  <script type="text/css">
-  </script>
+
     <?php
-    echo "<script type='text/css'>";
+    echo '<script type="text/css">';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        echo "#sr_table { visibility:visible };";
+        echo "#sr_table { visibility: hidden;}";
     }else{
-        echo "#sr_table { visibility:hidden};";
+        echo "#sr_table { visibility: visible;}";
     }
     echo "</script>";
     ?>
