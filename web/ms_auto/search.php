@@ -16,15 +16,20 @@ include 'inc/dbstuff.inc';
   <link rel="icon" href="../../favicon.ico">
 
   <title>Aaron Lavold - CS 313: 02 (Online)</title>
+  <script type="text/css">
+  </script>
+    <?php
+    echo "<script type='text/css'>";
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        echo "#sr_table { visibility:true };";
+    }else{
+        echo "#sr_table { visibility:false };";
+    }
+    echo "</script>";
+    ?>
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <script type="javascript">
-      function showOrHide(id) {
-          var elem = document.getElementById(id);
-          elem.style.visibility = (elem.style.visibility === 'hidden')? 'visible' : 'hidden';
-      }
-  </script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -58,7 +63,6 @@ include 'inc/dbstuff.inc';
   <br /><br />
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        echo "<script type='text/javascript'>showOrHide('sr_table');</script>";
         echo "boo";
     }
     else
