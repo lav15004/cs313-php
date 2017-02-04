@@ -55,7 +55,7 @@ include '../dbstuff.inc';
           // row, and we can access the different values based on their
           // name
           echo '<p>';
-          echo '<strong>' . $row['server_id'] . ' ' . $row['env'] . ':';
+          echo '<strong>' . $row[0] . ' ' . $row[1] . ':';
           echo '</p>';
       }
       ?>
