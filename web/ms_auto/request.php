@@ -41,16 +41,16 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
   <div class="row">
-    <div class="col-lg-1">
+    <div class="col-sm-1">
       <label for="userid">User ID: </label>
     </div>
-    <div class="col-lg-11">
+    <div class="col-sm-11">
       <input type="text" name="userid" id="userid">
     </div>
   </div>
   <br />
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-sm-12">
       <label for="last_first">Name (Last, First): </label>
       <input type="text" name="last_first" id="last_first">
     </div>
