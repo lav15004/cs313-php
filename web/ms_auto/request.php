@@ -41,26 +41,21 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
   <div class="row">
-    <div class="col-lg-1">
-    </div>
-    <div class="col-lg-1">
-      <label style="width: 80px" for="userid">User ID: </label>
-    </div>
-    <div class="col-lg-1">
+    <div class="col-lg-12">
+      <label class="requestFormlbl" for="userid">User ID: </label>
       <input type="text" name="userid" id="userid">
     </div>
-
   </div>
   <br />
   <div class="row">
     <div class="col-sm-12">
-      <label for="last_first">Name (Last, First): </label>
+      <label class="requestFormlbl"  for="last_first">Name (Last, First): </label>
       <input type="text" name="last_first" id="last_first">
     </div>
   </div>
   <br /><br />
   <br />
-  <label for="ddl_env">Environment: </label>
+  <label class="requestFormlbl"  for="ddl_env">Environment: </label>
   <select name="ddl_env">
     <option value="">Select Environment...</option>
       <?php
@@ -77,7 +72,7 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
 
-  <label for="ddl_env">Project: </label>
+  <label class="requestFormlbl"  for="ddl_env">Project: </label>
   <select name="ddl_env">
     <option value="">Select Project...</option>
       <?php
@@ -94,7 +89,7 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
 
-  <label for="ddl_env">Access Type: </label>
+  <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
   <select name="ddl_env">
     <option value="">Select Access Type...</option>
       <?php
