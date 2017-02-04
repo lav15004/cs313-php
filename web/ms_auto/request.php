@@ -69,6 +69,21 @@ include 'inc/dbstuff.inc';
       ?>
   </select>
 
+  <label for="ddl_env">Access Type: </label>
+  <select name="ddl_env">
+    <option value="">Select Access Type...</option>
+      <?php
+      $sql_string = "select ms_request_type_id, request_type from ms_request_types";
+      echo $sql_string;
+      $statement = $db->prepare(html_entity_decode($sql_string));
+      $statement->execute();
+      while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+      {
+          echo "<option value='".$row['ms_request_type_id']."'>".$row['request_type']."</option>";
+      }
+      ?>
+  </select>
+
 </div>
 
 <!-- Bootstrap core JavaScript
