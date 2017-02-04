@@ -23,12 +23,12 @@
       <file leaf-file-name="request.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1021">
-              <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="69">
+              <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
               <folding>
-                <marker date="1486192074754" expanded="true" signature="1883:1921" ph="select serve... env_for_ddl" />
-                <marker date="1486192074754" expanded="true" signature="2539:2590" ph="select ms_pr... ms_projects" />
-                <marker date="1486192074754" expanded="true" signature="3229:3290" ph="select ms_re... ms_request_types" />
+                <marker date="1486192164505" expanded="true" signature="1883:1921" ph="select serve... env_for_ddl" />
+                <marker date="1486192164505" expanded="true" signature="2539:2590" ph="select ms_pr... ms_projects" />
+                <marker date="1486192164505" expanded="true" signature="3229:3290" ph="select ms_re... ms_request_types" />
               </folding>
             </state>
           </provider>
@@ -283,12 +283,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486171329025</updated>
       <workItem from="1486171330318" duration="4132000" />
-      <workItem from="1486177574444" duration="14493000" />
+      <workItem from="1486177574444" duration="14583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18625000" />
+    <option name="totallyTimeSpent" value="18715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="446" y="36" width="1380" height="1040" extended-state="0" />
@@ -329,9 +329,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486192074754" expanded="true" signature="1883:1921" ph="select serve... env_for_ddl" />
-            <marker date="1486192074754" expanded="true" signature="2539:2590" ph="select ms_pr... ms_projects" />
-            <marker date="1486192074754" expanded="true" signature="3229:3290" ph="select ms_re... ms_request_types" />
+            <marker date="1486192164505" expanded="true" signature="1883:1921" ph="select serve... env_for_ddl" />
+            <marker date="1486192164505" expanded="true" signature="2539:2590" ph="select ms_pr... ms_projects" />
+            <marker date="1486192164505" expanded="true" signature="3229:3290" ph="select ms_re... ms_request_types" />
           </folding>
         </state>
       </provider>
@@ -464,12 +464,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+        <state relative-caret-position="69">
+          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
           <folding>
-            <marker date="1486192074754" expanded="true" signature="1883:1921" ph="select serve... env_for_ddl" />
-            <marker date="1486192074754" expanded="true" signature="2539:2590" ph="select ms_pr... ms_projects" />
-            <marker date="1486192074754" expanded="true" signature="3229:3290" ph="select ms_re... ms_request_types" />
+            <marker date="1486192164505" expanded="true" signature="1883:1921" ph="select serve... env_for_ddl" />
+            <marker date="1486192164505" expanded="true" signature="2539:2590" ph="select ms_pr... ms_projects" />
+            <marker date="1486192164505" expanded="true" signature="3229:3290" ph="select ms_re... ms_request_types" />
           </folding>
         </state>
       </provider>

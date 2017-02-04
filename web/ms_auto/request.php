@@ -32,7 +32,7 @@ include 'inc/dbstuff.inc';
 <div class="container">
   <?php include 'navbar.inc' ?>
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-md-12">
       <br />
       <br />
       <br />
@@ -74,7 +74,7 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <div class="row">
-    <div class="col-md-offset-1 col-md-11">
+    <div class="col-lg-offset-1 col-lg-11">
       <label class="requestFormlbl"  for="ddl_env">Project: </label>
       <select name="ddl_env">
         <option value="">Select Project...</option>
