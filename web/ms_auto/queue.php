@@ -47,17 +47,17 @@ include 'inc/dbstuff.inc';
       <th>Last Name, First Name</th>
     </tr>
     <?php
-    $sql_string = "select * from ms_request_queue";
+    $sql_string = "select * from vw_queue";
     $statement = $db->prepare(html_entity_decode($sql_string));
     $statement->execute();
     while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
       echo "<tr>";
-      echo "<td>".$row['ms_request_queue_id']."</td>";
-      echo "<td>".$row['ms_project_id']."</td>";
-      echo "<td>".$row['ms_request_type_id']."</td>";
+      echo "<td>".$row['id']."</td>";
+      echo "<td>".$row['name']."</td>";
+      echo "<td>".$row['rtype']."</td>";
       echo "<td>".$row['userid']."</td>";
-      echo "<td>".$row['lastname_firstname']."</td>";
+      echo "<td>".$row['lfname']."</td>";
       echo "</tr>";
     }
     ?>
