@@ -38,7 +38,7 @@ include 'inc/dbstuff.inc';
     </div>
   </div>
 
-  <table class="table, .table-striped">
+  <table class="table .table-striped">
     <tr>
       <th>Request #</th>
       <th>Project Name</th>
