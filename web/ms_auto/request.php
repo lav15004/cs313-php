@@ -38,7 +38,7 @@ include 'inc/dbstuff.inc';
     </div>
   </div>
 
-  <label for="userid">User ID:</label>
+  <label for="userid">User ID: </label>
   <input type="text" name="userid" id="userid">
   <br /><br />
   <label for="last_first">Name (Last, First): </label>
