@@ -16,17 +16,15 @@ include 'inc/dbstuff.inc';
   <link rel="icon" href="../../favicon.ico">
 
   <title>Aaron Lavold - CS 313: 02 (Online)</title>
-
+  <style type="text/css">
     <?php
-    echo '<style type="text/css">';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "#sr_table { visibility: hidden;}";
     }else{
         echo "#sr_table { visibility: visible;}";
     }
-    echo "</<style>";
     ?>
-
+  </style>
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
