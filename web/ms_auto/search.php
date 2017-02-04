@@ -54,16 +54,35 @@ include 'inc/dbstuff.inc';
   <button style="submit" name="submit">Search</button>
   <div id="sr_table" class="row">
     <div class="col-lg-12">
-      <span>test</span>
+      <table class="table table-striped">
+        <tr>
+          <th>Request #</th>
+          <th>Project Name</th>
+          <th>Request Type</th>
+          <th>User ID</th>
+          <th>Last Name, First Name</th>
+        </tr>
+          <?php
+          if ($_SERVER["REQUEST_METHOD"] == "POST") {
+              $sql_string = "select * from vw_queue";
+              $statement = $db->prepare(html_entity_decode($sql_string));
+              $statement->execute();
+              while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+              {
+                  echo "<tr>";
+                  echo "<td>".$row['id']."</td>";
+                  echo "<td>".$row['name']."</td>";
+                  echo "<td>".$row['rtype']."</td>";
+                  echo "<td>".$row['userid']."</td>";
+                  echo "<td>".$row['lfname']."</td>";
+                  echo "</tr>";
+              }
+          }
+          ?>
+      </table>
     </div>
   </div>
   <br /><br />
-    <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        echo "boo";
-    }
-    else
-    ?>
 </div>
 </form>
 <!-- Bootstrap core JavaScript
