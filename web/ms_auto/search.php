@@ -19,9 +19,9 @@ include 'inc/dbstuff.inc';
   <style type="text/css">
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        echo "#sr_table { visibility: hidden;}";
-    }else{
         echo "#sr_table { visibility: visible;}";
+    }else{
+        echo "#sr_table { visibility: hidden;}";
     }
     ?>
   </style>
