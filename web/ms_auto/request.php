@@ -41,7 +41,7 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-sm-offset-1 col-sm-11">
       <label class="requestFormlbl" for="userid">User ID: </label>
       <input type="text" name="userid" id="userid">
     </div>
