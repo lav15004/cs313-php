@@ -37,6 +37,13 @@ include 'inc/dbstuff.inc';
       <br />
     </div>
   </div>
+
+  <label for="userid">Employee ID</label>
+  <input type="text" name="userid" id="userid">
+  <br />
+  <label for="last_first">Name (Last, First): </label>
+  <input type="text" name="last_first" id="last_first">
+  <br />
   <label for="ddl_env">Environment: </label>
   <select name="ddl_env">
     <option value="">Select Environment...</option>
@@ -68,6 +75,8 @@ include 'inc/dbstuff.inc';
       }
       ?>
   </select>
+
+  <br /><br />
 
   <label for="ddl_env">Access Type: </label>
   <select name="ddl_env">
