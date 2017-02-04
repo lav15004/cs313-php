@@ -41,13 +41,16 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
   <div class="row">
-    <div class="col-sm-12">
-      <table class="table-responsive">
-        <tr>
-          <td><label for="userid">User ID: </label></td>
-          <td><input type="text" name="userid" id="userid"></td>
-        </tr>
-      </table>
+    <div class="col-sm-1">
+      <label for="userid">User ID: </label>
+    </div>
+    <div class="col-sm-1">
+      <label for="userid">User ID: </label>
+    </div>
+    <div class="col-sm-1">
+      <input type="text" name="userid" id="userid">
+    </div>
+    <div class="col-sm-9">
     </div>
   </div>
   <br />
