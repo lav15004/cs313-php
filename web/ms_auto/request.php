@@ -40,8 +40,7 @@ include '../dbstuff.inc';
 
 
       <?php
-      $sql_string = "select ms_server_list_id as server_id, (environment_name ||
-        ' (' || environment_version ||')' ) as env from ms_environments e join ms_server_list s on
+      $sql_string = "select s.ms_server_list_id as server_id, e.environment_name as env from ms_environments e join ms_server_list s on
         e.ms_environment_id = s.ms_environment_id";
 
       echo $sql_string;
