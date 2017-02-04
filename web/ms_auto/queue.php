@@ -1,5 +1,5 @@
 <?php
-include '../dbstuff.inc';
+include 'inc/dbstuff.inc';
 ?>
 <!DOCTYPE html>
 <html lang="en">
