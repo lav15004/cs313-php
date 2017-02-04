@@ -41,10 +41,10 @@ include 'inc/dbstuff.inc';
 
   <br /><br />
   <div class="row">
-    <div class="col-lg-2">
+    <div class="col-lg-1">
       <label for="userid">User ID: </label>
     </div>
-    <div class="col-lg-10">
+    <div class="col-lg-11">
       <input type="text" name="userid" id="userid">
     </div>
   </div>
