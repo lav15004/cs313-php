@@ -48,13 +48,11 @@ include 'inc/dbstuff.inc';
   </div>
   <div class="row">
     <div class="col-lg-12">
-      <label for="userid">User ID: </label>
-      <input type="text" name="userid" id="userid">
+      <label for="last_first">Name (Last, First): </label>
+      <input type="text" name="last_first" id="last_first">
     </div>
   </div>
   <br /><br />
-  <label for="last_first">Name (Last, First): </label>
-  <input type="text" name="last_first" id="last_first">
   <br /><br />
   <label for="ddl_env">Environment: </label>
   <select name="ddl_env">
