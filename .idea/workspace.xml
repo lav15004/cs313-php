@@ -23,12 +23,12 @@
       <file leaf-file-name="request.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="723">
+              <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
               <folding>
-                <marker date="1486192486563" expanded="true" signature="1835:1873" ph="select serve... env_for_ddl" />
-                <marker date="1486192486563" expanded="true" signature="2475:2526" ph="select ms_pr... ms_projects" />
-                <marker date="1486192486563" expanded="true" signature="3149:3210" ph="select ms_re... ms_request_types" />
+                <marker date="1486192694303" expanded="true" signature="1899:1937" ph="select serve... env_for_ddl" />
+                <marker date="1486192694303" expanded="true" signature="2555:2606" ph="select ms_pr... ms_projects" />
+                <marker date="1486192694303" expanded="true" signature="3245:3306" ph="select ms_re... ms_request_types" />
               </folding>
             </state>
           </provider>
@@ -91,9 +91,11 @@
     <findStrings>
       <find>php</find>
       <find>-md-</find>
+      <find>col-xs-11</find>
     </findStrings>
     <replaceStrings>
       <replace>-xs-</replace>
+      <replace>col-xs-12</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -287,12 +289,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486171329025</updated>
       <workItem from="1486171330318" duration="4132000" />
-      <workItem from="1486177574444" duration="14905000" />
+      <workItem from="1486177574444" duration="15112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19037000" />
+    <option name="totallyTimeSpent" value="19244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="446" y="36" width="1380" height="1040" extended-state="0" />
@@ -333,9 +335,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486192486563" expanded="true" signature="1835:1873" ph="select serve... env_for_ddl" />
-            <marker date="1486192486563" expanded="true" signature="2475:2526" ph="select ms_pr... ms_projects" />
-            <marker date="1486192486563" expanded="true" signature="3149:3210" ph="select ms_re... ms_request_types" />
+            <marker date="1486192694303" expanded="true" signature="1899:1937" ph="select serve... env_for_ddl" />
+            <marker date="1486192694303" expanded="true" signature="2555:2606" ph="select ms_pr... ms_projects" />
+            <marker date="1486192694303" expanded="true" signature="3245:3306" ph="select ms_re... ms_request_types" />
           </folding>
         </state>
       </provider>
@@ -468,12 +470,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="723">
+          <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
           <folding>
-            <marker date="1486192486563" expanded="true" signature="1835:1873" ph="select serve... env_for_ddl" />
-            <marker date="1486192486563" expanded="true" signature="2475:2526" ph="select ms_pr... ms_projects" />
-            <marker date="1486192486563" expanded="true" signature="3149:3210" ph="select ms_re... ms_request_types" />
+            <marker date="1486192694303" expanded="true" signature="1899:1937" ph="select serve... env_for_ddl" />
+            <marker date="1486192694303" expanded="true" signature="2555:2606" ph="select ms_pr... ms_projects" />
+            <marker date="1486192694303" expanded="true" signature="3245:3306" ph="select ms_re... ms_request_types" />
           </folding>
         </state>
       </provider>
