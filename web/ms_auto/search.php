@@ -58,7 +58,7 @@ include 'inc/dbstuff.inc';
   <br /><br />
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        echo "<script type='text/javascript'>".'showOrHide("sr_table");'."</script>";
+        echo "<script type='text/javascript'>showOrHide('sr_table');</script>";
         echo "boo";
     }
     else
