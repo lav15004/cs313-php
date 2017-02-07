@@ -55,7 +55,7 @@
       $statement = $db->prepare(html_entity_decode($sql_string));
       $statement->execute();
       while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-        echo '<input type="checkbox" name="topics[]" value="' . $row['id'] . '" />'. $row['name'].'<br />';
+        echo $row['id'] . '" />'. $row['name'].'<br />';
       }
     ?>
   <br />
