@@ -10,7 +10,7 @@
       foreach($topics as $topic){
         echo $topic;
           $sql_string = "INSERT INTO scripturetopics (scripture_id, topic_id) values(?,?)";
-          $statement->execute(array($newId,$topic));
+          $statement->execute(array(strval($newId),strval($topic)));
       }
   }
 ?>
