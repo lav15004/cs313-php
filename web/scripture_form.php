@@ -1,5 +1,16 @@
 <?php
   include 'dbstuff.inc';
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      $sql_string = "INSERT INTO scriptures (book, chapter, verse, content) values (?,?,?,?)";
+      $statement = $db->prepare($sql_string);
+      $statement->execute(array($_POST["txt_book"],$_POST["txt_chapter"],$_POST["txt_verse"],$_POST["txt_content"]));
+      $newId = $db->lastInsertId('scriptures_id_seq');
+      $topics = $_POST["topics"];
+      foreach($topics as $topic){
+          $sql_string = "INSERT INTO scripturetopics (scripture_id, topic_id) Values(?,?)";
+          $statement->execute(array($newId,$topic));
+      }
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
