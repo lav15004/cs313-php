@@ -33,7 +33,6 @@
   </table>
 
   <br />
-  <br />
   <label for="cbl_Content">Topics:</label>
 <!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
   <br />

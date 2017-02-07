@@ -26,8 +26,8 @@
             <state relative-caret-position="306">
               <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <marker date="1486437210187" expanded="true" signature="1055:1081" ph="select id, n... topic" />
-                <marker date="1486437210187" expanded="true" signature="1578:1679" ph="SELECT id, b... scriptures" />
+                <marker date="1486437263041" expanded="true" signature="1046:1072" ph="select id, n... topic" />
+                <marker date="1486437263041" expanded="true" signature="1569:1670" ph="SELECT id, b... scriptures" />
               </folding>
             </state>
           </provider>
@@ -255,12 +255,12 @@
       <workItem from="1486171330318" duration="4132000" />
       <workItem from="1486177574444" duration="15935000" />
       <workItem from="1486397138078" duration="15000" />
-      <workItem from="1486432600706" duration="2561000" />
+      <workItem from="1486432600706" duration="2611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22643000" />
+    <option name="totallyTimeSpent" value="22693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="410" y="51" width="1380" height="1040" extended-state="0" />
@@ -513,8 +513,8 @@
         <state relative-caret-position="306">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <marker date="1486437210187" expanded="true" signature="1055:1081" ph="select id, n... topic" />
-            <marker date="1486437210187" expanded="true" signature="1578:1679" ph="SELECT id, b... scriptures" />
+            <marker date="1486437263041" expanded="true" signature="1046:1072" ph="select id, n... topic" />
+            <marker date="1486437263041" expanded="true" signature="1569:1670" ph="SELECT id, b... scriptures" />
           </folding>
         </state>
       </provider>
