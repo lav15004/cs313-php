@@ -69,11 +69,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<br />";
 
     $sqlstring = 'select * from vw_script_topics';
+    $id="";
     foreach ($db->query($sqlstring) as $row)
     {
-        echo "<p><span id='scriptref'>".$row['book']." " . $row['chapter'] . ":".$row[verse].
-            " - Topic " . $row["name"]."</span></p>\n\n";
+      if ($id != $row["id"]) {
+        if ($id !=""){
+            echo "</span></p>\n\n";
+        }
+        $id = $row["id"];
+          echo "<p><span id='scriptref'>".$row['book']." " . $row['chapter'] . ":".$row['verse'].
+              " - Topic(s) " . $row["name"];
+      } else {
+        echo ", ".  $row["name"];
+      }
+
     }
+    echo "</span></p>\n\n";
 }
 ?>
 <br />
