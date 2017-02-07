@@ -12,17 +12,26 @@
 <h1>Scripture Resources</h1>
 <br />
 <form method="post" action="">
-  <label for="txt_book">Book:</label>
-  <input type="text" name="txt_book" id="txt_book">
-  <br />
-  <label for="txt_Chapter">Chapter:</label>
-  <input type="text" name="txt_Chapter" id="txt_Chapter">
-  <br />
-  <label for="txt_Verse">Verse:</label>
-  <input type="text" name="txt_Verse" id="txt_Verse">
-  <br />
-  <label for="txt_Content">Content:</label>
-  <input type="text" name="txt_Content" id="txt_Content">
+
+  <table>
+    <tr>
+      <td><label for="txt_book">Book:</label></td>
+      <td><input type="text" name="txt_book" id="txt_book"></td>
+    </tr>
+    <tr>
+      <td><label for="txt_Chapter">Chapter:</label></td>
+      <td><input type="text" name="txt_Chapter" id="txt_Chapter"></td>
+    </tr>
+    <tr>
+      <td><label for="txt_Verse">Verse:</label></td>
+      <td><input type="text" name="txt_Verse" id="txt_Verse"></td>
+    </tr>
+    <tr>
+      <td><label for="txt_Content">Content:</label></td>
+      <td><input type="text" name="txt_Content" id="txt_Content"></td>
+    </tr>
+  </table>
+
   <br />
   <br />
   <label for="cbl_Content">Topics:</label>
