@@ -24,9 +24,9 @@
   <label for="txt_Content">Content:</label>
   <input type="text" name="txt_Content" id="txt_Content">
   <br />
+  <br />
   <label for="cbl_Content">Topics:</label>
 <!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
-  <br />
   <br />
     <?php
       $sql_string = 'select id, name from topic';
