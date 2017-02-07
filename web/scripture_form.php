@@ -9,7 +9,7 @@
       $topics = $_POST["topics"];
       foreach($topics as $topic){
         echo $topic;
-          $sql_string = "INSERT INTO scripturetopics (scripture_id, topic_id) Values(?,?)";
+          $sql_string = "INSERT INTO scripturetopics (scripture_id, topic_id) values(?,?)";
           $statement->execute(array($newId,$topic));
       }
   }
