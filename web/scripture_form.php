@@ -51,7 +51,7 @@
 <!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
   <br />
     <?php
-      $sql_string = 'select id, name from topic';
+      $sql_string = 'select * from vw_script_topics';
       $statement = $db->prepare(html_entity_decode($sql_string));
       $statement->execute();
       while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
