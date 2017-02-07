@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         $id = $row["id"];
           echo "<p><span id='scriptref'>".$row['book']." " . $row['chapter'] . ":".$row['verse'].
-              " - Topic(s) " . $row["name"];
+              " - Topic(s): " . $row["name"];
       } else {
         echo ", ".  $row["name"];
       }
