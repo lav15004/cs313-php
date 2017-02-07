@@ -24,10 +24,11 @@
   <label for="txt_Content">Content:</label>
   <input type="text" name="txt_Content" id="txt_Content">
   <label for="cbl_Content">Topics:</label>
-  #<input type="checkbox" name="topics[]" value="A" />testing<br />
+<!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
+  <br />
   <br />
     <?php
-      $sql_string = 'select id, name from topics';
+      $sql_string = 'select id, name from topic';
       $statement = $db->prepare(html_entity_decode($sql_string));
       $statement->execute();
       while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
