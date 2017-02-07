@@ -64,11 +64,11 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $searchval = htmlspecialchars($_POST["searchval"]);
+    //$searchval = htmlspecialchars($_POST["searchval"]);
 
     echo "<br />";
 
-    $sqlstring = 'select * form vw_script_';
+    $sqlstring = 'select * form vw_script_topics';
     foreach ($db->query($sqlstring) as $row)
     {
         echo "<p><span id='scriptref'>".$row['book']." " . $row['chapter'] . ":".$row[verse]."</span></p>\n\n";

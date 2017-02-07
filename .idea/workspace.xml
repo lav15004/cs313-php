@@ -36,13 +36,13 @@
       <file leaf-file-name="scripture_form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="76" selection-end-column="2" />
+            <state relative-caret-position="630">
+              <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
               <folding>
-                <marker date="1486510145799" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
-                <marker date="1486510145799" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-                <marker date="1486510145799" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-                <marker date="1486510145799" expanded="true" signature="1737:1763" ph="select id, n... topic" />
+                <marker date="1486510233098" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
+                <marker date="1486510233098" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+                <marker date="1486510233098" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+                <marker date="1486510233098" expanded="true" signature="1737:1763" ph="select id, n... topic" />
               </folding>
             </state>
           </provider>
@@ -258,12 +258,12 @@
       <workItem from="1486177574444" duration="15935000" />
       <workItem from="1486397138078" duration="15000" />
       <workItem from="1486432600706" duration="10797000" />
-      <workItem from="1486508864125" duration="1285000" />
+      <workItem from="1486508864125" duration="1369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32164000" />
+    <option name="totallyTimeSpent" value="32248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="47" width="1380" height="1040" extended-state="0" />
@@ -315,10 +315,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486510145799" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
-            <marker date="1486510145799" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-            <marker date="1486510145799" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486510145799" expanded="true" signature="1737:1763" ph="select id, n... topic" />
+            <marker date="1486510233098" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
+            <marker date="1486510233098" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+            <marker date="1486510233098" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486510233098" expanded="true" signature="1737:1763" ph="select id, n... topic" />
           </folding>
         </state>
       </provider>
@@ -534,13 +534,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="76" selection-end-column="2" />
+        <state relative-caret-position="630">
+          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
           <folding>
-            <marker date="1486510145799" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
-            <marker date="1486510145799" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-            <marker date="1486510145799" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486510145799" expanded="true" signature="1737:1763" ph="select id, n... topic" />
+            <marker date="1486510233098" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
+            <marker date="1486510233098" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+            <marker date="1486510233098" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486510233098" expanded="true" signature="1737:1763" ph="select id, n... topic" />
           </folding>
         </state>
       </provider>
