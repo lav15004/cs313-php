@@ -51,11 +51,11 @@
 <!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
   <br />
     <?php
-      $sql_string = 'select * from vw_script_topics';
+      $sql_string = 'select id, name from topic';
       $statement = $db->prepare(html_entity_decode($sql_string));
       $statement->execute();
       while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-        echo $row['id'] . '" />'. $row['name'].'<br />';
+        echo '<input type="checkbox" name="topics[]" value="' . $row['id'] . '" />'. $row['name'].'<br />';
       }
     ?>
   <br />
@@ -68,16 +68,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     echo "<br />";
 
-    $sqlstring = 'SELECT id, book, chapter, verse from scriptures WHERE book = \''. html_entity_decode($searchval) .'\'';
+    $sqlstring = 'select * form vw_script_';
     foreach ($db->query($sqlstring) as $row)
     {
-        echo "<p><span id='scriptref'><a href='search_results.php?id=$row[0]'>$row[1] $row[2]:$row[3]</a></span></p>\n\n";
+        echo "<p><span id='scriptref'>".$row['book']." " . $row['chapter'] . ":".$row[verse]."</span></p>\n\n";
     }
 }
 ?>
 <br />
 <hr>
 <br />
-<a href="week5group1.php">Initial Core Requirements Page</a>
+
 </body>
 </html>

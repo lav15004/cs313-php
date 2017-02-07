@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="" />
+    <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripture_form.php" afterPath="$PROJECT_DIR$/web/scripture_form.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +36,13 @@
       <file leaf-file-name="scripture_form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="715">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="76" selection-end-column="2" />
               <folding>
-                <marker date="1486509642836" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
-                <marker date="1486509642836" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-                <marker date="1486509642836" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-                <marker date="1486509642836" expanded="true" signature="1737:1767" ph="select * fro... vw_script_topics" />
-                <marker date="1486509642836" expanded="true" signature="2213:2314" ph="SELECT id, b... scriptures" />
+                <marker date="1486510145799" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
+                <marker date="1486510145799" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+                <marker date="1486510145799" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+                <marker date="1486510145799" expanded="true" signature="1737:1763" ph="select id, n... topic" />
               </folding>
             </state>
           </provider>
@@ -257,12 +258,12 @@
       <workItem from="1486177574444" duration="15935000" />
       <workItem from="1486397138078" duration="15000" />
       <workItem from="1486432600706" duration="10797000" />
-      <workItem from="1486508864125" duration="877000" />
+      <workItem from="1486508864125" duration="1285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31756000" />
+    <option name="totallyTimeSpent" value="32164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="47" width="1380" height="1040" extended-state="0" />
@@ -314,11 +315,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486509642836" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
-            <marker date="1486509642836" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-            <marker date="1486509642836" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486509642836" expanded="true" signature="1737:1767" ph="select * fro... vw_script_topics" />
-            <marker date="1486509642836" expanded="true" signature="2213:2314" ph="SELECT id, b... scriptures" />
+            <marker date="1486510145799" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
+            <marker date="1486510145799" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+            <marker date="1486510145799" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486510145799" expanded="true" signature="1737:1763" ph="select id, n... topic" />
           </folding>
         </state>
       </provider>
@@ -534,14 +534,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="715">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="76" selection-end-column="2" />
           <folding>
-            <marker date="1486509642836" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
-            <marker date="1486509642836" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-            <marker date="1486509642836" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486509642836" expanded="true" signature="1737:1767" ph="select * fro... vw_script_topics" />
-            <marker date="1486509642836" expanded="true" signature="2213:2314" ph="SELECT id, b... scriptures" />
+            <marker date="1486510145799" expanded="true" signature="98:161" ph="INSERT INTO scriptures... " />
+            <marker date="1486510145799" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+            <marker date="1486510145799" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486510145799" expanded="true" signature="1737:1763" ph="select id, n... topic" />
           </folding>
         </state>
       </provider>
