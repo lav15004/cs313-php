@@ -71,7 +71,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sqlstring = 'select * from vw_script_topics';
     foreach ($db->query($sqlstring) as $row)
     {
-        echo "<p><span id='scriptref'>".$row['book']." " . $row['chapter'] . ":".$row[verse]."</span></p>\n\n";
+        echo "<p><span id='scriptref'>".$row['book']." " . $row['chapter'] . ":".$row[verse].
+            " - Topic " . $row["name"]."</span></p>\n\n";
     }
 }
 ?>
