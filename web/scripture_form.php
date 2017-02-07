@@ -23,6 +23,7 @@
   <br />
   <label for="txt_Content">Content:</label>
   <input type="text" name="txt_Content" id="txt_Content">
+  <br />
   <label for="cbl_Content">Topics:</label>
 <!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
   <br />
@@ -35,7 +36,8 @@
         echo '<input type="checkbox" name="topics[]" value="' . $row['id'] . '" />'. $row['name'].'<br />';
       }
     ?>
-  <button name="submit" type="submit">Go!</button>
+  <br />
+  <button name="submit" type="submit">Submit</button>
 </form>
 <?php
 
