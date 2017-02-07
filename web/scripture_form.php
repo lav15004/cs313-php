@@ -5,8 +5,10 @@
       $statement = $db->prepare($sql_string);
       $statement->execute(array($_POST["txt_book"],$_POST["txt_Chapter"],$_POST["txt_Verse"],$_POST["txt_Content"]));
       $newId = $db->lastInsertId('scriptures_id_seq');
+      echo $newId;
       $topics = $_POST["topics"];
       foreach($topics as $topic){
+        echo $topic;
           $sql_string = "INSERT INTO scripturetopics (scripture_id, topic_id) Values(?,?)";
           $statement->execute(array($newId,$topic));
       }
