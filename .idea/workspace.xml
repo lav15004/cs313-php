@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripture_form.php" afterPath="$PROJECT_DIR$/web/scripture_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripture_form_results.php" afterPath="$PROJECT_DIR$/web/scripture_form_results.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,21 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scripture_form_results.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scripture_form_results.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scripture_form_results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <marker date="1486513139709" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-                <marker date="1486513139709" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-                <marker date="1486513139709" expanded="true" signature="1098:1128" ph="select * fro... vw_script_topics" />
+                <marker date="1486513347933" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+                <marker date="1486513347933" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+                <marker date="1486513347933" expanded="true" signature="1092:1122" ph="select * fro... vw_script_topics" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripture_form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scripture_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/web/ms_auto/search.php" />
         <option value="$PROJECT_DIR$/web/css/cs313-php.css" />
         <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
-        <option value="$PROJECT_DIR$/web/scripture_form_results.php" />
         <option value="$PROJECT_DIR$/web/scripture_form.php" />
+        <option value="$PROJECT_DIR$/web/scripture_form_results.php" />
       </list>
     </option>
   </component>
@@ -244,12 +244,12 @@
       <workItem from="1486177574444" duration="15935000" />
       <workItem from="1486397138078" duration="15000" />
       <workItem from="1486432600706" duration="10797000" />
-      <workItem from="1486508864125" duration="3641000" />
+      <workItem from="1486508864125" duration="3760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34520000" />
+    <option name="totallyTimeSpent" value="34639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="25" width="1380" height="1040" extended-state="0" />
@@ -519,18 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripture_form_results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1486513139709" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
-            <marker date="1486513139709" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486513139709" expanded="true" signature="1098:1128" ph="select * fro... vw_script_topics" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -541,6 +529,18 @@
             <marker date="1486513229418" expanded="true" signature="526:590" ph="INSERT INTO scripturetopics... " />
             <marker date="1486513229418" expanded="true" signature="1767:1793" ph="select id, n... topic" />
             <marker date="1486513229418" expanded="true" signature="2294:2324" ph="select * fro... vw_script_topics" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripture_form_results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1486513347933" expanded="true" signature="98:169" ph="INSERT INTO scriptures... " />
+            <marker date="1486513347933" expanded="true" signature="524:588" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486513347933" expanded="true" signature="1092:1122" ph="select * fro... vw_script_topics" />
           </folding>
         </state>
       </provider>

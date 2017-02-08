@@ -24,7 +24,7 @@
 </head>
 <body>
 <h1>Scripture Resources</h1>
-<br />
+
 
 <?php
 
