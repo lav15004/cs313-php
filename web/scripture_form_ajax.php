@@ -77,7 +77,7 @@ include 'dbstuff.inc';
                 .fail(function(){
                     alert('Ajax Submit Failed ...');
                 });
-            $('#ContentPage').load('gettopics.php');
+            $('#topics').load('gettopics.php');
         });
 
 
