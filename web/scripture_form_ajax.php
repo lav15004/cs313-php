@@ -11,7 +11,7 @@ include 'dbstuff.inc';
 <body>
 <h1>Scripture Resources</h1>
 <br />
-<form method="post" id="srform" action="">
+<form method="post" id="srform">
 
   <table>
     <tr>

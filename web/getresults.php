@@ -1,6 +1,6 @@
 <?php
 include 'dbstuff.inc';
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_POST) {
     $topics = $_POST["topics"];
     if ($_POST["newtopic"]!=""){
         foreach($topics as $topic){
