@@ -4,7 +4,7 @@
     echo $_POST["newtopic"];
       if ($_POST["newtopic"]!=""){
           foreach($topics as $topic){
-            if($topic == -1){
+            if($topic == "-1"){
                 $sql_string = "INSERT INTO topic (name) values (?)";
                 $statement = $db->prepare($sql_string);
                 $statement->execute(array($_POST["newtopic"]));

@@ -47,15 +47,22 @@
       <file leaf-file-name="scripture_form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="68">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding>
-                <marker date="1486601948736" expanded="true" signature="240:275" ph="INSERT INTO topic... " />
-                <marker date="1486601948736" expanded="true" signature="518:581" ph="INSERT INTO scriptures... " />
-                <marker date="1486601948736" expanded="true" signature="518:589" ph="INSERT INTO scriptures... " />
-                <marker date="1486601948736" expanded="true" signature="1061:1125" ph="INSERT INTO scripturetopics... " />
-                <marker date="1486601948736" expanded="true" signature="2277:2303" ph="select id, n... topic" />
-                <marker date="1486601948736" expanded="true" signature="2916:2946" ph="select * fro... vw_script_topics" />
+                <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
+                <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
+                <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
+                <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
+                <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
+                <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
+                <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
+                <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
+                <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
+                <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
+                <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
+                <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
+                <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
               </folding>
             </state>
           </provider>
@@ -238,12 +245,12 @@
       <workItem from="1486397138078" duration="15000" />
       <workItem from="1486432600706" duration="10797000" />
       <workItem from="1486508864125" duration="6572000" />
-      <workItem from="1486598308485" duration="1790000" />
+      <workItem from="1486598308485" duration="1936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39241000" />
+    <option name="totallyTimeSpent" value="39387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2139" y="48" width="1380" height="1040" extended-state="0" />
@@ -304,12 +311,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486601948736" expanded="true" signature="240:275" ph="INSERT INTO topic... " />
-            <marker date="1486601948736" expanded="true" signature="518:581" ph="INSERT INTO scriptures... " />
-            <marker date="1486601948736" expanded="true" signature="518:589" ph="INSERT INTO scriptures... " />
-            <marker date="1486601948736" expanded="true" signature="1061:1125" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486601948736" expanded="true" signature="2277:2303" ph="select id, n... topic" />
-            <marker date="1486601948736" expanded="true" signature="2916:2946" ph="select * fro... vw_script_topics" />
+            <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
+            <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
+            <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
+            <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
+            <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
           </folding>
         </state>
       </provider>
@@ -318,6 +332,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="26" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="53" selection-end-column="54" />
+          <folding>
+            <marker date="1486180737409" expanded="true" signature="1369:1378" ph="select * fro... ms_request_queue" />
+            <marker date="1486180737409" expanded="true" signature="1369:1391" ph="select * fro... vw_queue" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -326,12 +344,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486601948736" expanded="true" signature="240:275" ph="INSERT INTO topic... " />
-            <marker date="1486601948736" expanded="true" signature="518:581" ph="INSERT INTO scriptures... " />
-            <marker date="1486601948736" expanded="true" signature="518:589" ph="INSERT INTO scriptures... " />
-            <marker date="1486601948736" expanded="true" signature="1061:1125" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486601948736" expanded="true" signature="2277:2303" ph="select id, n... topic" />
-            <marker date="1486601948736" expanded="true" signature="2916:2946" ph="select * fro... vw_script_topics" />
+            <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
+            <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
+            <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
+            <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
+            <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
           </folding>
         </state>
       </provider>
@@ -340,6 +365,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486192797883" expanded="true" signature="1899:1937" ph="select serve... env_for_ddl" />
+            <marker date="1486192797883" expanded="true" signature="2555:2606" ph="select ms_pr... ms_projects" />
+            <marker date="1486192797883" expanded="true" signature="3245:3306" ph="select ms_re... ms_request_types" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -354,6 +384,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="22" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="64" selection-end-column="10" />
+          <folding>
+            <marker date="1486180737409" expanded="true" signature="1369:1378" ph="select * fro... ms_request_queue" />
+            <marker date="1486180737409" expanded="true" signature="1369:1391" ph="select * fro... vw_queue" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -361,6 +395,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <marker date="1486186970749" expanded="true" signature="606:770" ph="..." />
+            <marker date="1486186970749" expanded="true" signature="654:704" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -368,6 +406,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486192797883" expanded="true" signature="1899:1937" ph="select serve... env_for_ddl" />
+            <marker date="1486192797883" expanded="true" signature="2555:2606" ph="select ms_pr... ms_projects" />
+            <marker date="1486192797883" expanded="true" signature="3245:3306" ph="select ms_re... ms_request_types" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -382,6 +425,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="22" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="64" selection-end-column="10" />
+          <folding>
+            <marker date="1486180737409" expanded="true" signature="1369:1378" ph="select * fro... ms_request_queue" />
+            <marker date="1486180737409" expanded="true" signature="1369:1391" ph="select * fro... vw_queue" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,6 +436,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <marker date="1486186970749" expanded="true" signature="606:770" ph="..." />
+            <marker date="1486186970749" expanded="true" signature="654:704" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,6 +447,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486192797883" expanded="true" signature="1899:1937" ph="select serve... env_for_ddl" />
+            <marker date="1486192797883" expanded="true" signature="2555:2606" ph="select ms_pr... ms_projects" />
+            <marker date="1486192797883" expanded="true" signature="3245:3306" ph="select ms_re... ms_request_types" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -403,6 +459,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <marker date="1486180737409" expanded="true" signature="1369:1378" ph="select * fro... ms_request_queue" />
+            <marker date="1486180737409" expanded="true" signature="1369:1391" ph="select * fro... vw_queue" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -410,6 +470,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1486186970749" expanded="true" signature="606:770" ph="..." />
+            <marker date="1486186970749" expanded="true" signature="654:704" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -445,6 +509,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
           <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+          <folding>
+            <marker date="1486192797883" expanded="true" signature="1899:1937" ph="select serve... env_for_ddl" />
+            <marker date="1486192797883" expanded="true" signature="2555:2606" ph="select ms_pr... ms_projects" />
+            <marker date="1486192797883" expanded="true" signature="3245:3306" ph="select ms_re... ms_request_types" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,6 +528,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <marker date="1486186970749" expanded="true" signature="606:770" ph="..." />
+            <marker date="1486186970749" expanded="true" signature="654:704" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,6 +539,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <marker date="1486008995124" expanded="true" signature="621:722" ph="SELECT id, b... scriptures" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -473,6 +549,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="52" column="26" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="53" selection-end-column="54" />
+          <folding>
+            <marker date="1486180737409" expanded="true" signature="1369:1378" ph="select * fro... ms_request_queue" />
+            <marker date="1486180737409" expanded="true" signature="1369:1391" ph="select * fro... vw_queue" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,15 +578,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <marker date="1486601948736" expanded="true" signature="240:275" ph="INSERT INTO topic... " />
-            <marker date="1486601948736" expanded="true" signature="518:581" ph="INSERT INTO scriptures... " />
-            <marker date="1486601948736" expanded="true" signature="518:589" ph="INSERT INTO scriptures... " />
-            <marker date="1486601948736" expanded="true" signature="1061:1125" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486601948736" expanded="true" signature="2277:2303" ph="select id, n... topic" />
-            <marker date="1486601948736" expanded="true" signature="2916:2946" ph="select * fro... vw_script_topics" />
+            <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
+            <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
+            <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
+            <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
+            <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
+            <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
           </folding>
         </state>
       </provider>
