@@ -37,6 +37,9 @@ include 'dbstuff.inc';
 <!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
   <br />
   <div id="topics">
+    <?php
+    include 'gettopics.php';
+    ?>
   </div>
   <br />
   <br />
