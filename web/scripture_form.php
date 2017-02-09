@@ -1,6 +1,7 @@
 <?php
   include 'dbstuff.inc';
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    echo $_POST["newtopic"];
       if ($_POST["newtopic"]!=""){
           foreach($topics as $topic){
             if($topic == -1){
