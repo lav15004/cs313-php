@@ -1,15 +1,31 @@
 <?php
   include 'dbstuff.inc';
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      if ($_POST["newtopic"]!=""){
+          foreach($topics as $topic){
+            if($topic == -1){
+                $sql_string = "INSERT INTO topic (name) values (?)";
+                $statement = $db->prepare($sql_string);
+                $statement->execute(array($_POST["newtopic"]));
+                $newTopicId = $db->lastInsertId('topic_id_seq');
+            }
+          }
+      }
       $sql_string = "INSERT INTO scriptures (book, chapter, verse, content) values (?,?,?,?)";
       $statement = $db->prepare($sql_string);
       $statement->execute(array($_POST["txt_book"],$_POST["txt_Chapter"],$_POST["txt_Verse"],$_POST["txt_Content"]));
       $newId = $db->lastInsertId('scriptures_id_seq');
       $topics = $_POST["topics"];
+      $topicvalue = "";
       foreach($topics as $topic){
+          if($topic == -1){
+             $topicvalue = $newTopicId;
+          } else {
+            $topicvalue = $topic;
+          }
           $sql_string = "INSERT INTO scripturetopics (scripture_id, topic_id) values(?,?)";
           $statement = $db->prepare($sql_string);
-          $statement->execute(array(strval($newId),strval($topic)));
+          $statement->execute(array(strval($newId),strval($topicvalue)));
       }
   }
 ?>
@@ -55,7 +71,10 @@
       while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
         echo '<input type="checkbox" name="topics[]" value="' . $row['id'] . '" />'. $row['name'].'<br />';
       }
+
     ?>
+  <input type="checkbox" name="topics[]" value="-1" /><input type="text" name="newtopic" id="newtopic">
+  <br />
   <br />
   <button name="submit" type="submit">Submit</button>
 </form>
