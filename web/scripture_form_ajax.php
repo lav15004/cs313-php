@@ -36,16 +36,8 @@ include 'dbstuff.inc';
   <label for="cbl_Content">Topics:</label>
 <!--  <input type="checkbox" name="topics[]" value="A" />testing<br />-->
   <br />
-    <?php
-      $sql_string = 'select id, name from topic';
-      $statement = $db->prepare(html_entity_decode($sql_string));
-      $statement->execute();
-      while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-        echo '<input type="checkbox" name="topics[]" value="' . $row['id'] . '" />'. $row['name'].'<br />';
-      }
-
-    ?>
-  <input type="checkbox" name="topics[]" value="-1" /><input type="text" name="newtopic" id="newtopic">
+  <div id="topics">
+  </div>
   <br />
   <br />
   <button>Submit</button>
@@ -78,6 +70,17 @@ include 'dbstuff.inc';
             })
                 .done(function(data){
                     $('#results').html(data);
+                })
+                .fail(function(){
+                    alert('Ajax Submit Failed ...');
+                });
+            $.ajax({
+                url: 'gettopics.php',
+                type: 'POST',
+                data: $(this).serialize() // it will serialize the form data
+            })
+                .done(function(data){
+                    $('#topics').html(data);
                 })
                 .fail(function(){
                     alert('Ajax Submit Failed ...');

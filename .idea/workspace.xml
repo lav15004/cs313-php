@@ -23,10 +23,20 @@
       <file leaf-file-name="scripture_form_ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scripture_form_ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="477">
+              <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gettopics.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/gettopics.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="101" lean-forward="false" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
               <folding>
-                <marker date="1486610439369" expanded="true" signature="1044:1070" ph="select id, n... topic" />
+                <marker date="1486611037968" expanded="true" signature="21:47" ph="select id, n... topic" />
               </folding>
             </state>
           </provider>
@@ -81,6 +91,7 @@
         <option value="$PROJECT_DIR$/web/scripture_form_results.php" />
         <option value="$PROJECT_DIR$/web/scripture_form.php" />
         <option value="$PROJECT_DIR$/web/getresults.php" />
+        <option value="$PROJECT_DIR$/web/gettopics.php" />
         <option value="$PROJECT_DIR$/web/scripture_form_ajax.php" />
       </list>
     </option>
@@ -231,12 +242,12 @@
       <workItem from="1486397138078" duration="15000" />
       <workItem from="1486432600706" duration="10797000" />
       <workItem from="1486508864125" duration="6572000" />
-      <workItem from="1486598308485" duration="6199000" />
+      <workItem from="1486598308485" duration="6631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43650000" />
+    <option name="totallyTimeSpent" value="44082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="400" y="61" width="1380" height="1040" extended-state="0" />
@@ -669,13 +680,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/gettopics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="101" lean-forward="false" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+          <folding>
+            <marker date="1486611037968" expanded="true" signature="21:47" ph="select id, n... topic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form_ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <marker date="1486610439369" expanded="true" signature="1044:1070" ph="select id, n... topic" />
-          </folding>
+        <state relative-caret-position="477">
+          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
