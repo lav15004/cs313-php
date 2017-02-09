@@ -3,7 +3,7 @@
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo $_POST["newtopic"];
       if ($_POST["newtopic"]!=""){
-          foreach($topics as $topic){
+          foreach($_POST["topics"] as $topic){
             echo $topic;
             if($topic == "-1"){
                 $sql_string = "INSERT INTO topic (name) values (?)";
@@ -20,7 +20,7 @@
       $topics = $_POST["topics"];
       $topicvalue = "";
       foreach($topics as $topic){
-          if($topic == -1){
+          if($topic == "-1"){
              $topicvalue = $newTopicId;
           } else {
             $topicvalue = $topic;
