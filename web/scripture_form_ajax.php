@@ -77,7 +77,14 @@ include 'dbstuff.inc';
                 .fail(function(){
                     alert('Ajax Submit Failed ...');
                 });
-            $('#topics').load('gettopics.php');
+            $.get( "gettopics.php", function( data ) {
+                $( "#topics" ).html( data );
+                alert( "Load was performed." );
+
+            });
+
+
+
         });
 
 
