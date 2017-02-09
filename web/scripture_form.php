@@ -1,10 +1,9 @@
 <?php
   include 'dbstuff.inc';
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    echo $_POST["newtopic"];
+    $topics = $_POST["topics"];
       if ($_POST["newtopic"]!=""){
-          foreach($_POST["topics"] as $topic){
-            echo $topic;
+          foreach($topics as $topic){
             if($topic == "-1"){
                 $sql_string = "INSERT INTO topic (name) values (?)";
                 $statement = $db->prepare($sql_string);
@@ -17,7 +16,6 @@
       $statement = $db->prepare($sql_string);
       $statement->execute(array($_POST["txt_book"],$_POST["txt_Chapter"],$_POST["txt_Verse"],$_POST["txt_Content"]));
       $newId = $db->lastInsertId('scriptures_id_seq');
-      $topics = $_POST["topics"];
       $topicvalue = "";
       foreach($topics as $topic){
           if($topic == "-1"){
