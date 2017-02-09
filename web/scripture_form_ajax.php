@@ -70,6 +70,10 @@
             })
                 .done(function(data){
                     $('#results').html(data);
+                    $('#txt_book').empty();
+                    $('#txt_Chapter').empty();
+                    $('#txt_Verse').empty();
+                    $('#txt_Content').empty();
                 })
                 .fail(function(){
                     alert('Ajax Submit Failed ...');
