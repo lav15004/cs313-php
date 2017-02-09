@@ -79,7 +79,7 @@ include 'dbstuff.inc';
                 });
             $.ajax({
                 url: 'gettopics.php',
-                type: 'POST',
+                type: 'GET',
                 data: $(this).serialize() // it will serialize the form data
             })
                 .done(function(data){
