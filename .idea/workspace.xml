@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/getresults.php" afterPath="$PROJECT_DIR$/web/getresults.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripture_form_ajax.php" afterPath="$PROJECT_DIR$/web/scripture_form_ajax.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,26 +23,21 @@
       <file leaf-file-name="scripture_form_ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scripture_form_ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+            <state relative-caret-position="238">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
-                <marker date="1486609952558" expanded="true" signature="1044:1070" ph="select id, n... topic" />
+                <marker date="1486610439369" expanded="true" signature="1044:1070" ph="select id, n... topic" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getresults.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/getresults.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Submit-Form-using-jQuery-Ajax-PHP/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-              <folding>
-                <marker date="1486610149717" expanded="true" signature="207:242" ph="INSERT INTO topic... " />
-                <marker date="1486610149717" expanded="true" signature="479:550" ph="INSERT INTO scriptures... " />
-                <marker date="1486610149717" expanded="true" signature="971:1035" ph="INSERT INTO scripturetopics... " />
-                <marker date="1486610149717" expanded="true" signature="1203:1233" ph="select * fro... vw_script_topics" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +80,8 @@
         <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
         <option value="$PROJECT_DIR$/web/scripture_form_results.php" />
         <option value="$PROJECT_DIR$/web/scripture_form.php" />
-        <option value="$PROJECT_DIR$/web/scripture_form_ajax.php" />
         <option value="$PROJECT_DIR$/web/getresults.php" />
+        <option value="$PROJECT_DIR$/web/scripture_form_ajax.php" />
       </list>
     </option>
   </component>
@@ -237,12 +231,12 @@
       <workItem from="1486397138078" duration="15000" />
       <workItem from="1486432600706" duration="10797000" />
       <workItem from="1486508864125" duration="6572000" />
-      <workItem from="1486598308485" duration="5804000" />
+      <workItem from="1486598308485" duration="6199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43255000" />
+    <option name="totallyTimeSpent" value="43650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="400" y="61" width="1380" height="1040" extended-state="0" />
@@ -646,22 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Submit-Form-using-jQuery-Ajax-PHP/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="89" column="2" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Submit-Form-using-jQuery-Ajax-PHP/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/getresults.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -675,12 +653,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/Submit-Form-using-jQuery-Ajax-PHP/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Submit-Form-using-jQuery-Ajax-PHP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form_ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        <state relative-caret-position="238">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
-            <marker date="1486609952558" expanded="true" signature="1044:1070" ph="select id, n... topic" />
+            <marker date="1486610439369" expanded="true" signature="1044:1070" ph="select id, n... topic" />
           </folding>
         </state>
       </provider>

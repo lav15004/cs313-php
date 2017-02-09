@@ -77,7 +77,7 @@ include 'dbstuff.inc';
                 data: $(this).serialize() // it will serialize the form data
             })
                 .done(function(data){
-                    $('#results').fadeIn.('slow').html(data);
+                    $('#results').html(data);
                 })
                 .fail(function(){
                     alert('Ajax Submit Failed ...');
