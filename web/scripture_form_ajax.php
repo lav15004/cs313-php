@@ -78,8 +78,8 @@ include 'dbstuff.inc';
                     alert('Ajax Submit Failed ...');
                 });
             $('#topics').empty();
-            $.get( 'gettopics.php', function( data2 ) {
-                $( '#topics' ).html( data2 );
+            $.get( 'gettopics.php', function( data ) {
+                $( '#topics' ).html( data );
                 alert( 'Load was performed.' );
             });
 
