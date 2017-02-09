@@ -1,4 +1,5 @@
 <?php
+include 'dbstuff.inc';
 $sql_string = 'select id, name from topic';
 $statement = $db->prepare(html_entity_decode($sql_string));
 $statement->execute();

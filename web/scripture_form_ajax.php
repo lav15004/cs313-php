@@ -1,6 +1,3 @@
-<?php
-include 'dbstuff.inc';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,8 +76,7 @@ include 'dbstuff.inc';
                 });
             $('#topics').empty();
             $.get( 'gettopics.php', function( data ) {
-                $( '#topics' ).html( data );
-                alert( 'Load was performed.' );
+                $('#topics').html( data );
             });
 
 
