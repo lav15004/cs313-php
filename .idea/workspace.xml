@@ -47,22 +47,22 @@
       <file leaf-file-name="scripture_form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
-                <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
-                <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
-                <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
-                <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
-                <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
-                <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
-                <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
-                <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
-                <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
-                <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
-                <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
-                <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
-                <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
+                <marker date="1486602609957" expanded="true" signature="267:302" ph="INSERT INTO topic... " />
+                <marker date="1486602609957" expanded="true" signature="545:608" ph="INSERT INTO scriptures... " />
+                <marker date="1486602609957" expanded="true" signature="545:616" ph="INSERT INTO scriptures... " />
+                <marker date="1486602609957" expanded="true" signature="1088:1152" ph="INSERT INTO scripturetopics... " />
+                <marker date="1486602609957" expanded="true" signature="1332:1402" ph="..." />
+                <marker date="1486602609957" expanded="true" signature="1478:1528" ph="..." />
+                <marker date="1486602609957" expanded="true" signature="1556:1587" ph="..." />
+                <marker date="1486602609957" expanded="true" signature="1565:1587" ph="..." />
+                <marker date="1486602609957" expanded="true" signature="1700:1722" ph="..." />
+                <marker date="1486602609957" expanded="true" signature="1847:1869" ph="..." />
+                <marker date="1486602609957" expanded="true" signature="1986:2008" ph="..." />
+                <marker date="1486602609957" expanded="true" signature="2304:2330" ph="select id, n... topic" />
+                <marker date="1486602609957" expanded="true" signature="2943:2973" ph="select * fro... vw_script_topics" />
               </folding>
             </state>
           </provider>
@@ -245,12 +245,12 @@
       <workItem from="1486397138078" duration="15000" />
       <workItem from="1486432600706" duration="10797000" />
       <workItem from="1486508864125" duration="6572000" />
-      <workItem from="1486598308485" duration="1936000" />
+      <workItem from="1486598308485" duration="2451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39387000" />
+    <option name="totallyTimeSpent" value="39902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2139" y="48" width="1380" height="1040" extended-state="0" />
@@ -311,19 +311,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
-            <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
-            <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
-            <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
-            <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
+            <marker date="1486602609957" expanded="true" signature="267:302" ph="INSERT INTO topic... " />
+            <marker date="1486602609957" expanded="true" signature="545:608" ph="INSERT INTO scriptures... " />
+            <marker date="1486602609957" expanded="true" signature="545:616" ph="INSERT INTO scriptures... " />
+            <marker date="1486602609957" expanded="true" signature="1088:1152" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486602609957" expanded="true" signature="1332:1402" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1478:1528" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1556:1587" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1565:1587" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1700:1722" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1847:1869" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1986:2008" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="2304:2330" ph="select id, n... topic" />
+            <marker date="1486602609957" expanded="true" signature="2943:2973" ph="select * fro... vw_script_topics" />
           </folding>
         </state>
       </provider>
@@ -344,19 +344,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
-            <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
-            <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
-            <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
-            <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
+            <marker date="1486602609957" expanded="true" signature="267:302" ph="INSERT INTO topic... " />
+            <marker date="1486602609957" expanded="true" signature="545:608" ph="INSERT INTO scriptures... " />
+            <marker date="1486602609957" expanded="true" signature="545:616" ph="INSERT INTO scriptures... " />
+            <marker date="1486602609957" expanded="true" signature="1088:1152" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486602609957" expanded="true" signature="1332:1402" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1478:1528" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1556:1587" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1565:1587" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1700:1722" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1847:1869" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1986:2008" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="2304:2330" ph="select id, n... topic" />
+            <marker date="1486602609957" expanded="true" signature="2943:2973" ph="select * fro... vw_script_topics" />
           </folding>
         </state>
       </provider>
@@ -578,22 +578,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <marker date="1486602084971" expanded="true" signature="242:277" ph="INSERT INTO topic... " />
-            <marker date="1486602084971" expanded="true" signature="520:583" ph="INSERT INTO scriptures... " />
-            <marker date="1486602084971" expanded="true" signature="520:591" ph="INSERT INTO scriptures... " />
-            <marker date="1486602084971" expanded="true" signature="1063:1127" ph="INSERT INTO scripturetopics... " />
-            <marker date="1486602084971" expanded="true" signature="1307:1377" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1453:1503" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1531:1562" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1540:1562" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1675:1697" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1822:1844" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="1961:1983" ph="..." />
-            <marker date="1486602084971" expanded="true" signature="2279:2305" ph="select id, n... topic" />
-            <marker date="1486602084971" expanded="true" signature="2918:2948" ph="select * fro... vw_script_topics" />
+            <marker date="1486602609957" expanded="true" signature="267:302" ph="INSERT INTO topic... " />
+            <marker date="1486602609957" expanded="true" signature="545:608" ph="INSERT INTO scriptures... " />
+            <marker date="1486602609957" expanded="true" signature="545:616" ph="INSERT INTO scriptures... " />
+            <marker date="1486602609957" expanded="true" signature="1088:1152" ph="INSERT INTO scripturetopics... " />
+            <marker date="1486602609957" expanded="true" signature="1332:1402" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1478:1528" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1556:1587" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1565:1587" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1700:1722" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1847:1869" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="1986:2008" ph="..." />
+            <marker date="1486602609957" expanded="true" signature="2304:2330" ph="select id, n... topic" />
+            <marker date="1486602609957" expanded="true" signature="2943:2973" ph="select * fro... vw_script_topics" />
           </folding>
         </state>
       </provider>
