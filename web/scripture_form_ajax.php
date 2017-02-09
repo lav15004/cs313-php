@@ -77,17 +77,7 @@ include 'dbstuff.inc';
                 .fail(function(){
                     alert('Ajax Submit Failed ...');
                 });
-            $.ajax({
-                url: 'gettopics.php',
-                type: 'GET',
-                data: $(this).serialize() // it will serialize the form data
-            })
-                .done(function(data){
-                    $('#topics').html(data);
-                })
-                .fail(function(){
-                    alert('Ajax Submit Failed ...');
-                });
+            $('#ContentPage').load('gettopics.php');
         });
 
 
