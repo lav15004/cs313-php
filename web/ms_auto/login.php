@@ -49,7 +49,7 @@
     <div class="col-lg-5 text-center">
     </div>
   </div>
-
+  <br />
   <div id="login">
     <div class="row">
       <div class="col-sm-3">
