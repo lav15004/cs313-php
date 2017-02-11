@@ -152,6 +152,8 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
+      $( "#reg" ).hide();
+      $( "#login").show();
       $("input[name='mode']").click(function(){
           if ($("input[name='mode']:checked").val() == 'login') {
               $( "#reg" ).hide();
