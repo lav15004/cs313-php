@@ -35,19 +35,11 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-1">
-    </div>
-    <div class="col-md-1">
-    </div>
-    <div class="col-md-1">
-    </div>
-    <div class="col-md-1">
-    </div>
-    <div class="col-md-2">
+    <div class="col-md-offset-4 col-md-2">
       <input id="loginmode" type="radio" name="mode" value="login">
       <label for="loginmode">Login</label>
     </div>
-    <div class="col-dm-6">
+    <div class="col-md-6">
       <input id="regmode" type="radio" name="mode" value="reg">
       <label for="regmode">Register</label>
     </div>
