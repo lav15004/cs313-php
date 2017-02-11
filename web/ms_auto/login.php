@@ -66,7 +66,7 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <label class="loginFormlbl" for="userid">Password: </label>
+        <label class="loginFormlbl" for="password">Password: </label>
         <input type="text" checked="checked" name="password" id="password">
       </div>
       <div class="col-sm-3">
@@ -97,7 +97,7 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <label class="loginFormlbl" for="userid">Full Name: </label>
+        <label class="loginFormlbl" for="fullname">Full Name: </label>
         <input type="text" name="fullname" id="fullname">
       </div>
       <div class="col-sm-3">
@@ -117,7 +117,7 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <label class="loginFormlbl" for="userid">Confirm Password: </label>
+        <label class="loginFormlbl" for="confpassword">Confirm Password: </label>
         <input type="text" name="confpassword" id="confpassword">
       </div>
       <div class="col-sm-3">
@@ -153,7 +153,13 @@
 <script type="text/javascript">
     $(document).ready(function() {
       $("input[name='mode']").click(function(){
-            alert('You clicked radio!');
+          if ($("input[name='mode']:checked").val() == 'login') {
+              $( "#reg" ).hide();
+              $( "#login").show();
+          }else {
+              $("#login").hide();
+              $("#reg").show();
+          }
       });
     });
 </script>
