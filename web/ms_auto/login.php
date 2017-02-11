@@ -39,7 +39,7 @@
       <input id="loginmode" type="radio" name="mode" value="login">
       <label for="loginmode">Login</label>
     </div>
-    <div class="col-sm-1 col-sm-offset-5">
+    <div class="col-sm-1">
       <input id="regmode" type="radio" name="mode" value="reg">
       <label for="regmode">Register</label>
     </div>
