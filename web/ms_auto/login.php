@@ -52,7 +52,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <label class="loginFormlbl" for="userid">User ID: </label>
         <input type="text" name="userid" id="userid">
       </div>
@@ -62,7 +62,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <label class="loginFormlbl" for="userid">Password: </label>
         <input type="text" name="password" id="password">
       </div>
@@ -72,7 +72,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <button id="btnlogin">Submit</button>
       </div>
       <div class="col-sm-3">
