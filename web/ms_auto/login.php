@@ -48,9 +48,11 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-offset-3 col-lg-3">
+    <div class="col-lg-offset-3 col-lg-4">
       <label class="requestFormlbl" for="userid">User ID: </label>
       <input type="text" name="userid" id="userid">
+    </div>
+    <div class="col-lg-5">
     </div>
   </div>
   <div id="login">
