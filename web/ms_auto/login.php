@@ -44,6 +44,8 @@
       <input id="regmode" type="radio" name="mode" value="reg">
       <label for="regmode">Register</label>
     </div>
+    <div class="col-lg-6 text-center">
+    </div>
   </div>
   <div class="row">
     <div class="col-lg-offset-3 col-lg-3">
