@@ -82,7 +82,7 @@
       </div>
     </div>
   </div>
-  <div id="reg">
+  <div id="reg" class="hidden">
     <div class="row">
       <div class="col-sm-3">
       </div>
@@ -152,8 +152,6 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-      $( "#reg" ).hide();
-      $( "#login").show();
       $("input[name='mode']").click(function(){
           if ($("input[name='mode']:checked").val() == 'login') {
               $( "#reg" ).hide();
