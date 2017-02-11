@@ -154,6 +154,7 @@
     $(document).ready(function() {
       $("input[name='mode']").click(function(){
             alert('You clicked radio!');
+      });
     });
 </script>
 </body>
