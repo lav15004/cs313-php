@@ -83,7 +83,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <label class="loginFormlbl" for="userid">User ID: </label>
         <input type="text" name="userid" id="userid">
       </div>
@@ -93,7 +93,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <label class="loginFormlbl" for="userid">Full Name: </label>
         <input type="text" name="fullname" id="fullname">
       </div>
@@ -103,7 +103,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <label class="loginFormlbl" for="userid">Password: </label>
         <input type="text" name="password" id="password">
       </div>
@@ -113,7 +113,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <label class="loginFormlbl" for="userid">Confirm Password: </label>
         <input type="text" name="confpassword" id="confpassword">
       </div>
@@ -123,7 +123,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6">
         <button id="btnreg">Submit</button>
       </div>
       <div class="col-sm-3">
