@@ -40,7 +40,7 @@
   <div class="row">
     <div class="col-lg-5 text-center">
     </div>
-    <div class="col-lg-2 text-center">
+    <div id="rblist" class="col-lg-2 text-center">
       <input id="loginmode" type="radio" name="mode" value="login" checked="checked">
       <label for="loginmode">Login  </label>
       <span>&nbsp;&nbsp;</span>
@@ -148,5 +148,13 @@
 <script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../js/jquery.min.js"><\/script>')</script>
 <script src="../js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#rblist input[name='mode']").click(function(){
+            alert('You clicked radio!');
+    });
+</script>
 </body>
 </html>
