@@ -35,11 +35,11 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-offset-3 col-sm-2">
+    <div class="col-lg-offset-3 col-lg-1">
       <input id="loginmode" type="radio" name="mode" value="login">
       <label for="loginmode">Login</label>
     </div>
-    <div class="col-sm-2">
+    <div class="col-lg-1">
       <input id="regmode" type="radio" name="mode" value="reg">
       <label for="regmode">Register</label>
     </div>
