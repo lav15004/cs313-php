@@ -40,8 +40,7 @@
     <div class="col-md-2 text-right">
       <input id="loginmode" type="radio" name="mode" value="login">
       <label for="loginmode">Login</label>
-    </div>
-    <div class="col-md-2">
+      <span>  </span>
       <input id="regmode" type="radio" name="mode" value="reg">
       <label for="regmode">Register</label>
     </div>
