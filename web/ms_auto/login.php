@@ -45,6 +45,12 @@
       <label for="regmode">Register</label>
     </div>
   </div>
+  <div class="row">
+    <div class="col-lg-offset-3 col-lg-3">
+      <label class="requestFormlbl" for="userid">User ID: </label>
+      <input type="text" name="userid" id="userid">
+    </div>
+  </div>
   <div id="login">
 
   </div>
