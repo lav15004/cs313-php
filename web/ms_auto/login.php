@@ -82,7 +82,7 @@
       </div>
     </div>
   </div>
-  <div id="reg" class="hidden">
+  <div id="reg" class="hide">
     <div class="row">
       <div class="col-sm-3">
       </div>
