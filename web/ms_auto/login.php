@@ -35,7 +35,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-offset-4 col-md-2">
+    <div class="col-md-offset-4 col-md-2 text-right">
       <input id="loginmode" type="radio" name="mode" value="login">
       <label for="loginmode">Login</label>
     </div>
