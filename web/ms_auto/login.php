@@ -47,21 +47,88 @@
     <div class="col-lg-5 text-center">
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-3">
-    </div>
-    <div class="col-sm-6 text-center">
-      <label class="requestFormlbl" for="userid">User ID: </label>
-      <input type="text" name="userid" id="userid">
-    </div>
-    <div class="col-sm-3">
-    </div>
-  </div>
-  <div id="login">
 
+  <div id="login">
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <label class="loginFormlbl" for="userid">User ID: </label>
+        <input type="text" name="userid" id="userid">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <label class="loginFormlbl" for="userid">Password: </label>
+        <input type="text" name="password" id="password">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <button id="btnlogin">Submit</button>
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
   </div>
   <div id="reg">
-
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <label class="loginFormlbl" for="userid">User ID: </label>
+        <input type="text" name="userid" id="userid">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <label class="loginFormlbl" for="userid">Full Name: </label>
+        <input type="text" name="fullname" id="fullname">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <label class="loginFormlbl" for="userid">Password: </label>
+        <input type="text" name="password" id="password">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <label class="loginFormlbl" for="userid">Confirm Password: </label>
+        <input type="text" name="confpassword" id="confpassword">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 text-center">
+        <button id="btnreg">Submit</button>
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
   </div>
 
   <div class="row">
