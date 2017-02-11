@@ -35,7 +35,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-5 text-center">
     </div>
     <div class="col-lg-2 text-center">
       <input id="loginmode" type="radio" name="mode" value="login">
@@ -44,15 +44,15 @@
       <input id="regmode" type="radio" name="mode" value="reg">
       <label for="regmode">Register</label>
     </div>
-    <div class="col-lg-6 text-center">
+    <div class="col-lg-5 text-center">
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-offset-3 col-lg-4">
+    <div class="col-lg-offset-4 col-lg-4">
       <label class="requestFormlbl" for="userid">User ID: </label>
       <input type="text" name="userid" id="userid">
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-4">
     </div>
   </div>
   <div id="login">
