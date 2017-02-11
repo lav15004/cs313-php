@@ -67,7 +67,7 @@
       </div>
       <div class="col-sm-6">
         <label class="loginFormlbl" for="userid">Password: </label>
-        <input type="text" name="password" id="password">
+        <input type="text" checked="checked" name="password" id="password">
       </div>
       <div class="col-sm-3">
       </div>
