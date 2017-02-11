@@ -41,7 +41,7 @@
     <div class="col-lg-5 text-center">
     </div>
     <div class="col-lg-2 text-center">
-      <input id="loginmode" type="radio" name="mode" value="login">
+      <input id="loginmode" type="radio" name="mode" value="login" checked="checked">
       <label for="loginmode">Login  </label>
       <span>&nbsp;&nbsp;</span>
       <input id="regmode" type="radio" name="mode" value="reg">
