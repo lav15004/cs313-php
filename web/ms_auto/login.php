@@ -152,7 +152,7 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#rblist input[name='mode']").click(function(){
+      $("input[name='mode']").click(function(){
             alert('You clicked radio!');
     });
 </script>
