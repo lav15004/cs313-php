@@ -51,13 +51,14 @@
     </div>
   </div>
   <br />
+  <form method="post" id="login" name="login">
   <div id="login">
     <div class="row">
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <label class="loginFormlbl" for="userid">User ID: </label>
-        <input type="text" name="userid" id="userid">
+        <label class="loginFormlbl" for="loginuserid">User ID: </label>
+        <input type="text" name="userid" id="loginuserid">
       </div>
       <div class="col-sm-3">
       </div>
@@ -66,8 +67,8 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <label class="loginFormlbl" for="password">Password: </label>
-        <input type="text" checked="checked" name="password" id="password">
+        <label class="loginFormlbl" for="loginpassword">Password: </label>
+        <input type="text" checked="checked" name="loginpassword" id="loginpassword">
       </div>
       <div class="col-sm-3">
       </div>
@@ -82,6 +83,8 @@
       </div>
     </div>
   </div>
+  </form>
+  <form method="post" id="reg" name="reg">
   <div style="display: none" id="reg">
     <div class="row">
       <div class="col-sm-3">
@@ -107,7 +110,7 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <label class="loginFormlbl" for="userid">Password: </label>
+        <label class="loginFormlbl" for="password">Password: </label>
         <input type="text" name="password" id="password">
       </div>
       <div class="col-sm-3">
@@ -133,9 +136,10 @@
       </div>
     </div>
   </div>
-
+  </form>
   <div class="row">
     <div class="col-lg-12">
+      <label id="result"></label>
     </div>
   </div>
 
@@ -161,7 +165,42 @@
               $("#reg").show();
           }
       });
+
+      $('#login').submit(function(e){
+
+          e.preventDefault(); // Prevent Default Submission
+
+          $.ajax({
+              url: 'login-inc.php',
+              type: 'POST',
+              data: $(this).serialize() // it will serialize the form data
+          })
+              .done(function(data){
+
+              })
+              .fail(function(){
+                  alert('Ajax Submit Failed ...');
+              });
+          });
+
+      $('#reg').submit(function(e){
+
+          e.preventDefault(); // Prevent Default Submission
+
+          $.ajax({
+              url: 'inc/reg-inc.php',
+              type: 'POST',
+              data: $(this).serialize() // it will serialize the form data
+          })
+              .done(function(data){
+                  $('#result').innerText(data);
+              })
+              .fail(function(){
+                  alert('Ajax Submit Failed ...');
+              });
+      });
     });
 </script>
+
 </body>
 </html>
