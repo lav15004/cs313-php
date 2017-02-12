@@ -1,4 +1,5 @@
 <?php
+session_start();
   if (isset($_SESSION) && isset($_SESSION['user_id']) && $_SESSION["auth"] == 'True') {
   } else {
       header("Location: login.php");
