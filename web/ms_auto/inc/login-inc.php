@@ -12,7 +12,7 @@ if ($_POST) {
         $pw_hash = $row["pw_hash"];
     }
 
-    if (password_verify(filter_var($_POST["userid"], FILTER_SANITIZE_STRING),$pw_hash)) {
+    if (password_verify(filter_var($_POST["pw_hash"], FILTER_SANITIZE_STRING),$pw_hash)) {
         echo 'valid';
     } else {
         echo 'Bad User name / password combination.';
