@@ -52,7 +52,7 @@
   </div>
   <br />
   <form method="post" id="login" name="login">
-  <div id="login">
+  <div id="logindiv">
     <div class="row">
       <div class="col-sm-3">
       </div>
@@ -85,7 +85,7 @@
   </div>
   </form>
   <form method="post" id="reg" name="reg">
-  <div style="Visibility: hidden" id="reg">
+  <div style="Display: none" id="regdiv">
     <div class="row">
       <div class="col-sm-3">
       </div>
@@ -158,47 +158,47 @@
     $(document).ready(function() {
       $("input[name='mode']").click(function(){
           if ($("input[name='mode']:checked").val() == 'login') {
-              $( "#reg" ).hide();
-              $( "#login").show();
+              $( "#regdiv" ).hide();
+              $( "#logindiv").show();
           }else {
-              $("#login").hide();
-              $("#reg").show();
+              $("#logindiv").hide();
+              $("#regdiv").show();
           }
       });
 
-      $('#login').submit(function(e){
+        $('#login').submit(function(e){
 
-          e.preventDefault(); // Prevent Default Submission
+            e.preventDefault(); // Prevent Default Submission
 
-          $.ajax({
-              url: 'login-inc.php',
-              type: 'POST',
-              data: $(this).serialize() // it will serialize the form data
-          })
-              .done(function(data){
+            $.ajax({
+                url: 'login-inc.php',
+                type: 'POST',
+                data: $(this).serialize() // it will serialize the form data
+            })
+                .done(function(data){
 
-              })
-              .fail(function(){
-                  alert('Ajax Submit Failed ...');
-              });
-      });
+                })
+                .fail(function(){
+                    alert('Ajax Submit Failed ...');
+                });
+        });
 
-      $('#reg').submit(function(e){
+        $('#reg').submit(function(e){
 
-          e.preventDefault(); // Prevent Default Submission
+            e.preventDefault(); // Prevent Default Submission
 
-          $.ajax({
-              url: 'inc/reg-inc.php',
-              type: 'POST',
-              data: $(this).serialize() // it will serialize the form data
-          })
-              .done(function(data){
-                  $('#result').innerText(data);
-              })
-              .fail(function(){
-                  alert('Ajax Submit Failed ...');
-              });
-      });
+            $.ajax({
+                url: 'inc/reg-inc.php',
+                type: 'POST',
+                data: $(this).serialize() // it will serialize the form data
+            })
+                .done(function(data){
+                    $('#result').innerText(data);
+                })
+                .fail(function(){
+                    alert('Ajax Submit Failed ...');
+                });
+        });
     });
 </script>
 
