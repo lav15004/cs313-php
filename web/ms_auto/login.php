@@ -171,11 +171,16 @@
             e.preventDefault(); // Prevent Default Submission
 
             $.ajax({
-                url: 'login-inc.php',
+                url: 'inc/login-inc.php',
                 type: 'POST',
                 data: $(this).serialize() // it will serialize the form data
             })
                 .done(function(data){
+                    if (data == 'valid') {
+                        window.location.href = 'index.php'
+                    } else {
+                        $('#result').text(data);
+                    }
 
                 })
                 .fail(function(){
