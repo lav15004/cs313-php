@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/login.php" afterPath="$PROJECT_DIR$/web/ms_auto/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" afterPath="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,15 +35,15 @@
       <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="340">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
               <folding>
-                <marker date="1486861304476" expanded="true" signature="62:118" ph="select user_... ms_web_users" />
-                <marker date="1486861304476" expanded="true" signature="62:120" ph="select user_... ms_web_users" />
-                <marker date="1486861304476" expanded="true" signature="62:122" ph="select user_... ms_web_users" />
-                <marker date="1486861304476" expanded="true" signature="62:147" ph="select user_... ms_web_users" />
-                <marker date="1486861304476" expanded="true" signature="62:148" ph="select user_... ms_web_users" />
-                <marker date="1486861304476" expanded="true" signature="62:192" ph="select user_... ms_web_users" />
+                <marker date="1486861741951" expanded="true" signature="62:118" ph="select user_... ms_web_users" />
+                <marker date="1486861741951" expanded="true" signature="62:120" ph="select user_... ms_web_users" />
+                <marker date="1486861741951" expanded="true" signature="62:122" ph="select user_... ms_web_users" />
+                <marker date="1486861741951" expanded="true" signature="62:147" ph="select user_... ms_web_users" />
+                <marker date="1486861741951" expanded="true" signature="62:148" ph="select user_... ms_web_users" />
+                <marker date="1486861741951" expanded="true" signature="62:192" ph="select user_... ms_web_users" />
               </folding>
             </state>
           </provider>
@@ -52,8 +52,8 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1409">
-              <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            <state relative-caret-position="2686">
+              <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
               <folding>
                 <element signature="e#1432#1438#0#HTML" expanded="true" />
                 <element signature="e#1438#1444#0#HTML" expanded="true" />
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/web/ms_auto/reg-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php" />
         <option value="$PROJECT_DIR$/web/scripture_form_ajax.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/login.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
       </list>
     </option>
   </component>
@@ -311,12 +311,12 @@
       <workItem from="1486598308485" duration="11485000" />
       <workItem from="1486774335744" duration="227000" />
       <workItem from="1486844425328" duration="264000" />
-      <workItem from="1486844693239" duration="15612000" />
+      <workItem from="1486844693239" duration="15917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65039000" />
+    <option name="totallyTimeSpent" value="65344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="289" y="0" width="1375" height="1160" extended-state="0" />
@@ -727,23 +727,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="340">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
-            <marker date="1486861304476" expanded="true" signature="62:118" ph="select user_... ms_web_users" />
-            <marker date="1486861304476" expanded="true" signature="62:120" ph="select user_... ms_web_users" />
-            <marker date="1486861304476" expanded="true" signature="62:122" ph="select user_... ms_web_users" />
-            <marker date="1486861304476" expanded="true" signature="62:147" ph="select user_... ms_web_users" />
-            <marker date="1486861304476" expanded="true" signature="62:148" ph="select user_... ms_web_users" />
-            <marker date="1486861304476" expanded="true" signature="62:192" ph="select user_... ms_web_users" />
+            <marker date="1486861741951" expanded="true" signature="62:118" ph="select user_... ms_web_users" />
+            <marker date="1486861741951" expanded="true" signature="62:120" ph="select user_... ms_web_users" />
+            <marker date="1486861741951" expanded="true" signature="62:122" ph="select user_... ms_web_users" />
+            <marker date="1486861741951" expanded="true" signature="62:147" ph="select user_... ms_web_users" />
+            <marker date="1486861741951" expanded="true" signature="62:148" ph="select user_... ms_web_users" />
+            <marker date="1486861741951" expanded="true" signature="62:192" ph="select user_... ms_web_users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1409">
-          <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        <state relative-caret-position="2686">
+          <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
           <folding>
             <element signature="e#1432#1438#0#HTML" expanded="true" />
             <element signature="e#1438#1444#0#HTML" expanded="true" />

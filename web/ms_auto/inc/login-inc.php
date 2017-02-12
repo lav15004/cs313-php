@@ -14,7 +14,8 @@ if ($_POST) {
     if (password_verify(filter_var($_POST["loginpassword"], FILTER_SANITIZE_STRING),$pw_hash)) {
         echo 'valid';
     } else {
-        echo 'Bad User name / password combination.';
+        //echo 'Bad User name / password combination.';
+        echo $user_id;
     }
 }
 ?>
