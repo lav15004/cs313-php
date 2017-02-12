@@ -181,7 +181,7 @@
               .fail(function(){
                   alert('Ajax Submit Failed ...');
               });
-          });
+      });
 
       $('#reg').submit(function(e){
 
