@@ -15,7 +15,7 @@ if ($_POST) {
         echo 'valid';
     } else {
         //echo 'Bad User name / password combination.';
-        echo $user_id;
+        echo $sql_string;
     }
 }
 ?>
