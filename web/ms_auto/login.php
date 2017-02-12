@@ -85,7 +85,7 @@
   </div>
   </form>
   <form method="post" id="reg" name="reg">
-  <div style="display: none" id="reg">
+  <div style="Visibility: hidden" id="reg">
     <div class="row">
       <div class="col-sm-3">
       </div>
