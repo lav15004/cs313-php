@@ -12,10 +12,12 @@ if ($_POST) {
     }
 
     if (password_verify(filter_var($_POST["loginpassword"], FILTER_SANITIZE_STRING),$pw_hash)) {
+        session_start();
+        $_SESSION["user_id"] = $user_id;
+        $_SESSION["auth"] = 'True';
         echo 'valid';
     } else {
-        //echo 'Bad User name / password combination.';
-        echo $sql_string;
+        echo 'Bad User Name / Password combination.  Try again.';
     }
 }
 ?>
