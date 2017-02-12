@@ -58,7 +58,7 @@
       </div>
       <div class="col-sm-6">
         <label class="loginFormlbl" for="loginuserid">User ID: </label>
-        <input type="text" name="userid" id="loginuserid">
+        <input type="text" name="loginuserid" id="loginuserid">
       </div>
       <div class="col-sm-3">
       </div>
