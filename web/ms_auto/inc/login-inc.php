@@ -1,7 +1,7 @@
 <?php
 include 'dbstuff.inc';
 if ($_POST) {
-    $sql_string = "select user_id, pw_hash from ms_web_users where user_id=\"".$_POST["loginuserid"]."\"";
+    $sql_string = "select user_id, pw_hash from ms_web_users where user_id='".$_POST["loginuserid"]."'";
     $statement = $db->prepare($sql_string);
 
     $statement->execute();
