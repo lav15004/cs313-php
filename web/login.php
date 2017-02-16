@@ -104,16 +104,6 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <label class="loginFormlbl" for="fullname">Full Name: </label>
-        <input type="text" name="fullname" id="fullname">
-      </div>
-      <div class="col-sm-3">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3">
-      </div>
-      <div class="col-sm-6">
         <label class="loginFormlbl" for="password">Password: </label>
         <input type="password" name="password" id="password">
       </div>
