@@ -202,7 +202,8 @@
                 data: $(this).serialize() // it will serialize the form data
             })
                 .done(function(data){
-                    $('#result').text(data);
+
+                    $('#result').text('Welcome ' + data);
                 })
                 .fail(function(){
                     alert('Ajax Submit Failed ...');
