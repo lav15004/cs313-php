@@ -181,7 +181,7 @@
             })
                 .done(function(data){
                     if (data == 'valid') {
-                        window.location.href = 'index.php'
+                        window.location.href = 'welcome.php'
                     } else {
                         $('#result').text(data);
                     }
