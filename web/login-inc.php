@@ -5,15 +5,15 @@ if ($_POST) {
     $statement = $db->prepare($sql_string);
 
     $statement->execute();
-    $newId = $db->lastInsertId('ms-web_users_id_seq');
+    $newId = $db->lastInsertId('users_id_seq');
     while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-        $user_id = $row["user_id"];
-        $pw_hash = $row["pw_hash"];
+        $username = $row["username"];
+        $password = $row["password"];
     }
 
-    if (password_verify(filter_var($_POST["loginpassword"], FILTER_SANITIZE_STRING),$pw_hash)) {
+    if (password_verify(filter_var($_POST["loginpassword"], FILTER_SANITIZE_STRING),$password)) {
         session_start();
-        $_SESSION["user_id"] = $user_id;
+        $_SESSION["user_id"] = $username;
         $_SESSION["auth"] = 'True';
         echo 'valid';
     } else {
