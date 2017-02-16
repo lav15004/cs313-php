@@ -72,7 +72,7 @@
       </div>
       <div class="col-sm-6">
         <label class="loginFormlbl" for="loginpassword">Password: </label>
-        <input type="text" checked="checked" name="loginpassword" id="loginpassword">
+        <input type="password" checked="checked" name="loginpassword" id="loginpassword">
       </div>
       <div class="col-sm-3">
       </div>
@@ -115,7 +115,7 @@
       </div>
       <div class="col-sm-6">
         <label class="loginFormlbl" for="password">Password: </label>
-        <input type="text" name="password" id="password">
+        <input type="password" name="password" id="password">
       </div>
       <div class="col-sm-3">
       </div>
@@ -125,7 +125,7 @@
       </div>
       <div class="col-sm-6">
         <label class="loginFormlbl" for="confpassword">Confirm Password: </label>
-        <input type="text" name="confpassword" id="confpassword">
+        <input type="password" name="confpassword" id="confpassword">
       </div>
       <div class="col-sm-3">
       </div>
