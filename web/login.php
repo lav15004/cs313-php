@@ -39,7 +39,7 @@
     </div>
   </div>
   <br />
-  <h2 class="text-center">MS Automation - Sign in screen</h2>
+  <h2 class="text-center">Group 1 - Sign in screen</h2>
   <br />
   <div class="row">
     <div class="col-lg-5 text-center">
