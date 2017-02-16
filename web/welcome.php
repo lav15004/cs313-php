@@ -9,7 +9,7 @@ if (isset($_SESSION) && isset($_SESSION['user_id']) && $_SESSION["auth"] == 'Tru
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head></head>>
+<head></head>
 <body>
 <h1 id="result"><?php  echo 'Welcome '.$_SESSION["user_id"]; ?></h1>
 </body>
