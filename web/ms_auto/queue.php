@@ -45,7 +45,7 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <br />
-  <table class="table table-striped">
+  <table class="table table-striped tdqueue">
     <tr>
       <th>Edit Link</th>
       <th>Request #</th>
