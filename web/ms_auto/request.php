@@ -69,6 +69,10 @@ if ($_POST) {
       <input type="text" name="userid" id="userid">
     </div>
   </div>
+  <?php
+    echo $sql_string . "\n";
+    echo $valuesarray . "\n";
+  ?>
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
