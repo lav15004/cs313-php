@@ -99,7 +99,7 @@ include 'inc/dbstuff.inc';
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
-      <label class="requestFormlbl"  for="ddl_env">Project: </label>
+      <label class="requestFormlbl"  for="ddl_projects">Project: </label>
       <select id="ddl_projects" name="ddl_projects">
       </select>
     </div>
@@ -107,8 +107,8 @@ include 'inc/dbstuff.inc';
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
-      <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
-      <select name="ddl_access_type">
+      <label class="requestFormlbl"  for="ddl_access_type">Access Type: </label>
+      <select id="ddl_access_type" name="ddl_access_type">
         <option value="">Select Access Type...</option>
           <?php
           $sql_string = "select ms_request_type_id, request_type from ms_request_types";
@@ -150,7 +150,7 @@ include 'inc/dbstuff.inc';
                 $('#ddl_projects').html('<option value="">Select Project...</option>');
             } else {
                 e.preventDefault();
-                $.ajax({url: 'inc/selectproject-inc.php?svalue='+selectvalue,
+                $.ajax({url: 'inc/selectproject-inc.php?svalue='+selectvalue+'&pvalue='+'<?php echo $name; ?>,
                     success: function(output) {
                         //alert(output);
                         $('#ddl_projects').html(output);
@@ -164,8 +164,8 @@ include 'inc/dbstuff.inc';
 
         $('#ddl_env').val('<?php echo $env; ?>');
         $('#ddl_env').trigger('change');
-        $('#ddl_projects').val('<?php echo $name; ?>');
         $('#ddl_access_type').val('<?php echo $rtype; ?>');
+
     });
 </script>
 </form>
