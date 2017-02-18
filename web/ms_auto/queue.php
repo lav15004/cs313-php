@@ -87,6 +87,7 @@ include 'inc/dbstuff.inc';
     $(document).ready(function() {
         $("input[type='button']").click(function(){
             alert(this.id);
+            alert(this.val());
         });
     });
 </script>
