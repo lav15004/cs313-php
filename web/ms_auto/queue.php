@@ -64,7 +64,7 @@ include 'inc/dbstuff.inc';
       $rownum++;
       $rowidname = "row".$rownum;
       echo "<tr>";
-      echo "<td>"."<button class='btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
+      echo "<td>"."<input class='btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</input></td>";
       echo "<td>".$row['id']."</td>";
       echo "<td>".$row['name']."</td>";
       echo "<td>".$row['rtype']."</td>";
@@ -85,9 +85,8 @@ include 'inc/dbstuff.inc';
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $("button").click(function(){
+        $("input[name='button']).click(function(){
             alert(this.id);
-            alert(this.val());
         });
     });
 </script>
