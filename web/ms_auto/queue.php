@@ -33,6 +33,7 @@ include 'inc/dbstuff.inc';
 </head>
 
 <body>
+<form action="" method="post">
 <div class="container">
   <?php include 'navbar.inc' ?>
   <div class="row">
@@ -73,9 +74,8 @@ include 'inc/dbstuff.inc';
     }
     ?>
   </table>
-
 </div>
-
+</form>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
