@@ -165,6 +165,8 @@ include 'inc/dbstuff.inc';
 
         $('#ddl_env').val('<?php echo $env; ?>');
         $('#ddl_env').trigger('change');
+        $('#ddl_projects').val('<?php echo $name; ?>');
+        $('#ddl_access_type').val('<?php echo $rtype; ?>');
     });
 </script>
 </form>
