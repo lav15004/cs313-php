@@ -47,6 +47,7 @@ include 'inc/dbstuff.inc';
   <br />
   <table class="table table-striped">
     <tr>
+      <th>Edit Link</th>
       <th>Request #</th>
       <th>Project Name</th>
       <th>Request Type</th>
