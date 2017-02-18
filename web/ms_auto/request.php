@@ -8,7 +8,7 @@ session_start();
   $result="";
 include 'inc/dbstuff.inc';
 if ($_POST) {
-    $sql_string = "INSERT INTO ms_request_queue(ms_project_id, ms_request_type, userid, lastname_firstname) 
+    $sql_string = "INSERT INTO ms_request_queue(ms_project_id, ms_request_type_id, userid, lastname_firstname) 
                   values (".filter_var($_POST["ddl_projects"], FILTER_SANITIZE_STRING).", ".filter_var($_POST["ddl_access_type"],
         FILTER_SANITIZE_STRING).", '".filter_var($_POST["userid"],FILTER_SANITIZE_STRING)."', '"
         .filter_var($_POST["last_first"],FILTER_SANITIZE_STRING)."')";
@@ -19,7 +19,6 @@ if ($_POST) {
     } else {
       $result = "Form Submit failed please try again.";
     }
-
 }
 
 ?>
@@ -134,7 +133,7 @@ if ($_POST) {
   <br />
   <div class="row">
     <div class="col-lg-12">
-      <label id="result"><?php $result ?></label>
+      <label id="result"><?php echo $result; ?></label>
     </div>
   </div>
 </div>
