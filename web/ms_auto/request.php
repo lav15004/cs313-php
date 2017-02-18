@@ -5,8 +5,23 @@ session_start();
       header("Location: login.php");
       die();
   }
-
+  $result="";
 include 'inc/dbstuff.inc';
+if ($_POST) {
+    $sql_string = "INSERT INTO ms_request_queue(ms_project_id, ms_request_type, userid, lastname_firstname) values (?,?,?,?)";
+    $statement = $db->prepare($sql_string);
+
+    if($statement->execute(array(filter_var($_POST["ddl_projects"], FILTER_SANITIZE_STRING),filter_var($_POST["ddl_request_type"],
+        FILTER_SANITIZE_STRING),filter_var($_POST["userid"],FILTER_SANITIZE_STRING),
+        filter_var($_POST["last_first"],FILTER_SANITIZE_STRING)))) {
+        header("Location: queue.php");
+        die();
+    } else {
+      $result = "Form Submit failed please try again.";
+    }
+
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,7 +97,7 @@ include 'inc/dbstuff.inc';
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
-      <label class="requestFormlbl"  for="ddl_env">Project: </label>
+      <label class="requestFormlbl"  for="ddl_projects">Project: </label>
       <select id="ddl_projects" name="ddl_projects">
       </select>
     </div>
@@ -90,7 +105,7 @@ include 'inc/dbstuff.inc';
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
-      <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
+      <label class="requestFormlbl"  for="ddl_access_type">Access Type: </label>
       <select name="ddl_access_type">
         <option value="">Select Access Type...</option>
           <?php
@@ -113,6 +128,11 @@ include 'inc/dbstuff.inc';
     </div>
   </div>
   <br />
+  <div class="row">
+    <div class="col-lg-12">
+      <label id="result"></label>
+    </div>
+  </div>
 </div>
 <br />
 <!-- Bootstrap core JavaScript
