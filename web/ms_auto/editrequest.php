@@ -141,9 +141,8 @@ include 'inc/dbstuff.inc';
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $('#dll_env').val($env);
-        $("#dll_env option[value='" + <?php echo $env ?> +']").attr("selected", "selected");
-        $('#ddl_projects').val( <?php echo $name ?>);
+
+        $('#ddl_projects').val('<?php echo $name; ?>');
         $('#ddl_env').change(function(e){
             var selectvalue = $(this).val();
             alert(selectvalue);
