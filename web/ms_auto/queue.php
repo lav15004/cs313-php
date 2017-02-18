@@ -63,7 +63,7 @@ include 'inc/dbstuff.inc';
       $rownum++;
       $rowidname = "row".$rownum;
       echo "<tr>";
-      echo "<label id='".$rowidname."'>Edit</label>";
+      echo "<td>"."<label id='".$rowidname."'>Edit</label></td>";
       echo "<td>".$row['id']."</td>";
       echo "<td>".$row['name']."</td>";
       echo "<td>".$row['rtype']."</td>";
