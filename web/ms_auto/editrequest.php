@@ -150,7 +150,7 @@ include 'inc/dbstuff.inc';
                 $('#ddl_projects').html('<option value="">Select Project...</option>');
             } else {
                 e.preventDefault();
-                $.ajax({url: 'inc/selectproject-inc.php?svalue='+selectvalue+'&pvalue='+'<?php echo $name; ?>,
+                $.ajax({url: 'inc/selectproject-inc.php?svalue='+selectvalue+'&pvalue='+<?php echo $name; ?>,
                     success: function(output) {
                         //alert(output);
                         $('#ddl_projects').html(output);
