@@ -33,7 +33,7 @@ include 'inc/dbstuff.inc';
 </head>
 
 <body>
-<form action="" method="post">
+<form action="editrequest.php" method="post" id="editqueue" name="editqueue">
 <div class="container">
   <?php include 'navbar.inc' ?>
   <div class="row">
@@ -82,12 +82,12 @@ include 'inc/dbstuff.inc';
 <script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../js/jquery.min.js"><\/script>')</script>
 <script src="../js/bootstrap.min.js"></script>
-<script type="text/javascript">
+<!--<script type="text/javascript">
     $(document).ready(function() {
-        $("button").submit(function(){
-           alert($("#"+this.id).val())
+        $('#editqueue').submit(function(e){
+           alert(this.val())
         });
     });
-</script>
+</script>-->
 </body>
 </html>

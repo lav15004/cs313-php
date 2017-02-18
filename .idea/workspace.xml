@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/cs313-php.css" afterPath="$PROJECT_DIR$/web/css/cs313-php.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/queue.php" afterPath="$PROJECT_DIR$/web/ms_auto/queue.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,38 +21,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
+      <file leaf-file-name="queue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="396">
+              <caret line="66" column="111" lean-forward="true" selection-start-line="66" selection-start-column="111" selection-end-line="66" selection-end-column="130" />
               <folding>
-                <marker date="1487413102824" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
-                <marker date="1487413102824" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
+                <marker date="1487440472421" expanded="true" signature="1631:1653" ph="select * fro... vw_queue" />
+                <marker date="1487440472421" expanded="true" signature="1918:1940" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="1941:2144" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2114:2136" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2183:2205" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2255:2277" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2328:2350" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2401:2423" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2514:2592" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2889:3027" ph="..." />
+                <marker date="1487440472421" expanded="true" signature="2924:2936" ph="{...}" />
+                <marker date="1487440472421" expanded="true" signature="2924:3016" ph="{...}" />
+                <marker date="1487440472421" expanded="true" signature="2968:3008" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
+      <file leaf-file-name="editrequest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+            <state relative-caret-position="306">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
-                <marker date="1487439782890" expanded="true" signature="1584:1606" ph="select * fro... vw_queue" />
-                <marker date="1487439782890" expanded="true" signature="1871:1893" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="1894:2097" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2067:2089" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2136:2158" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2208:2230" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2281:2303" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2354:2376" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2467:2545" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2838:2981" ph="..." />
-                <marker date="1487439782890" expanded="true" signature="2873:2886" ph="{...}" />
-                <marker date="1487439782890" expanded="true" signature="2873:2970" ph="{...}" />
-                <marker date="1487439782890" expanded="true" signature="2912:2962" ph="{...}" />
+                <marker date="1487442617325" expanded="true" signature="227:433" ph="select * fro... vw_queue" />
+                <marker date="1487442617325" expanded="true" signature="392:433" ph="select user_... ms_web_users" />
+                <marker date="1487442617325" expanded="true" signature="2700:2738" ph="select serve... env_for_ddl" />
+                <marker date="1487442617325" expanded="true" signature="3603:3664" ph="select ms_re... ms_request_types" />
+                <marker date="1487442617325" expanded="true" signature="4250:4328" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <folding>
+                <marker date="1487413102824" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
+                <marker date="1487413102824" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
               </folding>
             </state>
           </provider>
@@ -83,8 +100,8 @@
       <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -93,18 +110,8 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="2890">
               <caret line="170" column="9" lean-forward="true" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cs313-php.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/cs313-php.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -147,10 +154,11 @@
         <option value="$PROJECT_DIR$/web/welcome.php" />
         <option value="$PROJECT_DIR$/web/login.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php" />
-        <option value="$PROJECT_DIR$/web/css/cs313-php.css" />
         <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
+        <option value="$PROJECT_DIR$/web/css/cs313-php.css" />
         <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/editrequest.php" />
       </list>
     </option>
   </component>
@@ -162,10 +170,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="478" />
+    <option name="width" value="1375" />
+    <option name="height" value="1160" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -280,13 +287,13 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JL5372\cs313-php\web\ms_auto" />
+      <recent name="C:\Users\JL5372\cs313-php\web\ms_auto\inc" />
+      <recent name="C:\Users\JL5372\cs313-php\web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JL5372\cs313-php\web\ms_auto\inc" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\JL5372\cs313-php\web\ms_auto\inc" />
-      <recent name="C:\Users\JL5372\cs313-php\web\ms_auto" />
-      <recent name="C:\Users\JL5372\cs313-php\web" />
     </key>
   </component>
   <component name="RunManager">
@@ -368,18 +375,18 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="11732000" />
+      <workItem from="1487403166131" duration="14564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85256000" />
+    <option name="totallyTimeSpent" value="88088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="478" y="0" width="1375" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17733628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,7 +414,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2509198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -428,13 +435,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/scripture_form_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/gettopics.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -741,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/cs313-php.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -760,25 +752,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
+    <entry file="file://$PROJECT_DIR$/web/css/cs313-php.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="885">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="2890">
           <caret line="170" column="9" lean-forward="true" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="66" column="111" lean-forward="true" selection-start-line="66" selection-start-column="111" selection-end-line="66" selection-end-column="130" />
+          <folding>
+            <marker date="1487440472421" expanded="true" signature="1631:1653" ph="select * fro... vw_queue" />
+            <marker date="1487440472421" expanded="true" signature="1918:1940" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="1941:2144" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2114:2136" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2183:2205" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2255:2277" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2328:2350" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2401:2423" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2514:2592" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2889:3027" ph="..." />
+            <marker date="1487440472421" expanded="true" signature="2924:2936" ph="{...}" />
+            <marker date="1487440472421" expanded="true" signature="2924:3016" ph="{...}" />
+            <marker date="1487440472421" expanded="true" signature="2968:3008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="170">
           <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding>
             <marker date="1487413102824" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
@@ -787,24 +809,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        <state relative-caret-position="306">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <marker date="1487439782890" expanded="true" signature="1584:1606" ph="select * fro... vw_queue" />
-            <marker date="1487439782890" expanded="true" signature="1871:1893" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="1894:2097" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2067:2089" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2136:2158" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2208:2230" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2281:2303" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2354:2376" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2467:2545" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2838:2981" ph="..." />
-            <marker date="1487439782890" expanded="true" signature="2873:2886" ph="{...}" />
-            <marker date="1487439782890" expanded="true" signature="2873:2970" ph="{...}" />
-            <marker date="1487439782890" expanded="true" signature="2912:2962" ph="{...}" />
+            <marker date="1487442617325" expanded="true" signature="227:433" ph="select * fro... vw_queue" />
+            <marker date="1487442617325" expanded="true" signature="392:433" ph="select user_... ms_web_users" />
+            <marker date="1487442617325" expanded="true" signature="2700:2738" ph="select serve... env_for_ddl" />
+            <marker date="1487442617325" expanded="true" signature="3603:3664" ph="select ms_re... ms_request_types" />
+            <marker date="1487442617325" expanded="true" signature="4250:4328" ph="..." />
           </folding>
         </state>
       </provider>
