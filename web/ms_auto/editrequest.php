@@ -142,7 +142,8 @@ include 'inc/dbstuff.inc';
 <script type="text/javascript">
     $(document).ready(function() {
         $('#dll_env').val($env);
-        $('#ddl_projects').val($name);
+        $("#dll_env option[value='" + <?php echo $env ?> +']").attr("selected", "selected");
+        $('#ddl_projects').val( <?php echo $name ?>);
         $('#ddl_env').change(function(e){
             var selectvalue = $(this).val();
             alert(selectvalue);

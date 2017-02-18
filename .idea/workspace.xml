@@ -47,14 +47,14 @@
       <file leaf-file-name="editrequest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="255">
+              <caret line="132" column="8" lean-forward="true" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
               <folding>
-                <marker date="1487449932886" expanded="true" signature="232:602" ph="select * fro... vw_queue" />
-                <marker date="1487449932886" expanded="true" signature="544:602" ph="select user_... ms_web_users" />
-                <marker date="1487449932886" expanded="true" signature="2871:2909" ph="select serve... env_for_ddl" />
-                <marker date="1487449932886" expanded="true" signature="3774:3835" ph="select ms_re... ms_request_types" />
-                <marker date="1487449932886" expanded="true" signature="4458:4536" ph="..." />
+                <marker date="1487450571081" expanded="true" signature="232:602" ph="select * fro... vw_queue" />
+                <marker date="1487450571081" expanded="true" signature="544:602" ph="select user_... ms_web_users" />
+                <marker date="1487450571081" expanded="true" signature="2871:2909" ph="select serve... env_for_ddl" />
+                <marker date="1487450571081" expanded="true" signature="3774:3835" ph="select ms_re... ms_request_types" />
+                <marker date="1487450571081" expanded="true" signature="4458:4536" ph="..." />
               </folding>
             </state>
           </provider>
@@ -398,12 +398,12 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="21475000" />
+      <workItem from="1487403166131" duration="22113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94999000" />
+    <option name="totallyTimeSpent" value="95637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="478" y="0" width="1375" height="1160" extended-state="0" />
@@ -848,14 +848,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="255">
+          <caret line="132" column="8" lean-forward="true" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
           <folding>
-            <marker date="1487449932886" expanded="true" signature="232:602" ph="select * fro... vw_queue" />
-            <marker date="1487449932886" expanded="true" signature="544:602" ph="select user_... ms_web_users" />
-            <marker date="1487449932886" expanded="true" signature="2871:2909" ph="select serve... env_for_ddl" />
-            <marker date="1487449932886" expanded="true" signature="3774:3835" ph="select ms_re... ms_request_types" />
-            <marker date="1487449932886" expanded="true" signature="4458:4536" ph="..." />
+            <marker date="1487450571081" expanded="true" signature="232:602" ph="select * fro... vw_queue" />
+            <marker date="1487450571081" expanded="true" signature="544:602" ph="select user_... ms_web_users" />
+            <marker date="1487450571081" expanded="true" signature="2871:2909" ph="select serve... env_for_ddl" />
+            <marker date="1487450571081" expanded="true" signature="3774:3835" ph="select ms_re... ms_request_types" />
+            <marker date="1487450571081" expanded="true" signature="4458:4536" ph="..." />
           </folding>
         </state>
       </provider>
