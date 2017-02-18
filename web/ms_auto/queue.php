@@ -84,8 +84,8 @@ include 'inc/dbstuff.inc';
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $("button").click(function(){
-            alert(this.id);
+        $("button").submit(function(){
+           alert($("#"+this.id).val())
         });
     });
 </script>
