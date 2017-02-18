@@ -67,7 +67,7 @@ include 'inc/dbstuff.inc';
       echo "<td class='tdqueue'>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
       echo "<td style='vertical-align: middle' class='tdqueue'>".$row['id']."</td>";
       echo "<td style='vertical-align: middle' class='tdqueue'>".$row['name']."</td>";
-      echo "<td class='tdqueue'>".$row['rtype']."</td>";
+      echo '<td class="tdqueue">'.$row["rtype"].'</td>';
       echo "<td class='tdqueue'>".$row['userid']."</td>";
       echo "<td class='tdqueue'>".$row['lfname']."</td>";
       echo "</tr>";
