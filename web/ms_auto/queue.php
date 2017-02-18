@@ -64,12 +64,12 @@ include 'inc/dbstuff.inc';
       $rownum++;
       $rowidname = "row".$rownum;
       echo "<tr>";
-      echo "<td>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
-      echo "<td><label>".$row['id']."</label></td>";
-      echo "<td>".$row['name']."</td>";
-      echo "<td>".$row['rtype']."</td>";
-      echo "<td>".$row['userid']."</td>";
-      echo "<td>".$row['lfname']."</td>";
+      echo "<td class='tdqueue'>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
+      echo "<td class='tdqueue'>".$row['id']."</td>";
+      echo "<td class='tdqueue'>".$row['name']."</td>";
+      echo "<td class='tdqueue'>".$row['rtype']."</td>";
+      echo "<td class='tdqueue'>".$row['userid']."</td>";
+      echo "<td class='tdqueue'>".$row['lfname']."</td>";
       echo "</tr>";
     }
     ?>

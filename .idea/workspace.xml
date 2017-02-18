@@ -24,7 +24,7 @@
       <file leaf-file-name="request.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
+            <state relative-caret-position="748">
               <caret line="128" column="44" lean-forward="true" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
               <folding>
                 <marker date="1487406939019" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
@@ -34,16 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queue.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+            <state relative-caret-position="663">
+              <caret line="69" column="56" lean-forward="true" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
               <folding>
-                <marker date="1487411336441" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
-                <marker date="1487411336441" expanded="true" signature="1833:2012" ph="..." />
-                <marker date="1487411336441" expanded="true" signature="2258:2336" ph="..." />
-                <marker date="1487411336441" expanded="true" signature="2664:2677" ph="{...}" />
+                <marker date="1487411534610" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
+                <marker date="1487411534610" expanded="true" signature="1849:2037" ph="..." />
+                <marker date="1487411534610" expanded="true" signature="2339:2417" ph="..." />
+                <marker date="1487411534610" expanded="true" signature="2745:2758" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cs313-php.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cs313-php.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/cs313-php.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="647">
+              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/web/login.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
         <option value="$PROJECT_DIR$/web/css/cs313-php.css" />
+        <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
       </list>
     </option>
   </component>
@@ -367,12 +367,12 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="8162000" />
+      <workItem from="1487403166131" duration="8360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81686000" />
+    <option name="totallyTimeSpent" value="81884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -759,30 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-          <folding>
-            <marker date="1487411336441" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
-            <marker date="1487411336441" expanded="true" signature="1833:2012" ph="..." />
-            <marker date="1487411336441" expanded="true" signature="2258:2336" ph="..." />
-            <marker date="1487411336441" expanded="true" signature="2664:2677" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="128" column="44" lean-forward="true" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
-          <folding>
-            <marker date="1487406939019" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
-            <marker date="1487406939019" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -800,9 +776,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/cs313-php.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="647">
+          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="128" column="44" lean-forward="true" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
+          <folding>
+            <marker date="1487406939019" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
+            <marker date="1487406939019" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="69" column="56" lean-forward="true" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding>
+            <marker date="1487411534610" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
+            <marker date="1487411534610" expanded="true" signature="1849:2037" ph="..." />
+            <marker date="1487411534610" expanded="true" signature="2339:2417" ph="..." />
+            <marker date="1487411534610" expanded="true" signature="2745:2758" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
