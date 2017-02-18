@@ -8,9 +8,9 @@ if (isset($_SESSION) && isset($_SESSION['user_id']) && $_SESSION["auth"] == 'Tru
 }
 if ($_POST) {
   include 'inc/dbstuff.inc';
-  $sql_string = "select id, name, rtype, userid, lfname, env from vw_queue vq join projects p on vq.id = p.id 
+  $sql_form_string = "select id, name, rtype, userid, lfname, env from vw_queue vq join projects p on vq.id = p.id 
                     join env_for_dll e on p.sever_list_id = e.server_id where id=".$_POST["ms_request_queue_id"];
-  $statement = $db->prepare($sql_string);
+  $statement = $db->prepare(sql_form_string);
   $statement->execute();
   while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
       $id = $row["id"];
@@ -126,7 +126,7 @@ include 'inc/dbstuff.inc';
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
       <button type="submit" name="submit" id="submit" value="<?php echo $id?>">Submit</button>
-      <?php echo $sql_string ?>
+      <?php echo $sql_form_string ?>
     </div>
   </div>
   <br />
