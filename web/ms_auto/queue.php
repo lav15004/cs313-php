@@ -63,7 +63,7 @@ include 'inc/dbstuff.inc';
       $rownum++;
       $rowidname = "row".$rownum;
       echo "<tr>";
-      echo "<td style='vertical-align: middle'>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
+      echo "<td style='vertical-align: middle'>"."<button class='text-center btn btn-link' type='submit' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
       echo "<td style='vertical-align: middle'>".$row['id']."</td>";
       echo "<td style='vertical-align: middle'>".$row['name']."</td>";
       echo '<td style=\'vertical-align: middle\'>'.$row["rtype"].'</td>';
