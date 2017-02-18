@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/request.php" afterPath="$PROJECT_DIR$/web/ms_auto/request.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +23,11 @@
       <file leaf-file-name="request.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="145" column="7" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
+            <state relative-caret-position="614">
+              <caret line="134" column="34" lean-forward="false" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
               <folding>
-                <marker date="1487406429786" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
-                <marker date="1487406429786" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
+                <marker date="1487406551506" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
+                <marker date="1487406551506" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
               </folding>
             </state>
           </provider>
@@ -324,12 +323,12 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="3261000" />
+      <workItem from="1487403166131" duration="3382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76785000" />
+    <option name="totallyTimeSpent" value="76906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="0" width="1375" height="1160" extended-state="0" />
@@ -750,11 +749,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="145" column="7" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
+        <state relative-caret-position="614">
+          <caret line="134" column="34" lean-forward="false" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
           <folding>
-            <marker date="1487406429786" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
-            <marker date="1487406429786" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
+            <marker date="1487406551506" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
+            <marker date="1487406551506" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
           </folding>
         </state>
       </provider>
