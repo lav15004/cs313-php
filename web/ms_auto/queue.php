@@ -16,7 +16,11 @@ include 'inc/dbstuff.inc';
 
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <link rel="stylesheet" href="../css/cs313-php.css">
-
+  <style type="text/css">
+    td {
+      vertical-align: middle;
+    }
+  </style>
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
@@ -80,7 +84,6 @@ include 'inc/dbstuff.inc';
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<link rel="stylesheet" href="../css/cs313-php.css">
 <script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../js/jquery.min.js"><\/script>')</script>
 <script src="../js/bootstrap.min.js"></script>
