@@ -21,6 +21,7 @@ if ($_POST) {
       $lfname = $row["lfname"];
       $env = $row["eid"];
   }
+  $typeofpost=$_POST["update"];
 }
 
 include 'inc/dbstuff.inc';
@@ -123,11 +124,13 @@ include 'inc/dbstuff.inc';
       </select>
     </div>
   </div>
+  <?php
+  echo $typeofpost;
+  ?>
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
-      <button type="submit" name="submit" id="submit" value="<?php echo $id?>">Submit</button>
-      <?php echo $sql_form_string ?>
+      <button type="submit" name="update" id="submit" value="<?php echo $id?>">Update</button>
     </div>
   </div>
   <br />
