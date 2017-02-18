@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php" afterPath="$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/request.php" afterPath="$PROJECT_DIR$/web/ms_auto/request.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +36,11 @@
       <file leaf-file-name="selectproject-inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="238">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
-                <marker date="1487406938991" expanded="true" signature="62:165" ph="select ms_pr... ms_projects" />
-                <marker date="1487406938991" expanded="true" signature="137:165" ph="select user_... ms_web_users" />
+                <marker date="1487407121124" expanded="true" signature="61:154" ph="select ms_pr... ms_projects" />
+                <marker date="1487407121124" expanded="true" signature="136:154" ph="select user_... ms_web_users" />
               </folding>
             </state>
           </provider>
@@ -324,12 +323,12 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="3769000" />
+      <workItem from="1487403166131" duration="3950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77293000" />
+    <option name="totallyTimeSpent" value="77474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="0" width="1375" height="1160" extended-state="0" />
@@ -750,11 +749,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding>
-            <marker date="1487406938991" expanded="true" signature="62:165" ph="select ms_pr... ms_projects" />
-            <marker date="1487406938991" expanded="true" signature="137:165" ph="select user_... ms_web_users" />
+            <marker date="1487407121124" expanded="true" signature="61:154" ph="select ms_pr... ms_projects" />
+            <marker date="1487407121124" expanded="true" signature="136:154" ph="select user_... ms_web_users" />
           </folding>
         </state>
       </provider>
