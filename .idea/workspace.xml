@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.php" afterPath="$PROJECT_DIR$/web/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/request.php" afterPath="$PROJECT_DIR$/web/ms_auto/request.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,77 +21,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding>
-                <marker date="1486864087525" expanded="true" signature="1529:1551" ph="select * fro... vw_queue" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="request.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="request.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="801">
+              <caret line="145" column="7" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
               <folding>
-                <marker date="1486864087498" expanded="true" signature="2070:2108" ph="select serve... env_for_ddl" />
-                <marker date="1486864087498" expanded="true" signature="2726:2777" ph="select ms_pr... ms_projects" />
-                <marker date="1486864087498" expanded="true" signature="3416:3477" ph="select ms_re... ms_request_types" />
+                <marker date="1487406429786" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
+                <marker date="1487406429786" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/search.php">
+      <file leaf-file-name="selectproject-inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding>
-                <marker date="1486864087536" expanded="true" signature="2138:2202" ph="select * fro... vw_queue" />
+                <marker date="1487404823184" expanded="true" signature="62:176" ph="select ms_pr... ms_projects" />
+                <marker date="1487404823184" expanded="true" signature="137:176" ph="select user_... ms_web_users" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <marker date="1486863614183" expanded="true" signature="62:118" ph="select user_... ms_web_users" />
-                <marker date="1486863614183" expanded="true" signature="62:121" ph="select user_... ms_web_users" />
-                <marker date="1486863614183" expanded="true" signature="62:144" ph="select user_... ms_web_users" />
-                <marker date="1486863614183" expanded="true" signature="62:145" ph="select user_... ms_web_users" />
-                <marker date="1486863614183" expanded="true" signature="62:146" ph="select user_... ms_web_users" />
-                <marker date="1486863614183" expanded="true" signature="62:190" ph="select user_... ms_web_users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="210" column="11" lean-forward="true" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -105,38 +57,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="111" column="10" lean-forward="true" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reg-inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/reg-inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="21" />
-              <folding>
-                <marker date="1487205185629" expanded="true" signature="62:112" ph="INSERT INTO users... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login-inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-              <folding>
-                <marker date="1487206189155" expanded="true" signature="62:141" ph="select usern... users" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="153" column="16" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="201" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,13 +100,14 @@
         <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/index.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/search.php" />
         <option value="$PROJECT_DIR$/web/reg-inc.php" />
         <option value="$PROJECT_DIR$/web/login-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/login.php" />
         <option value="$PROJECT_DIR$/web/welcome.php" />
         <option value="$PROJECT_DIR$/web/login.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
       </list>
     </option>
   </component>
@@ -211,8 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -396,18 +323,19 @@
       <workItem from="1486844425328" duration="264000" />
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
-      <workItem from="1487203833699" duration="4321000" />
+      <workItem from="1487203833699" duration="5190000" />
+      <workItem from="1487403166131" duration="3261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72655000" />
+    <option name="totallyTimeSpent" value="76785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="0" width="1375" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2509198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2509198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -456,13 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/Submit-Form-using-jQuery-Ajax-PHP/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/scripture_form_ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -610,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/dbstuff.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/week5group1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -738,18 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding>
-            <marker date="1486864087498" expanded="true" signature="2070:2108" ph="select serve... env_for_ddl" />
-            <marker date="1486864087498" expanded="true" signature="2726:2777" ph="select ms_pr... ms_projects" />
-            <marker date="1486864087498" expanded="true" signature="3416:3477" ph="select ms_re... ms_request_types" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -760,10 +662,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="2" />
           <folding>
             <marker date="1486863614183" expanded="true" signature="62:118" ph="select user_... ms_web_users" />
             <marker date="1486863614183" expanded="true" signature="62:121" ph="select user_... ms_web_users" />
@@ -775,18 +685,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/dbstuff.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="210" column="11" lean-forward="true" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="211" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -819,12 +729,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <marker date="1487404823184" expanded="true" signature="62:176" ph="select ms_pr... ms_projects" />
+            <marker date="1487404823184" expanded="true" signature="137:176" ph="select user_... ms_web_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="111" column="10" lean-forward="true" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+        <state relative-caret-position="340">
+          <caret line="153" column="16" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="201" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="145" column="7" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1487406429786" expanded="true" signature="2083:2121" ph="select serve... env_for_ddl" />
+            <marker date="1487406429786" expanded="true" signature="2986:3047" ph="select ms_re... ms_request_types" />
           </folding>
         </state>
       </provider>

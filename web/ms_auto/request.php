@@ -64,7 +64,7 @@ include 'inc/dbstuff.inc';
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
       <label class="requestFormlbl"  for="ddl_env">Environment: </label>
-      <select name="ddl_env">
+      <select id="ddl_env" name="ddl_env">
         <option value="">Select Environment...</option>
           <?php
           $sql_string = "select server_id, env from env_for_ddl";
@@ -83,18 +83,7 @@ include 'inc/dbstuff.inc';
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
       <label class="requestFormlbl"  for="ddl_env">Project: </label>
-      <select name="ddl_env">
-        <option value="">Select Project...</option>
-          <?php
-          $sql_string = "select ms_project_id, project_name from ms_projects";
-          echo $sql_string;
-          $statement = $db->prepare(html_entity_decode($sql_string));
-          $statement->execute();
-          while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-          {
-              echo "<option value='".$row['ms_project_id']."'>".$row['project_name']."</option>";
-          }
-          ?>
+      <select id="ddl_projects" name="ddl_projects">
       </select>
     </div>
   </div>
@@ -102,7 +91,7 @@ include 'inc/dbstuff.inc';
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
       <label class="requestFormlbl"  for="ddl_env">Access Type: </label>
-      <select name="ddl_env">
+      <select name="ddl_access_type">
         <option value="">Select Access Type...</option>
           <?php
           $sql_string = "select ms_request_type_id, request_type from ms_request_types";
@@ -132,6 +121,30 @@ include 'inc/dbstuff.inc';
 <script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../js/jquery.min.js"><\/script>')</script>
 <script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#ddl_projects').html('<option value="">Select Project...</option>');
+        $('#ddl_env').change(function(e){
+            var selectvalue = $(this).val();
+            $('#ddl_projects').html('<option value="">Loading...</option>');
+            if (selectvalue== ""){
+                $('#ddl_projects').html('<option value="">Select Project...</option>');
+            } else {
+                e.preventDefault();
+                $.ajax({url: 'selectproject-inc.php?svalue=' + selectvalue,
+                    success: function(output) {
+                        //alert(output);
+                        $('#ddl_projects').html(output);
+                      },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert(xhr.status + " "+ thrownError);
+                      }
+                })
+            }
+        });
+    });
+</script>
 </form>
 </body>
 </html>
