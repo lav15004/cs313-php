@@ -64,7 +64,7 @@ include 'inc/dbstuff.inc';
       $rownum++;
       $rowidname = "row".$rownum;
       echo "<tr>";
-      echo "<td>"."<label id='".$rowidname."'>Edit</label></td>";
+      echo "<td>"."<input type='button' method='post' name='".$rowidname."' id='".$rowidname."'>Edit</button></td>";
       echo "<td>".$row['id']."</td>";
       echo "<td>".$row['name']."</td>";
       echo "<td>".$row['rtype']."</td>";
@@ -85,14 +85,8 @@ include 'inc/dbstuff.inc';
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $("input[name='mode']").click(function(){
-            if ($("input[name='mode']:checked").val() == 'login') {
-                $( "#regdiv" ).hide();
-                $( "#logindiv").show();
-            }else {
-                $("#logindiv").hide();
-                $("#regdiv").show();
-            }
+        $("input[type='button']").click(function(){
+            alert($(this).val());
         });
     });
 </script>
