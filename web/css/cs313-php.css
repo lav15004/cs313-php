@@ -60,3 +60,6 @@
 .loginFormlbl {
   width: 140px;
 }
+td {
+  vertical-align: middle;
+}
