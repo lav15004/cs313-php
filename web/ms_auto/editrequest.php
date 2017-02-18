@@ -8,8 +8,8 @@ if (isset($_SESSION) && isset($_SESSION['user_id']) && $_SESSION["auth"] == 'Tru
 }
 if ($_POST) {
   include 'inc/dbstuff.inc';
-  $sql_form_string = "select id, name, rtype, userid, lfname, env from vw_queue vq join projects p on vq.id = p.id 
-                    join env_for_dll e on p.sever_list_id = e.server_id where id=".$_POST["ms_request_queue_id"];
+  $sql_form_string = "select id, name, rtype, userid, lfname, env from vw_queue vq join projects p on vq.id = p.ms_project_id 
+                    join env_for_dll e on p.server_list_id = e.server_id where id=".$_POST["ms_request_queue_id"];
   $statement = $db->prepare(sql_form_string);
   $statement->execute();
   while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
