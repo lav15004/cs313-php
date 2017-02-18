@@ -8,11 +8,12 @@ session_start();
   $result="";
 include 'inc/dbstuff.inc';
 if ($_POST) {
-    $sql_string = "INSERT INTO ms_request_queue(ms_project_id, ms_request_type, userid, lastname_firstname) values (?,?,?,?)";
+    $sql_string = "INSERT INTO ms_request_queue(ms_project_id, ms_request_type, userid, lastname_firstname) 
+                  values (".filter_var($_POST["ddl_projects"], FILTER_SANITIZE_STRING).", ".filter_var($_POST["ddl_access_type"],
+        FILTER_SANITIZE_STRING).", '".filter_var($_POST["userid"],FILTER_SANITIZE_STRING)."', '"
+        .filter_var($_POST["last_first"],FILTER_SANITIZE_STRING)."')";
     $statement = $db->prepare($sql_string);
-    if($statement->execute(array(filter_var($_POST["ddl_projects"], FILTER_SANITIZE_STRING),filter_var($_POST["ddl_access_type"],
-        FILTER_SANITIZE_STRING),filter_var($_POST["userid"],FILTER_SANITIZE_STRING),
-        filter_var($_POST["last_first"],FILTER_SANITIZE_STRING)))) {
+    if($statement->execute()) {
         header("Location: queue.php");
         die();
     } else {
@@ -69,7 +70,7 @@ if ($_POST) {
   </div>
   <?php
     echo $sql_string . "\n";
-    echo $valuesarray . "\n";
+
   ?>
   <br />
   <div class="row">
