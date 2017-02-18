@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="" />
+    <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/editrequest.php" afterPath="$PROJECT_DIR$/web/ms_auto/editrequest.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +47,14 @@
       <file leaf-file-name="editrequest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state relative-caret-position="340">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
-                <marker date="1487449057054" expanded="true" signature="232:495" ph="select * fro... vw_queue" />
-                <marker date="1487449057054" expanded="true" signature="429:495" ph="select user_... ms_web_users" />
-                <marker date="1487449057054" expanded="true" signature="2766:2804" ph="select serve... env_for_ddl" />
-                <marker date="1487449057054" expanded="true" signature="3669:3730" ph="select ms_re... ms_request_types" />
-                <marker date="1487449057054" expanded="true" signature="4353:4431" ph="..." />
+                <marker date="1487449229579" expanded="true" signature="232:495" ph="select * fro... vw_queue" />
+                <marker date="1487449229579" expanded="true" signature="429:495" ph="select user_... ms_web_users" />
+                <marker date="1487449229579" expanded="true" signature="2767:2805" ph="select serve... env_for_ddl" />
+                <marker date="1487449229579" expanded="true" signature="3670:3731" ph="select ms_re... ms_request_types" />
+                <marker date="1487449229579" expanded="true" signature="4354:4432" ph="..." />
               </folding>
             </state>
           </provider>
@@ -396,12 +398,12 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="20649000" />
+      <workItem from="1487403166131" duration="20772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94173000" />
+    <option name="totallyTimeSpent" value="94296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="478" y="0" width="1375" height="1160" extended-state="0" />
@@ -846,14 +848,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state relative-caret-position="340">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
-            <marker date="1487449057054" expanded="true" signature="232:495" ph="select * fro... vw_queue" />
-            <marker date="1487449057054" expanded="true" signature="429:495" ph="select user_... ms_web_users" />
-            <marker date="1487449057054" expanded="true" signature="2766:2804" ph="select serve... env_for_ddl" />
-            <marker date="1487449057054" expanded="true" signature="3669:3730" ph="select ms_re... ms_request_types" />
-            <marker date="1487449057054" expanded="true" signature="4353:4431" ph="..." />
+            <marker date="1487449229579" expanded="true" signature="232:495" ph="select * fro... vw_queue" />
+            <marker date="1487449229579" expanded="true" signature="429:495" ph="select user_... ms_web_users" />
+            <marker date="1487449229579" expanded="true" signature="2767:2805" ph="select serve... env_for_ddl" />
+            <marker date="1487449229579" expanded="true" signature="3670:3731" ph="select ms_re... ms_request_types" />
+            <marker date="1487449229579" expanded="true" signature="4354:4432" ph="..." />
           </folding>
         </state>
       </provider>

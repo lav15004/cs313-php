@@ -11,7 +11,7 @@ if ($_POST) {
   $sql_form_string = "select id, name, rtype, userid, lfname, env from vw_queue vq join ms_projects p on
                         vq.ms_project_id = p.ms_project_id join env_for_ddl e on p.ms_server_list_id = e.server_id 
                         where id=".$_POST["ms_request_queue_id"];
-  $statement = $db->prepare(sql_form_string);
+  $statement = $db->prepare($sql_form_string);
   $statement->execute();
   while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
       $id = $row["id"];
