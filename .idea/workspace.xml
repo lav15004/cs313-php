@@ -36,13 +36,13 @@
       <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+            <state relative-caret-position="511">
+              <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
               <folding>
-                <marker date="1487410633285" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
-                <marker date="1487410633285" expanded="true" signature="1833:1991" ph="..." />
-                <marker date="1487410633285" expanded="true" signature="2229:2307" ph="..." />
-                <marker date="1487410633285" expanded="true" signature="2635:2648" ph="{...}" />
+                <marker date="1487410882013" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
+                <marker date="1487410882013" expanded="true" signature="1833:2005" ph="..." />
+                <marker date="1487410882013" expanded="true" signature="2263:2341" ph="..." />
+                <marker date="1487410882013" expanded="true" signature="2669:2682" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -339,12 +339,12 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="7462000" />
+      <workItem from="1487403166131" duration="7713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80986000" />
+    <option name="totallyTimeSpent" value="81237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -766,13 +766,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+        <state relative-caret-position="511">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
           <folding>
-            <marker date="1487410633285" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
-            <marker date="1487410633285" expanded="true" signature="1833:1991" ph="..." />
-            <marker date="1487410633285" expanded="true" signature="2229:2307" ph="..." />
-            <marker date="1487410633285" expanded="true" signature="2635:2648" ph="{...}" />
+            <marker date="1487410882013" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
+            <marker date="1487410882013" expanded="true" signature="1833:2005" ph="..." />
+            <marker date="1487410882013" expanded="true" signature="2263:2341" ph="..." />
+            <marker date="1487410882013" expanded="true" signature="2669:2682" ph="{...}" />
           </folding>
         </state>
       </provider>
