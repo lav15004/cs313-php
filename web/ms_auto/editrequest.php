@@ -126,6 +126,7 @@ include 'inc/dbstuff.inc';
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
       <button type="submit" name="submit" id="submit" value="<?php echo $id?>">Submit</button>
+      <?php echo $sql_string ?>
     </div>
   </div>
   <br />
