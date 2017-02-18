@@ -127,6 +127,7 @@ include 'inc/dbstuff.inc';
         $('#ddl_projects').html('<option value="">Select Project...</option>');
         $('#ddl_env').change(function(e){
             var selectvalue = $(this).val();
+            alert(selectvalue);
             $('#ddl_projects').html('<option value="">Loading...</option>');
             if (selectvalue== ""){
                 $('#ddl_projects').html('<option value="">Select Project...</option>');
