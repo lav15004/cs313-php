@@ -130,7 +130,7 @@ if ($_POST) {
   <br />
   <div class="row">
     <div class="col-lg-12">
-      <label id="result"><?php $result ?>/label>
+      <label id="result"><?php $result ?></label>
     </div>
   </div>
 </div>
