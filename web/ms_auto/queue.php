@@ -45,7 +45,7 @@ include 'inc/dbstuff.inc';
   </div>
   <br />
   <br />
-  <table class="tdqueue table table-striped tdqueue">
+  <table class="table table-striped">
     <tr>
       <th>Edit Link</th>
       <th>Request #</th>
@@ -63,13 +63,13 @@ include 'inc/dbstuff.inc';
     {
       $rownum++;
       $rowidname = "row".$rownum;
-      echo "<tr>";
-      echo "<td class='tdqueue'>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
-      echo "<td style='vertical-align: middle' class='tdqueue'>".$row['id']."</td>";
-      echo "<td style='vertical-align: middle' class='tdqueue'>".$row['name']."</td>";
-      echo '<td class="tdqueue">'.$row["rtype"].'</td>';
-      echo "<td class='tdqueue'>".$row['userid']."</td>";
-      echo "<td class='tdqueue'>".$row['lfname']."</td>";
+      echo "<tr class='tdqueue'>";
+      echo "<td>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
+      echo "<td style='vertical-align: middle'>".$row['id']."</td>";
+      echo "<td style='vertical-align: middle'>".$row['name']."</td>";
+      echo '<td>'.$row["rtype"].'</td>';
+      echo "<td>".$row['userid']."</td>";
+      echo "<td>".$row['lfname']."</td>";
       echo "</tr>";
     }
     ?>

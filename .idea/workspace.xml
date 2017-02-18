@@ -36,18 +36,18 @@
       <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="528">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
-                <marker date="1487412325285" expanded="true" signature="1570:1592" ph="select * fro... vw_queue" />
-                <marker date="1487412325285" expanded="true" signature="1865:2084" ph="..." />
-                <marker date="1487412325285" expanded="true" signature="2038:2060" ph="..." />
-                <marker date="1487412325285" expanded="true" signature="2123:2145" ph="..." />
-                <marker date="1487412325285" expanded="true" signature="2417:2495" ph="..." />
-                <marker date="1487412325285" expanded="true" signature="2788:2919" ph="..." />
-                <marker date="1487412325285" expanded="true" signature="2823:2836" ph="{...}" />
-                <marker date="1487412325285" expanded="true" signature="2823:2908" ph="{...}" />
-                <marker date="1487412325285" expanded="true" signature="2861:2900" ph="{...}" />
+                <marker date="1487412446904" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
+                <marker date="1487412446904" expanded="true" signature="1849:2052" ph="..." />
+                <marker date="1487412446904" expanded="true" signature="2022:2044" ph="..." />
+                <marker date="1487412446904" expanded="true" signature="2091:2113" ph="..." />
+                <marker date="1487412446904" expanded="true" signature="2321:2399" ph="..." />
+                <marker date="1487412446904" expanded="true" signature="2692:2823" ph="..." />
+                <marker date="1487412446904" expanded="true" signature="2727:2740" ph="{...}" />
+                <marker date="1487412446904" expanded="true" signature="2727:2812" ph="{...}" />
+                <marker date="1487412446904" expanded="true" signature="2765:2804" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -371,12 +371,12 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="9150000" />
+      <workItem from="1487403166131" duration="9278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82674000" />
+    <option name="totallyTimeSpent" value="82802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -799,18 +799,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="528">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
-            <marker date="1487412325285" expanded="true" signature="1570:1592" ph="select * fro... vw_queue" />
-            <marker date="1487412325285" expanded="true" signature="1865:2084" ph="..." />
-            <marker date="1487412325285" expanded="true" signature="2038:2060" ph="..." />
-            <marker date="1487412325285" expanded="true" signature="2123:2145" ph="..." />
-            <marker date="1487412325285" expanded="true" signature="2417:2495" ph="..." />
-            <marker date="1487412325285" expanded="true" signature="2788:2919" ph="..." />
-            <marker date="1487412325285" expanded="true" signature="2823:2836" ph="{...}" />
-            <marker date="1487412325285" expanded="true" signature="2823:2908" ph="{...}" />
-            <marker date="1487412325285" expanded="true" signature="2861:2900" ph="{...}" />
+            <marker date="1487412446904" expanded="true" signature="1554:1576" ph="select * fro... vw_queue" />
+            <marker date="1487412446904" expanded="true" signature="1849:2052" ph="..." />
+            <marker date="1487412446904" expanded="true" signature="2022:2044" ph="..." />
+            <marker date="1487412446904" expanded="true" signature="2091:2113" ph="..." />
+            <marker date="1487412446904" expanded="true" signature="2321:2399" ph="..." />
+            <marker date="1487412446904" expanded="true" signature="2692:2823" ph="..." />
+            <marker date="1487412446904" expanded="true" signature="2727:2740" ph="{...}" />
+            <marker date="1487412446904" expanded="true" signature="2727:2812" ph="{...}" />
+            <marker date="1487412446904" expanded="true" signature="2765:2804" ph="{...}" />
           </folding>
         </state>
       </provider>
