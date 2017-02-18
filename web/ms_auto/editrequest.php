@@ -1,30 +1,31 @@
 <?php
 session_start();
-
+include 'inc/dbstuff.inc';
 if (isset($_SESSION) && isset($_SESSION['user_id']) && $_SESSION["auth"] == 'True') {
 } else {
     header("Location: login.php");
     die();
 }
 if ($_POST) {
-  include 'inc/dbstuff.inc';
-  $sql_form_string = "select ms_request_queue_id id, q.ms_project_id pid, q.ms_request_type_id rid, userid, lastname_firstname lfname,
+  if ($_POST["update"]==""){
+      $sql_form_string = "select ms_request_queue_id id, q.ms_project_id pid, q.ms_request_type_id rid, userid, lastname_firstname lfname,
                         e.server_id eid from ms_request_queue q join ms_projects p on q.ms_project_id = p.ms_project_id join
                         env_for_ddl e on p.ms_server_list_id = e.server_id where ms_request_queue_id=".$_POST["ms_request_queue_id"];
-  $statement = $db->prepare($sql_form_string);
-  $statement->execute();
-  while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-      $id = $row["id"];
-      $name = $row["pid"];
-      $rtype = $row["rid"];
-      $userid = $row["userid"];
-      $lfname = $row["lfname"];
-      $env = $row["eid"];
+      $statement = $db->prepare($sql_form_string);
+      $statement->execute();
+      while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+          $id = $row["id"];
+          $name = $row["pid"];
+          $rtype = $row["rid"];
+          $userid = $row["userid"];
+          $lfname = $row["lfname"];
+          $env = $row["eid"];
+      }
   }
-  $typeofpost=$_POST["update"];
+
 }
 
-include 'inc/dbstuff.inc';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -124,9 +125,6 @@ include 'inc/dbstuff.inc';
       </select>
     </div>
   </div>
-  <?php
-  echo $typeofpost;
-  ?>
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
