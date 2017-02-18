@@ -10,10 +10,10 @@ include 'inc/dbstuff.inc';
 if ($_POST) {
     $sql_string = "INSERT INTO ms_request_queue(ms_project_id, ms_request_type, userid, lastname_firstname) values (?,?,?,?)";
     $statement = $db->prepare($sql_string);
-
-    if($statement->execute(array(filter_var($_POST["ddl_projects"], FILTER_SANITIZE_STRING),filter_var($_POST["ddl_request_type"],
+    $valuesarray = array(filter_var($_POST["ddl_projects"], FILTER_SANITIZE_STRING),filter_var($_POST["ddl_access_type"],
         FILTER_SANITIZE_STRING),filter_var($_POST["userid"],FILTER_SANITIZE_STRING),
-        filter_var($_POST["last_first"],FILTER_SANITIZE_STRING)))) {
+        filter_var($_POST["last_first"],FILTER_SANITIZE_STRING));
+    if($statement->execute($valuesarray)) {
         header("Location: queue.php");
         die();
     } else {
