@@ -64,7 +64,7 @@ include 'inc/dbstuff.inc';
       $rownum++;
       $rowidname = "row".$rownum;
       echo "<tr>";
-      echo "<td>"."<input type='button' method='post' name='".$rowidname."' id='".$rowidname."'>Edit</button></td>";
+      echo "<td>"."<input type='button' method='post' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
       echo "<td>".$row['id']."</td>";
       echo "<td>".$row['name']."</td>";
       echo "<td>".$row['rtype']."</td>";
