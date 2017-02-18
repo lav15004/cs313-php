@@ -142,7 +142,7 @@ include 'inc/dbstuff.inc';
 <script type="text/javascript">
     $(document).ready(function() {
 
-        $('#ddl_env').val('<?php echo $env; ?>');
+
         $('#ddl_env').change(function(e){
             var selectvalue = $(this).val();
             alert(selectvalue);
@@ -162,6 +162,9 @@ include 'inc/dbstuff.inc';
                 })
             }
         });
+
+        $('#ddl_env').val('<?php echo $env; ?>');
+        $('#ddl_env').trigger('change');
     });
 </script>
 </form>
