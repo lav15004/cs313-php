@@ -62,13 +62,13 @@ include 'inc/dbstuff.inc';
     {
       $rownum++;
       $rowidname = "row".$rownum;
-      echo "<tr style='vertical-align: middle'>";
-      echo "<td>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
-      echo "<td>".$row['id']."</td>";
-      echo "<td>".$row['name']."</td>";
-      echo '<td>'.$row["rtype"].'</td>';
-      echo "<td>".$row['userid']."</td>";
-      echo "<td>".$row['lfname']."</td>";
+      echo "<tr>";
+      echo "<td style='vertical-align: middle'>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
+      echo "<td style='vertical-align: middle'>".$row['id']."</td>";
+      echo "<td style='vertical-align: middle'>".$row['name']."</td>";
+      echo '<td style=\'vertical-align: middle\'>'.$row["rtype"].'</td>';
+      echo "<td style='vertical-align: middle'>".$row['userid']."</td>";
+      echo "<td style='vertical-align: middle'>".$row['lfname']."</td>";
       echo "</tr>";
     }
     ?>
