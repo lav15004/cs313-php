@@ -57,9 +57,13 @@ include 'inc/dbstuff.inc';
     $sql_string = "select * from vw_queue";
     $statement = $db->prepare(html_entity_decode($sql_string));
     $statement->execute();
+    $rownum = 0;
     while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
+      $rownum++;
+      $rowidname = "row".$rownum;
       echo "<tr>";
+      echo "<label id='".$rowidname."'>Edit</label>";
       echo "<td>".$row['id']."</td>";
       echo "<td>".$row['name']."</td>";
       echo "<td>".$row['rtype']."</td>";
@@ -78,5 +82,18 @@ include 'inc/dbstuff.inc';
 <script src="../js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../js/jquery.min.js"><\/script>')</script>
 <script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("input[name='mode']").click(function(){
+            if ($("input[name='mode']:checked").val() == 'login') {
+                $( "#regdiv" ).hide();
+                $( "#logindiv").show();
+            }else {
+                $("#logindiv").hide();
+                $("#regdiv").show();
+            }
+        });
+    });
+</script>
 </body>
 </html>
