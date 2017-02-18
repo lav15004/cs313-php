@@ -15,7 +15,7 @@ include 'inc/dbstuff.inc';
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+  <link rel="stylesheet" href="../css/cs313-php.css">
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
@@ -24,12 +24,7 @@ include 'inc/dbstuff.inc';
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/cs313-php.css">
-  <style type="text/css">
-    td {
-      vertical-align: middle;
-    }
-  </style>
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -67,10 +62,10 @@ include 'inc/dbstuff.inc';
     {
       $rownum++;
       $rowidname = "row".$rownum;
-      echo "<tr class='tdqueue'>";
+      echo "<tr style='vertical-align: middle'>";
       echo "<td>"."<button class='text-center btn btn-link' type='button' name='ms_request_queue_id' id='".$rowidname."' value='".$row['id']."'>Edit</button></td>";
-      echo "<td style='vertical-align: middle'>".$row['id']."</td>";
-      echo "<td style='vertical-align: middle'>".$row['name']."</td>";
+      echo "<td>".$row['id']."</td>";
+      echo "<td>".$row['name']."</td>";
       echo '<td>'.$row["rtype"].'</td>';
       echo "<td>".$row['userid']."</td>";
       echo "<td>".$row['lfname']."</td>";
