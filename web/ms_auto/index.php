@@ -45,7 +45,7 @@
 
   <div class="row">
     <div class="col-lg-12">
-      <div class="jumbotron"><h1>Welcome, you are logged in as <?php echo $_SESSION["user_id"]; ?>!</h1></div>
+      <div class="jumbotron"><h3>Welcome, you are logged in as <?php echo $_SESSION["user_id"]; ?>!</h3></div>
     </div>
   </div>
 
