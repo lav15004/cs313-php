@@ -52,7 +52,7 @@ include 'inc/dbstuff.inc';
       <th>Project Name</th>
       <th>Request Type</th>
       <th>User ID</th>
-      <th>Last Name, First Name</th>
+      <th>User Name</th>
       <th>Last Modified by</th>
     </tr>
     <?php
