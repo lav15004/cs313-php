@@ -184,7 +184,7 @@
                         window.location.href = 'index.php'
                     } else {
                         $('#result').text(data);
-                        $('#result').addClass("text-success");
+                        $('#result').addClass("text-danger");
                     }
 
                 })

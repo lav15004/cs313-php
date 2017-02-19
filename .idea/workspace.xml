@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php" afterPath="$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/login.php" afterPath="$PROJECT_DIR$/web/ms_auto/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +98,8 @@
       <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="357">
+              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="63" />
               <folding>
                 <marker date="1487485124273" expanded="true" signature="62:149" ph="select user_... ms_web_users" />
               </folding>
@@ -108,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="184" column="28" lean-forward="true" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+            <state relative-caret-position="510">
+              <caret line="192" column="19" lean-forward="true" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -130,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg-inc.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reg-inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -184,8 +183,8 @@
         <option value="$PROJECT_DIR$/web/ms_auto/search.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/editrequest.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/login.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/login.php" />
       </list>
     </option>
   </component>
@@ -404,12 +403,12 @@
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
       <workItem from="1487403166131" duration="25943000" />
-      <workItem from="1487472163581" duration="6023000" />
+      <workItem from="1487472163581" duration="6121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105490000" />
+    <option name="totallyTimeSpent" value="105588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="502" y="34" width="1375" height="1120" extended-state="0" />
@@ -774,16 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <marker date="1487485124273" expanded="true" signature="62:149" ph="select user_... ms_web_users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -851,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="184" column="28" lean-forward="true" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -866,6 +847,24 @@
           <folding>
             <marker date="1487487136097" expanded="true" signature="62:130" ph="INSERT INTO ms_web_users... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <marker date="1487485124273" expanded="true" signature="62:149" ph="select user_... ms_web_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="192" column="19" lean-forward="true" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
