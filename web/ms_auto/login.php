@@ -104,7 +104,7 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6 text-center">
-        <label class="loginFormlbl" for="fullname">Full Name: </label>
+        <label class="loginFormlbl text-left" for="fullname">Full Name: </label>
         <input type="text" name="fullname" id="fullname">
       </div>
       <div class="col-sm-3">
