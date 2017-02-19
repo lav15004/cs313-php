@@ -53,6 +53,7 @@ include 'inc/dbstuff.inc';
       <th>Request Type</th>
       <th>User ID</th>
       <th>Last Name, First Name</th>
+      <th>Modified by</th>
     </tr>
     <?php
     $sql_string = "select * from vw_queue";
@@ -70,6 +71,7 @@ include 'inc/dbstuff.inc';
       echo '<td style=\'vertical-align: middle\'>'.$row["rtype"].'</td>';
       echo "<td style='vertical-align: middle'>".$row['userid']."</td>";
       echo "<td style='vertical-align: middle'>".$row['lfname']."</td>";
+      echo "<td style='vertical-align: middle'>".$row['full_name']."</td>";
       echo "</tr>";
     }
     ?>

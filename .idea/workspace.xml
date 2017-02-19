@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/editrequest.php" afterPath="$PROJECT_DIR$/web/ms_auto/editrequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.sql" afterPath="$PROJECT_DIR$/output.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" afterPath="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/queue.php" afterPath="$PROJECT_DIR$/web/ms_auto/queue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/request.php" afterPath="$PROJECT_DIR$/web/ms_auto/request.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,67 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="queue.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
               <folding>
-                <marker date="1487440472421" expanded="true" signature="1631:1653" ph="select * fro... vw_queue" />
-                <marker date="1487440472421" expanded="true" signature="1918:1940" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="1941:2144" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2114:2136" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2183:2205" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2255:2277" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2328:2350" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2401:2423" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2514:2592" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2889:3027" ph="..." />
-                <marker date="1487440472421" expanded="true" signature="2924:2936" ph="{...}" />
-                <marker date="1487440472421" expanded="true" signature="2924:3016" ph="{...}" />
-                <marker date="1487440472421" expanded="true" signature="2968:3008" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editrequest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="93" lean-forward="false" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
-              <folding>
-                <marker date="1487453716101" expanded="true" signature="262:601" ph="select ms_re... ms_request_queue" />
-                <marker date="1487453716101" expanded="true" signature="1006:1570" ph="Update ms_re... " />
-                <marker date="1487453716101" expanded="true" signature="1012:1570" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487453716101" expanded="true" signature="1835:2799" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="1842:1859" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="1842:2719" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="2524:2709" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="2727:2799" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="2758:2799" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="2782:2799" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="2834:2937" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="2878:2928" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="2973:3185" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="3017:3176" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="3214:3450" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="3258:3441" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="3479:4016" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="3523:4016" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="3639:4016" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="3738:3776" ph="select serve... env_for_ddl" />
-                <marker date="1487453716101" expanded="true" signature="4156:4363" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="4200:4354" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="4327:4343" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="4392:4976" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="4436:4976" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="4576:4976" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="4675:4736" ph="select ms_re... ms_request_types" />
-                <marker date="1487453716101" expanded="true" signature="5134:5293" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="5178:5284" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="5322:5400" ph="..." />
-                <marker date="1487453716101" expanded="true" signature="5728:5742" ph="{...}" />
+                <marker date="1487484963177" expanded="true" signature="1658:1680" ph="select * fro... vw_queue" />
+                <marker date="1487484963177" expanded="true" signature="1945:1967" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="1968:2171" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="2141:2163" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="2210:2232" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="2282:2304" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="2355:2377" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="2428:2450" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="2501:2523" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="2992:3130" ph="..." />
+                <marker date="1487484963177" expanded="true" signature="3027:3039" ph="{...}" />
+                <marker date="1487484963177" expanded="true" signature="3027:3119" ph="{...}" />
+                <marker date="1487484963177" expanded="true" signature="3071:3111" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,46 +51,24 @@
       <file leaf-file-name="request.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state relative-caret-position="306">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
-                <marker date="1487451340263" expanded="true" signature="250:369" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:382" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:433" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:509" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:522" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:568" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:634" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:638" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="250:639" ph="INSERT INTO ms_request_queue... " />
-                <marker date="1487451340263" expanded="true" signature="890:907" ph="..." />
-                <marker date="1487451340263" expanded="true" signature="2771:2809" ph="select serve... env_for_ddl" />
-                <marker date="1487451340263" expanded="true" signature="3687:3748" ph="select ms_re... ms_request_types" />
-                <marker date="1487451340263" expanded="true" signature="4433:4511" ph="..." />
+                <marker date="1487484570497" expanded="true" signature="250:383" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:396" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:447" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:523" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:536" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:582" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:648" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:652" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:653" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:682" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="250:683" ph="INSERT INTO ms_request_queue... " />
+                <marker date="1487484570497" expanded="true" signature="934:951" ph="..." />
+                <marker date="1487484570497" expanded="true" signature="2815:2853" ph="select serve... env_for_ddl" />
+                <marker date="1487484570497" expanded="true" signature="3731:3792" ph="select ms_re... ms_request_types" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectproject-inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-              <folding>
-                <marker date="1487452086145" expanded="true" signature="61:154" ph="select ms_pr... ms_projects" />
-                <marker date="1487452086145" expanded="true" signature="136:154" ph="select user_... ms_web_users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/welcome.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,30 +76,10 @@
       <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="35" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="145" column="13" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="147" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reg-inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="408">
+              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
-                <marker date="1486858070063" expanded="true" signature="62:130" ph="INSERT INTO ms_web_users... " />
+                <marker date="1487484409807" expanded="true" signature="62:145" ph="select user_... ms_web_users" />
               </folding>
             </state>
           </provider>
@@ -203,12 +123,12 @@
         <option value="$PROJECT_DIR$/web/ms_auto/login.php" />
         <option value="$PROJECT_DIR$/web/welcome.php" />
         <option value="$PROJECT_DIR$/web/login.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
         <option value="$PROJECT_DIR$/web/css/cs313-php.css" />
-        <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/editrequest.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
       </list>
     </option>
   </component>
@@ -220,9 +140,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="478" />
+    <option name="x" value="502" />
+    <option name="y" value="34" />
     <option name="width" value="1375" />
-    <option name="height" value="1160" />
+    <option name="height" value="1120" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -239,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -327,6 +247,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,15 +346,16 @@
       <workItem from="1486844693239" duration="18903000" />
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
-      <workItem from="1487403166131" duration="25255000" />
+      <workItem from="1487403166131" duration="25943000" />
+      <workItem from="1487472163581" duration="3852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98779000" />
+    <option name="totallyTimeSpent" value="103319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="0" width="1375" height="1160" extended-state="0" />
+    <frame x="502" y="34" width="1375" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17733628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -722,22 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/dbstuff.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/reg-inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -758,14 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -778,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,29 +689,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
-          <folding>
-            <marker date="1486858070063" expanded="true" signature="62:130" ph="INSERT INTO ms_web_users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
-          <caret line="145" column="13" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="147" selection-end-column="8" />
+          <caret line="145" column="13" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="147" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <marker date="1487453716101" expanded="true" signature="262:601" ph="select ms_re... ms_request_queue" />
+            <marker date="1487453716101" expanded="true" signature="1006:1570" ph="Update ms_re... " />
+            <marker date="1487453716101" expanded="true" signature="1012:1570" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487453716101" expanded="true" signature="3738:3776" ph="select serve... env_for_ddl" />
+            <marker date="1487453716101" expanded="true" signature="4675:4736" ph="select ms_re... ms_request_types" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,86 +722,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
           <folding>
-            <marker date="1487440472421" expanded="true" signature="1631:1653" ph="select * fro... vw_queue" />
-            <marker date="1487440472421" expanded="true" signature="1918:1940" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="1941:2144" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2114:2136" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2183:2205" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2255:2277" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2328:2350" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2401:2423" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2514:2592" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2889:3027" ph="..." />
-            <marker date="1487440472421" expanded="true" signature="2924:2936" ph="{...}" />
-            <marker date="1487440472421" expanded="true" signature="2924:3016" ph="{...}" />
-            <marker date="1487440472421" expanded="true" signature="2968:3008" ph="{...}" />
+            <marker date="1486858070063" expanded="true" signature="62:130" ph="INSERT INTO ms_web_users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/dbstuff.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <marker date="1487484409807" expanded="true" signature="62:145" ph="select user_... ms_web_users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <marker date="1487451340263" expanded="true" signature="250:369" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:382" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:433" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:509" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:522" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:568" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:634" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:638" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="250:639" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487451340263" expanded="true" signature="890:907" ph="..." />
-            <marker date="1487451340263" expanded="true" signature="2771:2809" ph="select serve... env_for_ddl" />
-            <marker date="1487451340263" expanded="true" signature="3687:3748" ph="select ms_re... ms_request_types" />
-            <marker date="1487451340263" expanded="true" signature="4433:4511" ph="..." />
+            <marker date="1487484570497" expanded="true" signature="250:383" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:396" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:447" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:523" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:536" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:582" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:648" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:652" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:653" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:682" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="250:683" ph="INSERT INTO ms_request_queue... " />
+            <marker date="1487484570497" expanded="true" signature="934:951" ph="..." />
+            <marker date="1487484570497" expanded="true" signature="2815:2853" ph="select serve... env_for_ddl" />
+            <marker date="1487484570497" expanded="true" signature="3731:3792" ph="select ms_re... ms_request_types" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/editrequest.php">
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="93" lean-forward="false" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+        <state relative-caret-position="600">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
           <folding>
-            <marker date="1487453716101" expanded="true" signature="262:601" ph="select ms_re... ms_request_queue" />
-            <marker date="1487453716101" expanded="true" signature="1006:1570" ph="Update ms_re... " />
-            <marker date="1487453716101" expanded="true" signature="1012:1570" ph="INSERT INTO ms_request_queue... " />
-            <marker date="1487453716101" expanded="true" signature="1835:2799" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="1842:1859" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="1842:2719" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="2524:2709" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="2727:2799" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="2758:2799" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="2782:2799" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="2834:2937" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="2878:2928" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="2973:3185" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="3017:3176" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="3214:3450" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="3258:3441" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="3479:4016" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="3523:4016" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="3639:4016" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="3738:3776" ph="select serve... env_for_ddl" />
-            <marker date="1487453716101" expanded="true" signature="4156:4363" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="4200:4354" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="4327:4343" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="4392:4976" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="4436:4976" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="4576:4976" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="4675:4736" ph="select ms_re... ms_request_types" />
-            <marker date="1487453716101" expanded="true" signature="5134:5293" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="5178:5284" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="5322:5400" ph="..." />
-            <marker date="1487453716101" expanded="true" signature="5728:5742" ph="{...}" />
+            <marker date="1487484963177" expanded="true" signature="1658:1680" ph="select * fro... vw_queue" />
+            <marker date="1487484963177" expanded="true" signature="1945:1967" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="1968:2171" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2141:2163" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2210:2232" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2282:2304" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2355:2377" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2428:2450" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2501:2523" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2992:3130" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="3027:3039" ph="{...}" />
+            <marker date="1487484963177" expanded="true" signature="3027:3119" ph="{...}" />
+            <marker date="1487484963177" expanded="true" signature="3071:3111" ph="{...}" />
           </folding>
         </state>
       </provider>
