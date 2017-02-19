@@ -26,8 +26,9 @@ if ($_POST) {
                       set ms_project_id = ". filter_var($_POST["ddl_projects"], FILTER_SANITIZE_STRING).", ".
                       "ms_request_type_id = " . filter_var($_POST["ddl_access_type"], FILTER_SANITIZE_STRING).", ".
                       "userid = '" .filter_var($_POST["userid"],FILTER_SANITIZE_STRING). "', ".
-                      "lastname_firstname = '" . filter_var($_POST["last_first"],FILTER_SANITIZE_STRING)."' ".
-                      "where ms_request_queue_id = " . filter_var($_POST["update"],FILTER_SANITIZE_STRING);
+                      "lastname_firstname = '" . filter_var($_POST["last_first"],FILTER_SANITIZE_STRING)."', ".
+                      "web_user_id = " . $_SESSION["user_row_id"].
+                      " where ms_request_queue_id = " . filter_var($_POST["update"],FILTER_SANITIZE_STRING);
 
       $statement = $db->prepare($sql_string);
       if($statement->execute()) {

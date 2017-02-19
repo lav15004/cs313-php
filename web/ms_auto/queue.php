@@ -53,7 +53,7 @@ include 'inc/dbstuff.inc';
       <th>Request Type</th>
       <th>User ID</th>
       <th>Last Name, First Name</th>
-      <th>Modified by</th>
+      <th>Last Modified by</th>
     </tr>
     <?php
     $sql_string = "select * from vw_queue";
