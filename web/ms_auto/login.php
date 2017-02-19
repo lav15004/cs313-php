@@ -127,7 +127,7 @@
         <label class="loginFormlbl text-left" for="confpassword">Confirm Password: </label>
         <input type="text" name="confpassword" id="confpassword">
         <br />
-        <button class="btn btn-default btn-sm" id="btnreg">Submit</button>
+        <button class="text-left btn btn-default btn-sm" id="btnreg">Submit</button>
       </div>
       <div class="col-sm-3">
       </div>
