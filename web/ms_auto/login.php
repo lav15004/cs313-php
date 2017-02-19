@@ -131,12 +131,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-3">
+      <div class="col-sm-4">
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <button class="btn btn-default btn-sm text-right" id="btnreg">Submit</button>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
       </div>
     </div>
   </div>
