@@ -93,7 +93,7 @@
     <div class="row">
       <div class="col-sm-3">
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 text-center">
         <label class="loginFormlbl" for="userid">User ID: </label>
         <input type="text" name="userid" id="userid">
       </div>
