@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.sql" afterPath="$PROJECT_DIR$/output.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" afterPath="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/queue.php" afterPath="$PROJECT_DIR$/web/ms_auto/queue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/request.php" afterPath="$PROJECT_DIR$/web/ms_auto/request.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="queue.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+            <state relative-caret-position="56">
+              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <marker date="1487484963177" expanded="true" signature="1658:1680" ph="select * fro... vw_queue" />
                 <marker date="1487484963177" expanded="true" signature="1945:1967" ph="..." />
@@ -73,13 +69,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login-inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
-                <marker date="1487484409807" expanded="true" signature="62:145" ph="select user_... ms_web_users" />
+                <marker date="1487485124273" expanded="true" signature="62:149" ph="select user_... ms_web_users" />
               </folding>
             </state>
           </provider>
@@ -126,9 +122,9 @@
         <option value="$PROJECT_DIR$/web/css/cs313-php.css" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/selectproject-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/editrequest.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/request.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
       </list>
     </option>
   </component>
@@ -347,12 +343,12 @@
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
       <workItem from="1487403166131" duration="25943000" />
-      <workItem from="1487472163581" duration="3852000" />
+      <workItem from="1487472163581" duration="4013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103319000" />
+    <option name="totallyTimeSpent" value="103480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="502" y="34" width="1375" height="1120" extended-state="0" />
@@ -756,12 +752,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="56">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding>
-            <marker date="1487484409807" expanded="true" signature="62:145" ph="select user_... ms_web_users" />
+            <marker date="1487484963177" expanded="true" signature="1658:1680" ph="select * fro... vw_queue" />
+            <marker date="1487484963177" expanded="true" signature="1945:1967" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="1968:2171" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2141:2163" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2210:2232" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2282:2304" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2355:2377" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2428:2450" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2501:2523" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="2992:3130" ph="..." />
+            <marker date="1487484963177" expanded="true" signature="3027:3039" ph="{...}" />
+            <marker date="1487484963177" expanded="true" signature="3027:3119" ph="{...}" />
+            <marker date="1487484963177" expanded="true" signature="3071:3111" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -789,24 +797,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/inc/login-inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <marker date="1487484963177" expanded="true" signature="1658:1680" ph="select * fro... vw_queue" />
-            <marker date="1487484963177" expanded="true" signature="1945:1967" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="1968:2171" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="2141:2163" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="2210:2232" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="2282:2304" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="2355:2377" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="2428:2450" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="2501:2523" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="2992:3130" ph="..." />
-            <marker date="1487484963177" expanded="true" signature="3027:3039" ph="{...}" />
-            <marker date="1487484963177" expanded="true" signature="3027:3119" ph="{...}" />
-            <marker date="1487484963177" expanded="true" signature="3071:3111" ph="{...}" />
+            <marker date="1487485124273" expanded="true" signature="62:149" ph="select user_... ms_web_users" />
           </folding>
         </state>
       </provider>
