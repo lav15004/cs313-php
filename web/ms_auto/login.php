@@ -142,7 +142,7 @@
   </div>
   </form>
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 text-center">
       <label id="result"></label>
     </div>
   </div>
@@ -184,6 +184,7 @@
                         window.location.href = 'index.php'
                     } else {
                         $('#result').text(data);
+                        $('#result').addClass("text-success");
                     }
 
                 })
@@ -204,6 +205,7 @@
                 .done(function(data){
 
                     $('#result').text('Welcome ' + data);
+                    $('#result').addClass("text-success");
                 })
                 .fail(function(){
                     alert('Ajax Submit Failed ...');
