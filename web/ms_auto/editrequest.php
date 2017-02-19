@@ -143,7 +143,7 @@ if ($_POST) {
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
-      <button type="submit" name="update" id="submit" value="<?php echo $id?>">Update</button>
+      <button class="btn btn-primary" type="submit" name="update" id="submit" value="<?php echo $id?>">Update</button>
     </div>
   </div>
   <br />

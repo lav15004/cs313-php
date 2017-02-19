@@ -127,7 +127,7 @@ if ($_POST) {
   <br />
   <div class="row">
     <div class="col-xs-offset-1 col-xs-11">
-      <button type="submit" name="submit" id="submit">Submit</button>
+      <button class="btn btn-primary" type="submit" name="submit" id="submit">Submit</button>
     </div>
   </div>
   <br />
