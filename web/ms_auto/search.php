@@ -58,7 +58,7 @@ include 'inc/dbstuff.inc';
   <label for="project_name">Project Name: </label>
   <input type="text" name="project_name" id="project_name">
   <br /><br />
-  <button class="btn btn-primary" type="submit" name="submit">Search</button>
+  <button class="btn btn-default btn-sm" type="submit" name="submit">Search</button>
   <br /><br />
   <div id="sr_table" class="row">
     <div class="col-lg-12">

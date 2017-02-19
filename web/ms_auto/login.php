@@ -81,7 +81,7 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <button class="btn btn-primary" id="btnlogin">Submit</button>
+        <button class="btn btn-default btn-sm" id="btnlogin">Submit</button>
       </div>
       <div class="col-sm-3">
       </div>
@@ -134,7 +134,7 @@
       <div class="col-sm-3">
       </div>
       <div class="col-sm-6">
-        <button class="btn btn-default btn-md" id="btnreg">Submit</button>
+        <button class="btn btn-default btn-sm" id="btnreg">Submit</button>
       </div>
       <div class="col-sm-3">
       </div>
