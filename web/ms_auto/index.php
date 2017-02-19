@@ -43,6 +43,11 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="jumbotron">Welcome, you are logged in as <?php echo $_SESSION["user_id"]; ?>!</p>
+    </div>
+  </div>
 
 
 </div>

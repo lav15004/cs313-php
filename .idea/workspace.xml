@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd4061-5fc6-42f9-b2e6-2e3d52fdca40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/queue.php" afterPath="$PROJECT_DIR$/web/ms_auto/queue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ms_auto/index.php" afterPath="$PROJECT_DIR$/web/ms_auto/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="queue.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="queue.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="84">
+              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding>
                 <marker date="1487485504457" expanded="true" signature="1651:1673" ph="select * fro... vw_queue" />
                 <marker date="1487485504457" expanded="true" signature="1938:1960" ph="..." />
@@ -40,6 +40,16 @@
                 <marker date="1487485504457" expanded="true" signature="3020:3112" ph="{...}" />
                 <marker date="1487485504457" expanded="true" signature="3064:3104" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,7 +138,6 @@
         <option value="$PROJECT_DIR$/web/ms_auto/reg-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/inc/reg-inc.php" />
         <option value="$PROJECT_DIR$/web/scripture_form_ajax.php" />
-        <option value="$PROJECT_DIR$/web/ms_auto/index.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/search.php" />
         <option value="$PROJECT_DIR$/web/reg-inc.php" />
         <option value="$PROJECT_DIR$/web/login-inc.php" />
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/web/ms_auto/inc/login-inc.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/editrequest.php" />
         <option value="$PROJECT_DIR$/web/ms_auto/queue.php" />
+        <option value="$PROJECT_DIR$/web/ms_auto/index.php" />
       </list>
     </option>
   </component>
@@ -359,12 +369,12 @@
       <workItem from="1487080277317" duration="4000" />
       <workItem from="1487203833699" duration="5190000" />
       <workItem from="1487403166131" duration="25943000" />
-      <workItem from="1487472163581" duration="4393000" />
+      <workItem from="1487472163581" duration="4632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103860000" />
+    <option name="totallyTimeSpent" value="104099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="502" y="34" width="1375" height="1120" extended-state="0" />
@@ -688,6 +698,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,14 +738,6 @@
           <folding>
             <marker date="1486858070063" expanded="true" signature="62:130" ph="INSERT INTO ms_web_users... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ms_auto/queue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="84">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
             <marker date="1487485504457" expanded="true" signature="1651:1673" ph="select * fro... vw_queue" />
             <marker date="1487485504457" expanded="true" signature="1938:1960" ph="..." />
@@ -820,6 +823,14 @@
             <marker date="1487485504457" expanded="true" signature="3020:3112" ph="{...}" />
             <marker date="1487485504457" expanded="true" signature="3064:3104" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ms_auto/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
